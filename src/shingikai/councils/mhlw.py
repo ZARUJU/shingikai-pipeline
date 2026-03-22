@@ -106,6 +106,7 @@ class MhlwExportPlan:
     related_councils: list[Council] = field(default_factory=list)
     related_results: dict[str, CouncilPageParseResult] = field(default_factory=dict)
     stale_paths: list[Path] = field(default_factory=list)
+    skip_write: bool = False
 
 
 @dataclass(frozen=True)
@@ -238,7 +239,7 @@ def build_mhlw_export_plan(
     existing_data = None
     if reuse_existing_outputs:
         existing_data = _load_existing_council_data(council_id=council.council_id, output_dir=output_dir)
-    result = _build_base_parse_result(
+    result, skip_write = _build_base_parse_result(
         council=council,
         rule=rule,
         use_fixture=use_fixture,
@@ -266,6 +267,7 @@ def build_mhlw_export_plan(
         related_councils=related_councils,
         related_results=related_results,
         stale_paths=stale_paths,
+        skip_write=skip_write,
     )
 
 
@@ -491,7 +493,7 @@ def _build_base_parse_result(
     force: bool,
     max_cache_age_hours: int | None,
     existing_data: ExistingCouncilData | None,
-) -> CouncilPageParseResult:
+) -> tuple[CouncilPageParseResult, bool]:
     page_url = council.source_urls.meetings
     html = _load_mhlw_html(
         url=page_url,
@@ -531,6 +533,20 @@ def _build_base_parse_result(
         )
         result = _merge_parse_results(result, archive_result)
 
+    if (
+        existing_data is not None
+        and (rule is None or not rule.split_child_committees)
+        and _can_skip_regeneration(parsed_result=result, existing_data=existing_data)
+    ):
+        return (
+            CouncilPageParseResult(
+                meetings=[meeting.model_copy(deep=True) for meeting in existing_data.meetings.values()],
+                documents=[document.model_copy(deep=True) for document in existing_data.documents.values()],
+                rosters=[roster.model_copy(deep=True) for roster in existing_data.rosters.values()],
+            ),
+            True,
+        )
+
     meeting_ids_to_enrich: set[str] | None = None
     if existing_data is not None:
         result, meeting_ids_to_enrich = _reuse_existing_outputs(result, existing_data=existing_data)
@@ -546,7 +562,7 @@ def _build_base_parse_result(
         ),
         target_meeting_ids=meeting_ids_to_enrich,
     )
-    return result
+    return result, False
 
 
 def _build_stale_paths(*, rule: MhlwCouncilRule | None, council_id: str, output_dir: Path) -> list[Path]:
@@ -955,6 +971,36 @@ def _reuse_existing_outputs(
         CouncilPageParseResult(meetings=meetings, documents=documents, rosters=rosters),
         meeting_ids_to_enrich,
     )
+
+
+def _can_skip_regeneration(
+    *,
+    parsed_result: CouncilPageParseResult,
+    existing_data: ExistingCouncilData,
+) -> bool:
+    if len(parsed_result.meetings) != len(existing_data.meetings):
+        return False
+    if len(parsed_result.documents) != len(existing_data.documents):
+        return False
+    if len(parsed_result.rosters) != len(existing_data.rosters):
+        return False
+
+    for meeting in parsed_result.meetings:
+        existing = existing_data.meetings.get(meeting.id)
+        if existing is None or not _can_reuse_existing_meeting(parsed=meeting, existing=existing):
+            return False
+
+    for document in parsed_result.documents:
+        existing = existing_data.documents.get(document.id)
+        if existing is None or _document_signature(document) != _document_signature(existing):
+            return False
+
+    for roster in parsed_result.rosters:
+        existing = existing_data.rosters.get(roster.id)
+        if existing is None or _roster_signature(roster) != _roster_signature(existing):
+            return False
+
+    return True
 
 
 def _can_reuse_existing_meeting(*, parsed: Meeting, existing: Meeting) -> bool:

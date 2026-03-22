@@ -603,6 +603,7 @@ def _export_council_meetings(
     related_councils = plan.related_councils
     related_results = plan.related_results
     stale_paths = plan.stale_paths
+    skip_write = getattr(plan, "skip_write", False)
 
     if stdout:
         payload = {
@@ -632,24 +633,35 @@ def _export_council_meetings(
         print(json.dumps(payload, ensure_ascii=False, indent=2))
         return result
 
-    write_council(council, base_dir=output_dir)
-    meeting_paths = write_meetings(council_id, result.meetings, base_dir=output_dir)
-    document_paths = write_documents(council_id, result.documents, base_dir=output_dir)
-    roster_paths = write_rosters(council_id, result.rosters, base_dir=output_dir)
-    for related_council in related_councils:
-        related_result = related_results[related_council.council_id]
-        write_council(related_council, base_dir=output_dir)
-        write_meetings(related_council.council_id, related_result.meetings, base_dir=output_dir)
-        write_documents(related_council.council_id, related_result.documents, base_dir=output_dir)
-        write_rosters(related_council.council_id, related_result.rosters, base_dir=output_dir)
+    meeting_paths = []
+    document_paths = []
+    roster_paths = []
+    if not skip_write:
+        write_council(council, base_dir=output_dir)
+        meeting_paths = write_meetings(council_id, result.meetings, base_dir=output_dir)
+        document_paths = write_documents(council_id, result.documents, base_dir=output_dir)
+        roster_paths = write_rosters(council_id, result.rosters, base_dir=output_dir)
+        for related_council in related_councils:
+            related_result = related_results[related_council.council_id]
+            write_council(related_council, base_dir=output_dir)
+            write_meetings(related_council.council_id, related_result.meetings, base_dir=output_dir)
+            write_documents(related_council.council_id, related_result.documents, base_dir=output_dir)
+            write_rosters(related_council.council_id, related_result.rosters, base_dir=output_dir)
     if stale_paths:
         remove_files(stale_paths)
     if print_result:
-        print(
-            f"{len(meeting_paths)} meeting files written, "
-            f"{len(document_paths)} document files written, "
-            f"{len(roster_paths)} roster files written"
-        )
+        if skip_write:
+            print(
+                f"{len(result.meetings)} meeting files unchanged, "
+                f"{len(result.documents)} document files unchanged, "
+                f"{len(result.rosters)} roster files unchanged"
+            )
+        else:
+            print(
+                f"{len(meeting_paths)} meeting files written, "
+                f"{len(document_paths)} document files written, "
+                f"{len(roster_paths)} roster files written"
+            )
     return result
 
 

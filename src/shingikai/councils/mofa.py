@@ -19,7 +19,7 @@ from shingikai.models.roster import CouncilRoster
 from shingikai.utils.cache import cached_html_path, is_cache_fresh
 from shingikai.utils.fetch import USER_AGENT, fetch_html, resolve_html_fetch_url
 from shingikai.utils.html import extract_agenda_from_detail_page
-from shingikai.utils.io import load_council
+from shingikai.utils.io import load_council, load_documents, load_meetings, load_rosters
 
 logger = logging.getLogger(__name__)
 
@@ -57,6 +57,7 @@ class MofaExportPlan:
     related_councils: list[Council] = field(default_factory=list)
     related_results: dict[str, CouncilPageParseResult] = field(default_factory=dict)
     stale_paths: list[Path] = field(default_factory=list)
+    skip_write: bool = False
 
 
 def fixture_html_path(url: str) -> Path:
@@ -143,13 +144,19 @@ def build_mofa_export_plan(
     max_cache_age_hours: int | None = None,
     reuse_existing_outputs: bool = False,
 ) -> MofaExportPlan:
-    del output_dir, reuse_existing_outputs
-
     if council.council_id == MOFA_COUNCIL_ID:
         return MofaExportPlan(result=CouncilPageParseResult(meetings=[], documents=[], rosters=[]))
 
     if council.council_id != MOFA_JINJI_COUNCIL_ID:
         raise ValueError(f"unknown mofa council: {council.council_id}")
+
+    existing_result: CouncilPageParseResult | None = None
+    if reuse_existing_outputs:
+        existing_result = CouncilPageParseResult(
+            meetings=load_meetings(council.council_id, base_dir=output_dir),
+            documents=load_documents(council.council_id, base_dir=output_dir),
+            rosters=load_rosters(council.council_id, base_dir=output_dir),
+        )
 
     html = _load_mofa_html(
         url=council.source_urls.meetings,
@@ -178,6 +185,8 @@ def build_mofa_export_plan(
             source_url=archive_url,
         )
         result = _merge_parse_results(result, archive_result)
+    if existing_result is not None and _can_skip_regeneration(parsed=result, existing=existing_result):
+        return MofaExportPlan(result=existing_result, skip_write=True)
     _enrich_meetings_from_detail_pages(
         result,
         load_html=lambda url: _load_mofa_html(
@@ -189,6 +198,35 @@ def build_mofa_export_plan(
         ),
     )
     return MofaExportPlan(result=result)
+
+
+def _can_skip_regeneration(*, parsed: CouncilPageParseResult, existing: CouncilPageParseResult) -> bool:
+    if len(parsed.meetings) != len(existing.meetings):
+        return False
+    if len(parsed.documents) != len(existing.documents):
+        return False
+    if len(parsed.rosters) != len(existing.rosters):
+        return False
+
+    existing_meetings = {meeting.id: meeting for meeting in existing.meetings}
+    for meeting in parsed.meetings:
+        current = existing_meetings.get(meeting.id)
+        if current is None:
+            return False
+        if (
+            meeting.round_label != current.round_label
+            or meeting.held_on != current.held_on
+            or meeting.source_url != current.source_url
+            or tuple((link.title, link.url) for link in meeting.minutes_links)
+            != tuple((link.title, link.url) for link in current.minutes_links)
+            or tuple((link.title, link.url) for link in meeting.materials_links)
+            != tuple((link.title, link.url) for link in current.materials_links)
+            or tuple((link.title, link.url) for link in meeting.announcement_links)
+            != tuple((link.title, link.url) for link in current.announcement_links)
+        ):
+            return False
+
+    return True
 
 
 def parse_meeting_page(

@@ -20,10 +20,12 @@ from shingikai.councils.mofa import (
     MOFA_JINJI_WARP_ARCHIVE_URL,
     MOFA_JINJI_MEETINGS_URL,
     _load_mofa_html,
+    build_mofa_export_plan,
     fixture_html_path,
     parse_hierarchy_page,
     parse_meeting_page,
     fetch_mofa_html,
+    load_mofa_council,
 )
 from shingikai.utils.html import extract_agenda_from_detail_page
 from shingikai.utils.io import load_council
@@ -303,3 +305,34 @@ class MofaTest(unittest.TestCase):
             self.assertEqual(meeting["agenda"], ["在勤基本手当の改定について", "次回開催日の決定"])
             old_meeting = json.loads((meetings_dir / "2019-12-20-598.json").read_text(encoding="utf-8"))
             self.assertEqual(old_meeting["agenda"], ["在勤手当改定について", "次回開催日の決定"])
+
+    def test_build_mofa_export_plan_skips_detail_fetch_when_list_page_has_no_diff(self) -> None:
+        with self.override_mofa_fixtures(), tempfile.TemporaryDirectory() as tmpdir:
+            subprocess.run(
+                [
+                    str(ROOT / ".venv" / "bin" / "python"),
+                    "cli.py",
+                    "meetings",
+                    "export",
+                    MOFA_JINJI_COUNCIL_ID,
+                    "--use-fixture",
+                    "--output-dir",
+                    tmpdir,
+                ],
+                cwd=ROOT,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+
+            with patch("shingikai.councils.mofa._enrich_meetings_from_detail_pages") as mock_enrich:
+                plan = build_mofa_export_plan(
+                    council=load_mofa_council(MOFA_JINJI_COUNCIL_ID),
+                    use_fixture=True,
+                    force=False,
+                    output_dir=Path(tmpdir),
+                    reuse_existing_outputs=True,
+                )
+
+        self.assertTrue(plan.skip_write)
+        mock_enrich.assert_not_called()
