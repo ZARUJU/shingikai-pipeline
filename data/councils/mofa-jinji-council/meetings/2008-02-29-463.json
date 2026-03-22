@@ -3,7 +3,13 @@
   "council_id": "mofa-jinji-council",
   "round_label": 463,
   "held_on": "2008-02-29",
-  "agenda": [],
+  "agenda": [
+    "民間出身の大使・総領事の経験について",
+    "コソボ情勢について",
+    "名誉総領事について",
+    "前回会合の議事要旨及び議事録の承認",
+    "次回開催日の決定"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/463_gy.html",
   "minutes_links": [
     {

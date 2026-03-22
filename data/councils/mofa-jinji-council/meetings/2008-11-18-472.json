@@ -3,7 +3,13 @@
   "council_id": "mofa-jinji-council",
   "round_label": 472,
   "held_on": "2008-11-18",
-  "agenda": [],
+  "agenda": [
+    "金融・世界経済に関する首脳会合について",
+    "在勤諸手当の改定に関する勧告について",
+    "名誉総領事について",
+    "前回議事録について",
+    "次回開催日の決定等"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/472_gy.html",
   "minutes_links": [
     {

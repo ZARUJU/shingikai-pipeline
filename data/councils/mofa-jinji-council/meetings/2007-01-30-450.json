@@ -3,7 +3,11 @@
   "council_id": "mofa-jinji-council",
   "round_label": 450,
   "held_on": "2007-01-30",
-  "agenda": [],
+  "agenda": [
+    "最近の領事業務について",
+    "名誉総領事の任免について",
+    "外部大使適性審査案件"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/450_gy.html",
   "minutes_links": [
     {

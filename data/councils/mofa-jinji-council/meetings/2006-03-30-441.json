@@ -3,7 +3,11 @@
   "council_id": "mofa-jinji-council",
   "round_label": 441,
   "held_on": "2006-03-30",
-  "agenda": [],
+  "agenda": [
+    "鳥インフルエンザについて",
+    "在勤諸手当について",
+    "名誉総領事の任免について"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/441_gy.html",
   "minutes_links": [
     {

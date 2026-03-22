@@ -3,7 +3,12 @@
   "council_id": "mofa-jinji-council",
   "round_label": 451,
   "held_on": "2007-02-23",
-  "agenda": [],
+  "agenda": [
+    "者会合について",
+    "名誉総領事の任免について",
+    "休暇帰国省令の改正について",
+    "外部大使適性審査案件"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/451_gy.html",
   "minutes_links": [
     {

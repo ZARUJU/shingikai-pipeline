@@ -3,7 +3,12 @@
   "council_id": "mofa-jinji-council",
   "round_label": 477,
   "held_on": "2009-04-21",
-  "agenda": [],
+  "agenda": [
+    "北朝鮮情勢と日朝関係について",
+    "名称位置給与法改正について",
+    "前回会合の議事要旨及び議事録の承認",
+    "次回開催日の決定"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/477_gy.html",
   "minutes_links": [
     {

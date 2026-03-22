@@ -3,7 +3,14 @@
   "council_id": "mofa-jinji-council",
   "round_label": 475,
   "held_on": "2009-02-27",
-  "agenda": [],
+  "agenda": [
+    "サハリンにおける首脳会談後の日露関係の展望",
+    "「外務職員の標準的な官職を定める省令」、「選考による外務職員の採用に関する省令」、「外務職員の人事評価の基準、方法等に関する省令」の制定について",
+    "名誉総領事について",
+    "大使適性審査案件について",
+    "前回会合の議事要旨及び議事録の承認",
+    "次回開催日の決定"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/475_gy.html",
   "minutes_links": [
     {

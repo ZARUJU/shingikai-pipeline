@@ -3,7 +3,11 @@
   "council_id": "mofa-jinji-council",
   "round_label": 440,
   "held_on": "2006-02-24",
-  "agenda": [],
+  "agenda": [
+    "上海総領事館館員の自殺案件について",
+    "名誉総領事の任命について",
+    "外部大使適正審査"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/440_gy.html",
   "minutes_links": [
     {

@@ -3,7 +3,12 @@
   "council_id": "mofa-jinji-council",
   "round_label": 476,
   "held_on": "2009-03-16",
-  "agenda": [],
+  "agenda": [
+    "「我が国の海賊対策」",
+    "大使適性審査案件について",
+    "前回会合の議事要旨及び議事録の承認",
+    "次回開催日の決定"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/476_gy.html",
   "minutes_links": [
     {

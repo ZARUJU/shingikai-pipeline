@@ -3,7 +3,12 @@
   "council_id": "mofa-jinji-council",
   "round_label": 470,
   "held_on": "2008-09-17",
-  "agenda": [],
+  "agenda": [
+    "原子力協力に関する米印合意について",
+    "在勤手当について",
+    "前回会合の議事要旨及び議事録の承認",
+    "次回開催日の決定"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/470_gy.html",
   "minutes_links": [
     {

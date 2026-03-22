@@ -3,7 +3,11 @@
   "council_id": "mofa-jinji-council",
   "round_label": 447,
   "held_on": "2006-10-27",
-  "agenda": [],
+  "agenda": [
+    "平成19年度定員及び機構要求について",
+    "名誉総領事の任免について",
+    "在勤手当について"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/447_gy.html",
   "minutes_links": [
     {
