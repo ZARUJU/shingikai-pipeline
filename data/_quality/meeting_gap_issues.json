@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T17:07:39.875348+00:00",
+  "generated_at": "2026-03-22T17:38:25.706966+00:00",
   "count": 24,
   "issues": [
     {
@@ -14,9 +14,9 @@
       "exceeds_latest_round": false,
       "excess_meeting_count": 0,
       "issue_display": "開催記録が0件です",
-      "review_note": "",
-      "ignored": false,
-      "reviewed_at": null
+      "review_note": "省庁のため",
+      "ignored": true,
+      "reviewed_at": "2026-03-22T17:13:02.390027+00:00"
     },
     {
       "council_id": "mofa",
@@ -30,9 +30,9 @@
       "exceeds_latest_round": false,
       "excess_meeting_count": 0,
       "issue_display": "開催記録が0件です",
-      "review_note": "",
-      "ignored": false,
-      "reviewed_at": null
+      "review_note": "省庁のため",
+      "ignored": true,
+      "reviewed_at": "2026-03-22T17:13:05.988983+00:00"
     },
     {
       "council_id": "mofa-jinji-council",

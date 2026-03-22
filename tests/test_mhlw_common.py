@@ -11,6 +11,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from shingikai.councils.mhlw import (
     ExistingCouncilData,
+    _can_skip_regeneration,
     _reuse_existing_outputs,
     fixture_html_path,
     parse_meeting_page,
@@ -235,6 +236,55 @@ class MhlwCommonTest(unittest.TestCase):
 
         self.assertEqual(reused_result.meetings[0].agenda, ["議題A", "議題B"])
         self.assertEqual(meeting_ids_to_enrich, set())
+
+    def test_can_skip_regeneration_when_list_page_has_no_diff(self) -> None:
+        parsed_meeting = Meeting(
+            id="2025-01-01-001",
+            council_id="sample-council",
+            round_label=1,
+            held_on="2025-01-01",
+            agenda=[],
+            source_url="https://example.com/notice.html",
+            minutes_links=[],
+            materials_links=[MeetingLink(title="資料", url="https://example.com/materials.html")],
+            announcement_links=[MeetingLink(title="開催案内", url="https://example.com/notice.html")],
+        )
+        existing_meeting = parsed_meeting.model_copy(update={"agenda": ["議題A"]})
+        parsed_document = CouncilDocument(
+            id="2025-01-01-material",
+            council_id="sample-council",
+            title="資料",
+            published_on="2025-01-01",
+            document_type="資料",
+            source_url="https://example.com/materials.pdf",
+            links=[MeetingLink(title="資料", url="https://example.com/materials.pdf")],
+            body=DocumentBody(status="not_built"),
+        )
+        parsed_roster = CouncilRoster(
+            id="2025-01-01",
+            council_id="sample-council",
+            as_of="2025-01-01",
+            source_url="https://example.com/roster.pdf",
+            links=[MeetingLink(title="委員名簿", url="https://example.com/roster.pdf")],
+        )
+
+        self.assertTrue(
+            _can_skip_regeneration(
+                parsed_result=parse_meeting_page(
+                    """
+                    <html><body><table class="m-tableFlex"><tr><th>回数</th><th>開催日</th><th>議題</th><th>議事録</th><th>資料</th><th>開催案内</th></tr></table></body></html>
+                    """,
+                    council_id="sample-council",
+                    source_url="https://example.com/index.html",
+                    title="sample",
+                ).model_copy(update={"meetings": [parsed_meeting], "documents": [parsed_document], "rosters": [parsed_roster]}),
+                existing_data=ExistingCouncilData(
+                    meetings={existing_meeting.id: existing_meeting},
+                    documents={parsed_document.id: parsed_document},
+                    rosters={parsed_roster.id: parsed_roster},
+                ),
+            )
+        )
 
 
 if __name__ == "__main__":
