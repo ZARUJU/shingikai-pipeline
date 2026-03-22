@@ -5,7 +5,7 @@
 {% block content %}
 <section class="space-y-8">
   <div class="space-y-2">
-    <a href="/" class="text-sm text-stone-500 underline">一覧へ戻る</a>
+    <a href="{{ page_url('index') }}" class="text-sm text-stone-500 underline">一覧へ戻る</a>
     <h1 class="text-2xl font-semibold">月ごとの開催一覧</h1>
     <p class="text-sm text-stone-600">開催記録を月単位でまとめて確認できます。</p>
   </div>
@@ -33,7 +33,7 @@
             <tr class="align-top">
               <td class="whitespace-nowrap px-4 py-4">{{ meeting.held_on }}</td>
               <td class="whitespace-nowrap px-4 py-4">
-                <a href="/councils/{{ meeting.council_id }}" class="underline">{{ meeting.council_title }}</a>
+                <a href="{{ page_url('council_detail', council_id=meeting.council_id) }}" class="underline">{{ meeting.council_title }}</a>
               </td>
               <td class="whitespace-nowrap px-4 py-4">{{ meeting.round_label or "-" }}</td>
               <td class="whitespace-nowrap px-4 py-4 text-stone-700">

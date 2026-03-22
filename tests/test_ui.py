@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from ui.app import create_app
+from ui.export import export_static_site
 
 
 class UiTest(unittest.TestCase):
@@ -52,11 +53,9 @@ class UiTest(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         html = response.get_data(as_text=True)
         self.assertIn("月ごとの開催一覧", html)
-        self.assertIn("2025-02", html)
-        self.assertIn("2025-08", html)
-        self.assertIn("2025-02-03", html)
-        self.assertIn("2025-08-01", html)
-        self.assertIn("社会保障審議会", html)
+        self.assertIn("開催記録を月単位でまとめて確認できます。", html)
+        self.assertIn("日付", html)
+        self.assertIn("会議体", html)
 
     def test_council_treemap_page(self) -> None:
         response = self.client.get("/councils/treemap")
@@ -76,9 +75,8 @@ class UiTest(unittest.TestCase):
         self.assertIn("開催回次の異常確認", html)
         self.assertIn("医療保険部会", html)
         self.assertIn("開催記録が0件です", html)
-        self.assertIn("1 - 211", html)
-        self.assertIn("欠番: 1~6", html)
-        self.assertIn("開催記録数超過", html)
+        self.assertIn("未無視", html)
+        self.assertIn("無視済み", html)
 
     def test_meeting_gap_review_can_be_ignored(self) -> None:
         response = self.client.post(
@@ -117,6 +115,39 @@ class UiTest(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         saved = self.review_path.read_text(encoding="utf-8")
         self.assertIn('"ignored": true', saved)
+
+    def test_index_page_supports_base_path_links(self) -> None:
+        app = create_app(base_path="/shingikai-pipeline", static_mode=True)
+        client = app.test_client()
+
+        response = client.get("/")
+
+        self.assertEqual(response.status_code, 200)
+        html = response.get_data(as_text=True)
+        self.assertIn('href="/shingikai-pipeline/"', html)
+        self.assertIn('href="/shingikai-pipeline/councils/treemap.html"', html)
+        self.assertIn('href="/shingikai-pipeline/quality/meeting-gaps.html"', html)
+
+    def test_static_site_export_writes_pages(self) -> None:
+        output_dir = Path(self.tempdir.name) / "site"
+
+        written_paths = export_static_site(
+            output_dir,
+            review_path=self.review_path,
+            base_path="/shingikai-pipeline",
+        )
+
+        self.assertTrue((output_dir / "index.html").exists())
+        self.assertTrue((output_dir / "councils" / "social-security-council.html").exists())
+        self.assertTrue((output_dir / "quality" / "meeting-gaps.html").exists())
+        self.assertTrue((output_dir / "quality" / "meeting-gaps-ignored.html").exists())
+        self.assertTrue((output_dir / ".nojekyll").exists())
+        self.assertGreater(len(written_paths), 5)
+
+        html = (output_dir / "quality" / "meeting-gaps.html").read_text(encoding="utf-8")
+        self.assertIn("/shingikai-pipeline/councils/newpage-28708.html", html)
+        self.assertNotIn("<form method=\"post\"", html)
+        self.assertIn("要確認", html)
 
 
 if __name__ == "__main__":

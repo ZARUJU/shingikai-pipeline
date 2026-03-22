@@ -9,13 +9,13 @@
     <p class="mt-1 text-sm text-stone-600">保存済みデータを一覧で確認できます。</p>
     <div class="mt-4">
       <div class="flex flex-wrap gap-3">
-        <a href="/councils/treemap" class="inline-flex items-center rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-800 hover:bg-stone-50">
+        <a href="{{ page_url('councils_treemap') }}" class="inline-flex items-center rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-800 hover:bg-stone-50">
           会議体系統を見る
         </a>
-        <a href="/meetings/monthly" class="inline-flex items-center rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-800 hover:bg-stone-50">
+        <a href="{{ page_url('monthly_meetings') }}" class="inline-flex items-center rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-800 hover:bg-stone-50">
           月ごとの開催一覧を見る
         </a>
-        <a href="/quality/meeting-gaps" class="inline-flex items-center rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-800 hover:bg-stone-50">
+        <a href="{{ page_url('meeting_gaps_active') }}" class="inline-flex items-center rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-800 hover:bg-stone-50">
           開催回次の欠番を確認する
         </a>
       </div>
@@ -38,13 +38,13 @@
           {% for council in councils %}
           <tr class="align-top">
             <td class="px-4 py-4">
-              <a href="/councils/{{ council.council_id }}" class="font-medium text-stone-900 hover:underline">{{ council.title }}</a>
+              <a href="{{ page_url('council_detail', council_id=council.council_id) }}" class="font-medium text-stone-900 hover:underline">{{ council.title }}</a>
               <div class="mt-1 text-xs text-stone-500">{{ council.council_id }}</div>
             </td>
             <td class="px-4 py-4 text-stone-700">
               <div class="whitespace-nowrap">
                 {% if council.parent_is_council %}
-                <a href="/councils/{{ council.parent }}" class="underline">{{ council.parent_label }}</a>
+                <a href="{{ page_url('council_detail', council_id=council.parent) }}" class="underline">{{ council.parent_label }}</a>
                 {% else %}
                 {{ council.parent_label }}
                 {% endif %}

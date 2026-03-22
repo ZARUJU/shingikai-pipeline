@@ -72,7 +72,21 @@ uv run python cli.py ops repair social-security-council
 uv run python cli.py hierarchy export social-security-council --use-fixture
 uv run python cli.py quality export
 uv run python ui.py
+uv run python cli.py ui export --output-dir site --base-path /shingikai-pipeline
 ```
+
+## GitHub Pages 向け静的 UI
+
+`ui export` は `data/` と `data/_reviews/` を読み、GitHub Pages にそのまま載せられる静的 HTML を出力します。`meeting_gaps` は閲覧専用になり、Pages 上ではレビュー更新はできません。
+
+```bash
+uv run python cli.py ui export --output-dir site
+uv run python cli.py ui export --output-dir site --base-path /shingikai-pipeline
+```
+
+- `--output-dir`: 出力先ディレクトリ。既存ディレクトリがあれば作り直す
+- `--base-path`: リポジトリ Pages 配下で公開するときの接頭辞。`https://<user>.github.io/shingikai-pipeline/` なら `/shingikai-pipeline`
+- `--review-path`: 欠番レビュー JSON の入力先。既定値は `data/_reviews/meeting_gap_reviews.json`
 
 ## データ配置
 
@@ -97,6 +111,12 @@ data/
 - 毎日定期実行し、`ops update all` を動かす
 - `data/` 配下に差分が出たら PR を作る
 - 品質確認 JSON も同時に更新する
+
+GitHub Pages デプロイ用 workflow は [deploy-pages.yml](/Users/kzk/Dev/_ok/v2/shingikai/.github/workflows/deploy-pages.yml) です。
+
+- `ui export` で `site/` を生成する
+- `.nojekyll` を含めて Pages artifact として公開する
+- リポジトリ名を `--base-path` に使う
 
 ## テスト
 

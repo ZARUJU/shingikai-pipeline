@@ -5,21 +5,21 @@
 {% block content %}
 <section class="space-y-6">
   <div class="space-y-2">
-    <a href="/" class="text-sm text-stone-500 underline">一覧へ戻る</a>
+    <a href="{{ page_url('index') }}" class="text-sm text-stone-500 underline">一覧へ戻る</a>
     <h1 class="text-2xl font-semibold">開催回次の異常確認</h1>
     <p class="text-sm text-stone-600">欠番のある会議体や、開催記録数が最新回次を上回る会議体を確認できます。</p>
   </div>
 
   <div class="flex flex-wrap gap-3">
     <a
-      href="/quality/meeting-gaps?tab=active"
+      href="{{ page_url('meeting_gaps_active') }}"
       class="inline-flex items-center rounded-full border px-4 py-2 text-sm font-medium {% if tab == 'active' %}border-stone-900 bg-stone-900 text-white{% else %}border-stone-300 bg-white text-stone-800 hover:bg-stone-50{% endif %}"
     >
       未無視
       <span class="ml-2 text-xs {% if tab == 'active' %}text-stone-200{% else %}text-stone-500{% endif %}">{{ active_issues|length }}</span>
     </a>
     <a
-      href="/quality/meeting-gaps?tab=ignored"
+      href="{{ page_url('meeting_gaps_ignored') }}"
       class="inline-flex items-center rounded-full border px-4 py-2 text-sm font-medium {% if tab == 'ignored' %}border-stone-900 bg-stone-900 text-white{% else %}border-stone-300 bg-white text-stone-800 hover:bg-stone-50{% endif %}"
     >
       無視済み
@@ -45,7 +45,7 @@
             {% for issue in issues %}
             <tr class="align-top">
               <td class="px-4 py-4">
-                <a href="/councils/{{ issue.council_id }}" class="font-medium underline">{{ issue.council_title }}</a>
+                <a href="{{ page_url('council_detail', council_id=issue.council_id) }}" class="font-medium underline">{{ issue.council_title }}</a>
                 <div class="mt-1 whitespace-nowrap text-xs text-stone-500">{{ issue.council_id }}</div>
               </td>
               <td class="whitespace-nowrap px-4 py-4 text-stone-700">
@@ -61,7 +61,8 @@
                 <div class="min-w-[18rem]">{{ issue.issue_display }}</div>
               </td>
               <td class="px-4 py-4">
-                <form method="post" action="/quality/meeting-gaps/{{ issue.council_id }}" class="space-y-3">
+                {% if allow_review_updates %}
+                <form method="post" action="{{ page_url('meeting_gap_review', council_id=issue.council_id) }}" class="space-y-3">
                   <input type="hidden" name="tab" value="{{ tab }}">
                   <textarea
                     name="note"
@@ -85,6 +86,25 @@
                     </button>
                   </div>
                 </form>
+                {% else %}
+                <div class="min-w-[20rem] whitespace-pre-wrap rounded-xl border border-stone-200 bg-stone-50 px-3 py-2 text-sm text-stone-900">
+                  {{ issue.review_note or "-" }}
+                </div>
+              </td>
+              <td class="px-4 py-4">
+                <div class="space-y-3 text-sm text-stone-700">
+                  <div class="whitespace-nowrap">
+                    {% if issue.ignored %}
+                    無視済み
+                    {% else %}
+                    要確認
+                    {% endif %}
+                  </div>
+                  {% if issue.reviewed_at %}
+                  <div class="whitespace-nowrap text-xs text-stone-500">{{ issue.reviewed_at }}</div>
+                  {% endif %}
+                </div>
+                {% endif %}
               </td>
             </tr>
             {% endfor %}

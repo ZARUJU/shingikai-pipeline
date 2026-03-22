@@ -26,6 +26,7 @@ from shingikai.utils.io import (
     write_meetings,
     write_rosters,
 )
+from ui.export import export_static_site
 
 ALL_KEYWORD = "all"
 logger = logging.getLogger(__name__)
@@ -144,6 +145,32 @@ def build_parser() -> argparse.ArgumentParser:
         help="保存せず標準出力に JSON を表示",
     )
     quality_export_parser.set_defaults(handler=_handle_quality_export)
+
+    ui_parser = subparsers.add_parser("ui", help="閲覧用UIを扱う")
+    ui_subparsers = ui_parser.add_subparsers(dest="action", required=True)
+
+    ui_export_parser = ui_subparsers.add_parser(
+        "export",
+        help="GitHub Pages 向けの静的 UI を書き出す",
+    )
+    ui_export_parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path("site"),
+        help="静的UIの出力先ディレクトリ",
+    )
+    ui_export_parser.add_argument(
+        "--review-path",
+        type=Path,
+        default=DEFAULT_REVIEW_PATH,
+        help="欠番レビューJSONのパス",
+    )
+    ui_export_parser.add_argument(
+        "--base-path",
+        default="",
+        help="Pages 配下で公開するときのベースパス。例: /shingikai-pipeline",
+    )
+    ui_export_parser.set_defaults(handler=_handle_ui_export)
 
     return parser
 
@@ -383,6 +410,21 @@ def _handle_quality_export(args: argparse.Namespace) -> None:
         return
     path = export_meeting_gap_issues(output_path=args.output, review_path=args.review_path)
     print(path)
+
+
+def _handle_ui_export(args: argparse.Namespace) -> None:
+    logger.info(
+        "ui export: output_dir=%s review_path=%s base_path=%s",
+        args.output_dir,
+        args.review_path,
+        args.base_path,
+    )
+    paths = export_static_site(
+        args.output_dir,
+        review_path=args.review_path,
+        base_path=args.base_path,
+    )
+    print(f"{len(paths)} files written to {args.output_dir}")
 
 
 def _write_councils(council_ids: list[str], *, output_dir: Path) -> None:
