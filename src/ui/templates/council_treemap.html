@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% macro render_node(node) -%}
+  {% if node.kind == "group" %}
+  <section class="border border-stone-300 bg-stone-50">
+    <div class="flex items-center justify-between gap-4 border-b border-stone-300 px-4 py-3 whitespace-nowrap">
+      <div class="flex items-center gap-3">
+        <span class="text-xs uppercase tracking-[0.18em] text-stone-500">Group</span>
+        <h2 class="text-base font-semibold text-stone-900">{{ node.label }}</h2>
+      </div>
+      <span class="text-xs text-stone-500">{{ node.children|length }} councils</span>
+    </div>
+    <div class="px-4 py-3">
+      {% for child in node.children %}
+      {{ render_node(child) }}
+      {% endfor %}
+    </div>  
+  </section>
+  {% else %}
+  <div class="border-l border-stone-300 pl-4">
+    <div class="flex items-center justify-between gap-4 py-2 whitespace-nowrap">
+      <div class="flex items-center gap-3 min-w-0">
+        <span class="text-stone-300">└</span>
+        <a href="{{ node.href }}" class="text-sm font-medium text-stone-900 underline whitespace-nowrap">{{ node.label }}</a>
+        <span class="text-xs text-stone-500 whitespace-nowrap">{{ node.key }}</span>
+      </div>
+      {% if node.children %}
+      <span class="text-xs text-stone-500 whitespace-nowrap">{{ node.children|length }} children</span>
+      {% endif %}
+    </div>
+    {% if node.children %}
+    <div class="space-y-1 pb-2">
+      {% for child in node.children %}
+      {{ render_node(child) }}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+{%- endmacro %}
+
+{% block title %}Council Treemap{% endblock %}
+
+{% block content %}
+<section class="space-y-6">
+  <div>
+    <h1 class="text-2xl font-semibold">会議体系統</h1>
+    <p class="mt-1 text-sm text-stone-600">`parent` が会議体 ID なら子会議体、そうでなければ所管グループとして表示します。</p>
+  </div>
+
+  <div class="overflow-x-auto border border-stone-200 bg-white">
+    <div class="min-w-[72rem] space-y-6 p-4">
+      {% for root in roots %}
+      {{ render_node(root) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

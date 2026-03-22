@@ -1,0 +1,229 @@
+{% extends "base.html" %}
+
+{% block title %}{{ council.title }}{% endblock %}
+
+{% block content %}
+<section class="space-y-8">
+  <div class="space-y-3">
+    <a href="/" class="text-sm text-stone-500 underline">一覧へ戻る</a>
+    <div class="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
+      <h1 class="text-2xl font-semibold">{{ council.title }}</h1>
+      <p class="mt-2 text-sm text-stone-500">表は横方向にスクロールして確認できます。</p>
+      <div class="mt-4 overflow-x-auto">
+        <table class="min-w-[56rem] divide-y divide-stone-200 text-sm">
+          <tbody class="divide-y divide-stone-100">
+            <tr>
+              <th class="w-40 whitespace-nowrap bg-stone-50 px-4 py-3 text-left font-medium text-stone-600">ID</th>
+              <td class="whitespace-nowrap px-4 py-3">{{ council.id }}</td>
+            </tr>
+            <tr>
+              <th class="whitespace-nowrap bg-stone-50 px-4 py-3 text-left font-medium text-stone-600">親</th>
+              <td class="whitespace-nowrap px-4 py-3">
+                {% if parent_info.is_council %}
+                <a class="underline" href="/councils/{{ parent_info.id }}">{{ parent_info.label }}</a>
+                {% else %}
+                {{ parent_info.label }}
+                {% endif %}
+                <span class="ml-2 text-xs text-stone-500">{{ council.parent }}</span>
+              </td>
+            </tr>
+            <tr>
+              <th class="whitespace-nowrap bg-stone-50 px-4 py-3 text-left font-medium text-stone-600">公式ページ</th>
+              <td class="whitespace-nowrap px-4 py-3"><a class="underline" href="{{ council.source_urls.portal }}"
+                  target="_blank" rel="noreferrer">{{ council.source_urls.portal }}</a></td>
+            </tr>
+            <tr>
+              <th class="whitespace-nowrap bg-stone-50 px-4 py-3 text-left font-medium text-stone-600">開催状況</th>
+              <td class="whitespace-nowrap px-4 py-3"><a class="underline" href="{{ council.source_urls.meetings }}"
+                  target="_blank" rel="noreferrer">{{ council.source_urls.meetings }}</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-4">
+    <div class="flex flex-wrap items-center gap-3 border-b border-stone-200">
+      <button type="button"
+        class="tab-button -mb-px border-b-2 border-stone-900 px-4 py-3 text-sm font-medium text-stone-900"
+        data-tab-target="meetings-panel" aria-selected="true">
+        開催記録
+        <span class="ml-2 text-stone-500">{{ meetings|length }}</span>
+      </button>
+      <button type="button"
+        class="tab-button -mb-px border-b-2 border-transparent px-4 py-3 text-sm font-medium text-stone-500"
+        data-tab-target="documents-panel" aria-selected="false">
+        文書
+        <span class="ml-2 text-stone-500">{{ documents|length }}</span>
+      </button>
+      <button type="button"
+        class="tab-button -mb-px border-b-2 border-transparent px-4 py-3 text-sm font-medium text-stone-500"
+        data-tab-target="rosters-panel" aria-selected="false">
+        名簿
+        <span class="ml-2 text-stone-500">{{ rosters|length }}</span>
+      </button>
+    </div>
+
+    <div id="meetings-panel" class="tab-panel space-y-3">
+      <div class="flex items-baseline justify-between">
+        <h2 class="text-xl font-semibold">開催記録</h2>
+        <span class="text-sm text-stone-500">{{ meetings|length }} 件</span>
+      </div>
+      <div class="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
+        <div class="overflow-x-auto">
+          <table class="min-w-[88rem] divide-y divide-stone-200 text-sm">
+            <thead class="bg-stone-50 text-left text-stone-600">
+              <tr>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">ID</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">日付</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">回次</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">議題</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">リンク</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-stone-100">
+              {% for meeting in meetings|reverse %}
+              <tr class="align-top">
+                <td class="whitespace-nowrap px-4 py-4 text-xs text-stone-500">{{ meeting.id }}</td>
+                <td class="whitespace-nowrap px-4 py-4">{{ meeting.held_on }}</td>
+                <td class="whitespace-nowrap px-4 py-4">{{ meeting.round_label or "-" }}</td>
+                <td class="whitespace-nowrap px-4 py-4 text-stone-700">
+                  {% if meeting.agenda %}
+                  <ul class="list-disc ml-4">
+                    {% for item in meeting.agenda %}
+                    <li class="whitespace-nowrap leading-6">{{ item }}</li>
+                    {% endfor %}
+                  </ul>
+                  {% else %}
+                  -
+                  {% endif %}
+                </td>
+                <td class="whitespace-nowrap px-4 py-4">
+                  <div class="flex min-w-44 flex-col gap-2">
+                    <a class="underline" href="{{ meeting.source_url }}" target="_blank" rel="noreferrer">代表リンク</a>
+                    {% for link in meeting.announcement_links %}
+                    <a class="underline" href="{{ link.url }}" target="_blank" rel="noreferrer">開催案内</a>
+                    {% endfor %}
+                    {% for link in meeting.materials_links %}
+                    <a class="underline" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.title }}</a>
+                    {% endfor %}
+                    {% for link in meeting.minutes_links %}
+                    <a class="underline" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.title }}</a>
+                    {% endfor %}
+                  </div>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div id="documents-panel" class="tab-panel hidden space-y-3">
+      <div class="flex items-baseline justify-between">
+        <h2 class="text-xl font-semibold">文書</h2>
+        <span class="text-sm text-stone-500">{{ documents|length }} 件</span>
+      </div>
+      <div class="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
+        <div class="overflow-x-auto">
+          <table class="min-w-[80rem] divide-y divide-stone-200 text-sm">
+            <thead class="bg-stone-50 text-left text-stone-600">
+              <tr>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">ID</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">日付</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">種別</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">題名</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">本文状態</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">リンク</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-stone-100">
+              {% for document in documents|reverse %}
+              <tr class="align-top">
+                <td class="whitespace-nowrap px-4 py-4 text-xs text-stone-500">{{ document.id }}</td>
+                <td class="whitespace-nowrap px-4 py-4">{{ document.published_on }}</td>
+                <td class="whitespace-nowrap px-4 py-4">{{ document.document_type }}</td>
+                <td class="whitespace-nowrap px-4 py-4 font-medium text-stone-900">{{ document.title }}</td>
+                <td class="whitespace-nowrap px-4 py-4">{{ document.body.status }}</td>
+                <td class="whitespace-nowrap px-4 py-4">
+                  <div class="flex min-w-40 flex-col gap-2">
+                    <a class="underline" href="{{ document.source_url }}" target="_blank" rel="noreferrer">代表リンク</a>
+                    {% for link in document.links %}
+                    <a class="underline" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.title }}</a>
+                    {% endfor %}
+                  </div>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div id="rosters-panel" class="tab-panel hidden space-y-3">
+      <div class="flex items-baseline justify-between">
+        <h2 class="text-xl font-semibold">名簿</h2>
+        <span class="text-sm text-stone-500">{{ rosters|length }} 件</span>
+      </div>
+      <div class="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
+        <div class="overflow-x-auto">
+          <table class="min-w-[64rem] divide-y divide-stone-200 text-sm">
+            <thead class="bg-stone-50 text-left text-stone-600">
+              <tr>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">ID</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">時点</th>
+                <th class="whitespace-nowrap px-4 py-3 font-medium">リンク</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-stone-100">
+              {% for roster in rosters|reverse %}
+              <tr class="align-top">
+                <td class="whitespace-nowrap px-4 py-4 text-xs text-stone-500">{{ roster.id }}</td>
+                <td class="whitespace-nowrap px-4 py-4">{{ roster.as_of }}</td>
+                <td class="whitespace-nowrap px-4 py-4">
+                  <div class="flex min-w-40 flex-col gap-2">
+                    <a class="underline" href="{{ roster.source_url }}" target="_blank" rel="noreferrer">代表リンク</a>
+                    {% for link in roster.links %}
+                    <a class="underline" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.title }}</a>
+                    {% endfor %}
+                  </div>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  (() => {
+    const buttons = Array.from(document.querySelectorAll(".tab-button"));
+    const panels = Array.from(document.querySelectorAll(".tab-panel"));
+
+    function activateTab(targetId) {
+      for (const button of buttons) {
+        const active = button.dataset.tabTarget === targetId;
+        button.setAttribute("aria-selected", active ? "true" : "false");
+        button.classList.toggle("border-stone-900", active);
+        button.classList.toggle("text-stone-900", active);
+        button.classList.toggle("border-transparent", !active);
+        button.classList.toggle("text-stone-500", !active);
+      }
+
+      for (const panel of panels) {
+        panel.classList.toggle("hidden", panel.id !== targetId);
+      }
+    }
+
+    for (const button of buttons) {
+      button.addEventListener("click", () => activateTab(button.dataset.tabTarget));
+    }
+  })();
+</script>
+{% endblock %}

@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block title %}Monthly Meetings{% endblock %}
+
+{% block content %}
+<section class="space-y-8">
+  <div class="space-y-2">
+    <a href="/" class="text-sm text-stone-500 underline">一覧へ戻る</a>
+    <h1 class="text-2xl font-semibold">月ごとの開催一覧</h1>
+    <p class="text-sm text-stone-600">開催記録を月単位でまとめて確認できます。</p>
+  </div>
+
+  <div class="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
+    <div class="overflow-x-auto">
+      <table class="min-w-[88rem] divide-y divide-stone-200 text-sm">
+        <thead class="bg-stone-50 text-left text-stone-600">
+          <tr>
+            <th class="whitespace-nowrap px-4 py-3 font-medium">日付</th>
+            <th class="whitespace-nowrap px-4 py-3 font-medium">会議体</th>
+            <th class="whitespace-nowrap px-4 py-3 font-medium">回次</th>
+            <th class="whitespace-nowrap px-4 py-3 font-medium">議題</th>
+            <th class="whitespace-nowrap px-4 py-3 font-medium">リンク</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-stone-100">
+          {% for group in groups %}
+            <tr class="bg-stone-100/70">
+              <td colspan="5" class="whitespace-nowrap px-4 py-3 text-lg font-bold tracking-tight text-stone-800">
+                {{ group.label }}
+              </td>
+            </tr>
+            {% for meeting in group.meetings %}
+            <tr class="align-top">
+              <td class="whitespace-nowrap px-4 py-4">{{ meeting.held_on }}</td>
+              <td class="whitespace-nowrap px-4 py-4">
+                <a href="/councils/{{ meeting.council_id }}" class="underline">{{ meeting.council_title }}</a>
+              </td>
+              <td class="whitespace-nowrap px-4 py-4">{{ meeting.round_label or "-" }}</td>
+              <td class="whitespace-nowrap px-4 py-4 text-stone-700">
+                {% if meeting.agenda %}
+                <ul class="list-disc ml-4">
+                  {% for item in meeting.agenda %}
+                  <li class="whitespace-nowrap leading-6">{{ item }}</li>
+                  {% endfor %}
+                </ul>
+                {% else %}
+                -
+                {% endif %}
+              </td>
+              <td class="whitespace-nowrap px-4 py-4">
+                <div class="flex min-w-44 flex-col gap-2">
+                  <a class="underline" href="{{ meeting.source_url }}" target="_blank" rel="noreferrer">代表リンク</a>
+                  {% for link in meeting.announcement_links %}
+                  <a class="underline" href="{{ link.url }}" target="_blank" rel="noreferrer">開催案内</a>
+                  {% endfor %}
+                  {% for link in meeting.materials_links %}
+                  <a class="underline" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.title }}</a>
+                  {% endfor %}
+                  {% for link in meeting.minutes_links %}
+                  <a class="underline" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.title }}</a>
+                  {% endfor %}
+                </div>
+              </td>
+            </tr>
+            {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+{% endblock %}

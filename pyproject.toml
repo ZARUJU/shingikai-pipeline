@@ -1,7 +1,14 @@
 [project]
 name = "shingikai"
 version = "0.1.0"
-description = "Add your description here"
+description = "審議会情報を整理するためのデータ基盤"
 readme = "README.md"
 requires-python = ">=3.11.7"
-dependencies = []
+dependencies = [
+    "bs4>=0.0.2",
+    "flask>=3.1.2",
+    "pydantic>=2.12.5",
+]
+
+[project.scripts]
+shingikai = "shingikai.cli:main"

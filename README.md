@@ -1,85 +1,105 @@
 # shingikai
 
-散逸している審議会関連情報にアクセスしやすくするためのポータルサイトです。
+審議会データを取得・整形し、JSON と簡易 UI として扱うためのリポジトリです。
 
-行政機関ごとに分散して公開されている審議会の開催情報、資料、議事録、名簿などを整理し、継続的に参照しやすい形で提供することを目的としています。
+このプロジェクトの運用は、次の 3 つに分けます。
 
-## 想定しているデータの粒度
+- 新規登録: 新しい会議体を追加し、初回データを生成する
+- 更新: 既存会議体の開催記録を定期更新する
+- 修正: 取得漏れや誤判定を直し、対象データを再生成する
 
-本プロジェクトでは、審議会データをいくつかの段階に分けて扱います。
+詳細は [docs/operations.md](/Users/kzk/Dev/_ok/v2/shingikai/docs/operations.md) を参照してください。設計の考え方は [docs/architecture.md](/Users/kzk/Dev/_ok/v2/shingikai/docs/architecture.md) にまとめています。
 
-1. 開催状況
-   開催日時と、公式ページや関連資料へアクセスするためのリンクを提供します。
-2. 会議記録
-   資料や議事録、議事要旨などを含めて把握できる状態を目指します。
-3. 周辺情報まで含む詳細データ
-   出席者、名簿、そのほか会議体に付随する情報まで含めて管理します。
+## セットアップ
 
-## 更新方法
+```bash
+uv sync
+```
 
-基本的にはプログラムによって更新確認やパースを行い、データを生成します。
+CLI は以下のいずれでも実行できます。
 
-一方で、公開形式のばらつきや例外的なケースも想定されるため、一部は人手による補完や修正も前提とします。必要に応じて、以下のような運用を行います。
+```bash
+uv run python cli.py --help
+uv run shingikai --help
+```
 
-- 管理画面を用意して編集しやすくする
-- JSON を直接編集して補正する
+## 運用コマンド
 
-## データモデル
+通常運用では `ops` サブコマンドを使います。`ops` は live fetch 前提で、GitHub Actions からの実行を想定しています。`fixtures/` は参照しません。
 
-### 1. 会議体
+### 1. 新規登録
 
-審議会そのものを表す基本単位です。
+会議体の基本情報と開催記録をまとめて生成します。
 
-- 名称
-- 親組織
-- 公式ページへのリンク
-- 開催状況の確認に利用するリンク
+```bash
+uv run python cli.py ops add social-security-council
+```
 
-### 2. 名簿
+品質確認 JSON を同時に更新したくない場合は `--skip-quality` を付けます。
 
-1つの会議体に対して複数の名簿を持てる想定です。改定があり得るため、「何日時点の情報か」を保持します。
+### 2. 更新
 
-- 時点情報
-- 構成員の配列
-  - 人物 ID
-    人物登録がない場合は、名前の文字列のみを保持します。
-  - 役職
-    ここでいう役職は、会社での肩書ではなく、会議体内での役割です。
-    例: 委員、委員長
+既存会議体の開催記録を更新し、あわせて品質確認 JSON も再生成します。定期実行向けです。
 
-### 3. 開催記録
+```bash
+uv run python cli.py ops update social-security-council
+uv run python cli.py ops update all
+```
 
-各回の会議に対応する記録です。まずは最低限の開催情報から管理し、段階的に情報量を増やす想定です。
+通常は `24` 時間より古いキャッシュだけ再取得します。`--refresh-hours` でしきい値を調整できます。`--force` を付けるとキャッシュを無視して再取得します。実行後は `data/_quality/meeting_gap_issues.json` も更新されます。
 
-- 基本情報
-  - 開催日時
-  - 当該回へのリンク
-- 出席者
-- 逐語録
-- 議事要旨
-- 資料一覧
+### 3. 修正
 
-### 4. 文書群
+パーサ修正後に対象会議体を再生成し、品質確認 JSON も更新します。
 
-答申、報告書など、会議体に紐づく文書を扱います。現時点では PDF へのリンクを保持する形を想定しています。
+```bash
+uv run python cli.py ops repair social-security-council
+```
 
-## 補足
+## 開発・調査用コマンド
 
-この README は現時点の構想整理を兼ねています。今後、実装の進展にあわせて、データ形式や運用方針を具体化していく予定です。
+下位コマンドはローカル開発や個別調査向けです。`--use-fixture` を使えるのはこの系統だけです。
 
-## 設計方針メモ
+- `council export`: 会議体基本情報だけを出力する
+- `meetings export`: 対象会議体の meetings/documents/rosters を出力する
+- `meetings export-family`: 親会議体配下をまとめて出力する
+- `hierarchy export`: 一覧ページから会議体階層を生成する
+- `quality export`: `data/_quality/meeting_gap_issues.json` を再生成する
 
-現時点では、以下のように責務を分ける方針が扱いやすそうです。
+例:
 
-1. 保存データ
-   取得・整形後の成果物です。ポータル表示や検索で直接使う対象です。
-2. 会議体ごとの取得コード
-   どのページを見に行き、どのような手順で情報を集めるかを Python で記述します。
-3. 共通処理
-   HTML 取得、リンク抽出、日付正規化、JSON 保存などを共通化します。
+```bash
+uv run python cli.py hierarchy export social-security-council --use-fixture
+uv run python cli.py quality export
+uv run python ui.py
+```
 
-当面は、会議体ごとに個別の Python プログラムを書く方針を基本とします。ワークフロー透明性は、会議体ごとのモジュールや関数名、処理の分割によって担保します。詳細案は `docs/architecture.md` にまとめます。
+## データ配置
 
-また、会議体によっては逐語録や名簿が公開されていない、あるいは存在有無自体が判別しにくいことがあります。そのため、単純に `null` とするだけではなく、「未公開」「不明」「未確認」などの状態を区別して保持できるようにします。
+```text
+data/
+  councils/<council_id>/
+    council.json
+    meetings/*.json
+    documents/*.json
+    rosters/*.json
+  _quality/
+    meeting_gap_issues.json
+    fetch_errors.json
+  _reviews/
+    meeting_gap_reviews.json
+```
 
-HTTP アクセスは必要最小限に抑えたいので、可能なら `ETag` や `Last-Modified` を利用して更新確認を行います。また、開発中は取得済み HTML をキャッシュして再利用し、パース処理の試行錯誤だけをローカルで回せるようにする想定です。
+## GitHub Actions
+
+定期更新用 workflow は [update-data.yml](/Users/kzk/Dev/_ok/v2/shingikai/.github/workflows/update-data.yml) です。
+
+- 毎日定期実行し、`ops update all` を動かす
+- `data/` 配下に差分が出たら PR を作る
+- 品質確認 JSON も同時に更新する
+
+## テスト
+
+```bash
+uv run python -m unittest discover -s tests -v
+```
