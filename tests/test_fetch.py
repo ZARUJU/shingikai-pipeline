@@ -87,6 +87,22 @@ class FetchUtilsTest(unittest.TestCase):
         request = mock_urlopen.call_args.args[0]
         self.assertEqual(request.full_url, expected_request_url)
 
+    def test_fetch_html_waits_one_second_between_requests(self) -> None:
+        monotonic_values = iter([100.0, 100.2, 101.2])
+
+        with (
+            patch("shingikai.utils.fetch.cached_html_path", return_value=Path(tempfile.gettempdir()) / "unused.html"),
+            patch("shingikai.utils.fetch.urlopen", return_value=_FakeResponse(b"<html>ok</html>")),
+            patch("shingikai.utils.fetch.time.monotonic", side_effect=lambda: next(monotonic_values)),
+            patch("shingikai.utils.fetch.time.sleep") as mock_sleep,
+            patch("shingikai.utils.fetch._last_fetch_started_at", None),
+        ):
+            fetch_html("https://example.com/1")
+            fetch_html("https://example.com/2")
+
+        mock_sleep.assert_called_once()
+        self.assertAlmostEqual(mock_sleep.call_args.args[0], 0.8)
+
     def test_load_cached_html_prefers_fixture_without_fetch(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             path = Path(tmpdir) / "fixture.html"
