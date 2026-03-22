@@ -1,0 +1,29 @@
+{
+  "id": "2015-08-26-013",
+  "council_id": "shingi-hosho-191001",
+  "round_label": 13,
+  "held_on": "2015-08-26",
+  "agenda": [
+    "今後の情報セキュリティ対策について等",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000094535.html",
+  "minutes_links": [
+    {
+      "title": "議事概要",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000096157.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000095649.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000094535.html"
+    }
+  ]
+}

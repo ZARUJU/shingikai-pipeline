@@ -1,0 +1,30 @@
+{
+  "id": "2024-11-08-037",
+  "council_id": "shingi-hosho-163664-00006",
+  "round_label": 37,
+  "held_on": "2024-11-08",
+  "agenda": [
+    "iDeCo の加入可能年齢・受給開始可能年齢について",
+    "拠出の在り方について",
+    "DB の給付減額の判定基準・手続きについて"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_44700.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_51328.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_45168.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_44700.html"
+    }
+  ]
+}

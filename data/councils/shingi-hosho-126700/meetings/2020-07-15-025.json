@@ -1,0 +1,30 @@
+{
+  "id": "2020-07-15-025",
+  "council_id": "shingi-hosho-126700",
+  "round_label": 25,
+  "held_on": "2020-07-15",
+  "agenda": [
+    "地域共生社会実現のための社会福祉法等の一部を改正する法律の概要について",
+    "社会福祉法人の事業展開に係るガイドライン（案）について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_12158.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_13012.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_12401.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_12158.html"
+    }
+  ]
+}

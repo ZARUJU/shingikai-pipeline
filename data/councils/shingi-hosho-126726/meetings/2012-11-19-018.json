@@ -1,0 +1,30 @@
+{
+  "id": "2012-11-19-018",
+  "council_id": "shingi-hosho-126726",
+  "round_label": 18,
+  "held_on": "2012-11-19",
+  "agenda": [
+    "開会",
+    "議事平成24年度における日本年金機構の取組状況について",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002ns8l.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002r203.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002orn0.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002ns8l.html"
+    }
+  ]
+}

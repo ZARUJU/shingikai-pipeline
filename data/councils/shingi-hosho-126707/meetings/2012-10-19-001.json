@@ -1,0 +1,30 @@
+{
+  "id": "2012-10-19-001",
+  "council_id": "shingi-hosho-126707",
+  "round_label": 1,
+  "held_on": "2012-10-19",
+  "agenda": [
+    "委員の紹介及び座長の選出について",
+    "柔道整復療養費検討専門委員会の設置について",
+    "平成24年度柔道整復療養費の改定について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002la4q.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002mlhl.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002ml1d.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002la4q.html"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2018-12-13-021",
+  "council_id": "shingi-hosho-126694",
+  "round_label": 21,
+  "held_on": "2018-12-13",
+  "agenda": [
+    "WHO-FICネットワーク年次会議（2017、2018）の報告について",
+    "ICD-11改訂の動向について",
+    "ICD-11の日本への適用について",
+    "死因選択検討ワーキンググループについて",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000166019_00001.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000172383_00006.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000169220_00001.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000166019_00001.html"
+    }
+  ]
+}

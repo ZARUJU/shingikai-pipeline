@@ -1,0 +1,32 @@
+{
+  "id": "2019-12-25-123",
+  "council_id": "newpage-28708",
+  "round_label": 123,
+  "held_on": "2019-12-25",
+  "agenda": [
+    "オンライン資格確認等の普及に向けた取組状況について",
+    "被用者保険の適用拡大について",
+    "全世代型社会保障検討会議の議論について（報告）",
+    "新経済・財政再生計画 改革工程表2019について（報告）",
+    "令和2年度予算案（保険局関係）の主な事項について（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_09673.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_09002.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_08629.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_09673.html"
+    }
+  ]
+}

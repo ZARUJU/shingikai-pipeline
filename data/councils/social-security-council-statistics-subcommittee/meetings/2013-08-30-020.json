@@ -1,0 +1,31 @@
+{
+  "id": "2013-08-30-020",
+  "council_id": "social-security-council-statistics-subcommittee",
+  "round_label": 20,
+  "held_on": "2013-08-30",
+  "agenda": [
+    "平成26年医療施設調査の調査計画案について",
+    "平成26年患者調査の調査計画案について",
+    "疾病、傷害及び死因分類部会の再開について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000014418.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi/0000025171.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000014441.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000014418.html"
+    }
+  ]
+}

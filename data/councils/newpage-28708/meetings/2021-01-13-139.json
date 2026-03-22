@@ -1,0 +1,29 @@
+{
+  "id": "2021-01-13-139",
+  "council_id": "newpage-28708",
+  "round_label": 139,
+  "held_on": "2021-01-13",
+  "agenda": [
+    "データヘルス改革の進捗状況について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_15913.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_16959.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_15981.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_15913.html"
+    }
+  ]
+}

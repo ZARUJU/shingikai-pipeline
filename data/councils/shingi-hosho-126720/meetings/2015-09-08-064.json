@@ -1,0 +1,30 @@
+{
+  "id": "2015-09-08-064",
+  "council_id": "shingi-hosho-126720",
+  "round_label": 64,
+  "held_on": "2015-09-08",
+  "agenda": [
+    "平成26年財政検証のヒアリング－厚生年金保険－",
+    "平成26年財政検証のヒアリング－国民年金（基礎年金）－",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000095747.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000104115.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000097149.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000095747.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2021-01-28-014",
+  "council_id": "shingi-hosho-208386",
+  "round_label": 14,
+  "held_on": "2021-01-28",
+  "agenda": [
+    "一部マッチングサイトの登録シッター届出未確認事案の概要とこれまでの対応について",
+    "自社研修等基準について",
+    "議論のとりまとめ（案）について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000061798_00010.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000066851_00013.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000062918_00012.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000061798_00010.html"
+    }
+  ]
+}

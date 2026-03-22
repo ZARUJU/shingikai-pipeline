@@ -1,0 +1,30 @@
+{
+  "id": "2021-12-08-008",
+  "council_id": "index-13914",
+  "round_label": 8,
+  "held_on": "2021-12-08",
+  "agenda": [
+    "匿名診療等関連情報（DPCデータ）の個票情報の提供、NDB・介護DBとの連結について",
+    "医療・介護データ等の解析基盤（HIC）開発の進捗",
+    "個別審査（非公開）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_22461.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/index_00016.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/index_00015.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_22461.html"
+    }
+  ]
+}

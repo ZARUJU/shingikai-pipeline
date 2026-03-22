@@ -1,0 +1,30 @@
+{
+  "id": "2025-09-26-198",
+  "council_id": "newpage-28708",
+  "round_label": 198,
+  "held_on": "2025-09-26",
+  "agenda": [
+    "医療保険制度改革について",
+    "令和８年度診療報酬改定の基本方針について",
+    "高額療養費制度について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_63819.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65342.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_63945.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_63819.html"
+    }
+  ]
+}

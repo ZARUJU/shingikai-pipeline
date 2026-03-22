@@ -1,0 +1,30 @@
+{
+  "id": "2012-11-28-004",
+  "council_id": "shingi-hosho-126716",
+  "round_label": 4,
+  "held_on": "2012-11-28",
+  "agenda": [
+    "関係者からのヒアリング",
+    "医療費助成の申請・認定手続き",
+    "小児慢性特定疾患に関する医療体制"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002ovf2.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002sgko.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002pj49.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002ovf2.html"
+    }
+  ]
+}

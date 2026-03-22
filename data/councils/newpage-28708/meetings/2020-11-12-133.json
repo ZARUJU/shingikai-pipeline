@@ -1,0 +1,31 @@
+{
+  "id": "2020-11-12-133",
+  "council_id": "newpage-28708",
+  "round_label": 133,
+  "held_on": "2020-11-12",
+  "agenda": [
+    "医療保険制度における新型コロナウイルス感染症の影響について",
+    "医療保険制度改革について",
+    "国民健康保険の保険料（税）の賦課（課税）限度額について",
+    "オンライン資格確認等システムの進捗状況について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_14641.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_15593.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_14772.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_14641.html"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2017-02-14-001",
+  "council_id": "shingi-hosho-413946",
+  "round_label": 1,
+  "held_on": "2017-02-14",
+  "agenda": [
+    "委員長の指名等について",
+    "確定拠出年金の運用に関する専門委員会運営規則について",
+    "過去の議論の整理について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000150819.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000154286.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000151521.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000150819.html"
+    }
+  ]
+}

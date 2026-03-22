@@ -1,0 +1,31 @@
+{
+  "id": "2025-01-14-103",
+  "council_id": "shingi-hosho-126720",
+  "round_label": 103,
+  "held_on": "2025-01-14",
+  "agenda": [
+    "令和5年度財政状況について－国家公務員共済組合－",
+    "令和5年度財政状況について－地方公務員共済組合－",
+    "令和5年度財政状況について－私立学校教職員共済制度－",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_45845.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_51520.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000198131_00052.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_45845.html"
+    }
+  ]
+}

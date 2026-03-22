@@ -1,0 +1,31 @@
+{
+  "id": "2017-12-25-076",
+  "council_id": "shingi-hosho-126720",
+  "round_label": 76,
+  "held_on": "2017-12-25",
+  "agenda": [
+    "平成28年度財政状況について－国家公務員共済組合－",
+    "平成28年度財政状況について－地方公務員共済組合－",
+    "平成28年度財政状況について－私立学校教職員共済制度－",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000187486.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000199638.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000189571.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000187486.html"
+    }
+  ]
+}

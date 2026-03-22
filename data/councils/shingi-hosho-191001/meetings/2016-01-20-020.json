@@ -1,0 +1,30 @@
+{
+  "id": "2016-01-20-020",
+  "council_id": "shingi-hosho-191001",
+  "round_label": 20,
+  "held_on": "2016-01-20",
+  "agenda": [
+    "特定事由に係る申出等の承認基準について",
+    "日本年金機構の中期目標・中期計画の改定及び平成28年度計画の策定について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000109663.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000107469.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000110049.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000109663.html"
+    }
+  ]
+}

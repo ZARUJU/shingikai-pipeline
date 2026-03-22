@@ -1,0 +1,30 @@
+{
+  "id": "2014-02-28-016",
+  "council_id": "shingi-hosho-126694",
+  "round_label": 16,
+  "held_on": "2014-02-28",
+  "agenda": [
+    "世界保健機関勧告によるICD-10の一部改正の日本への適用について",
+    "WHO-FIC分類改正改訂委員会（URC）へのICD-10一部改正提案について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000037302.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi/0000043405.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000038834.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000037302.html"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2018-10-10-005",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 5,
+  "held_on": "2018-10-10",
+  "agenda": [
+    "雇用の変容と年金（主として高齢期の就労と年金に関して）",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000212304_00003.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000204770_00004.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212815_00003.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212304_00003.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2017-12-12-036",
+  "council_id": "shingi-hosho-126702",
+  "round_label": 36,
+  "held_on": "2017-12-12",
+  "agenda": [
+    "・生活扶助基準の検証",
+    "・有子世帯の扶助・加算の検証",
+    "・その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000187499.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000192754.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000187682.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000187499.html"
+    }
+  ]
+}

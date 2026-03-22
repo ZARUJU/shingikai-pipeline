@@ -1,0 +1,33 @@
+{
+  "id": "2012-06-06-004",
+  "council_id": "shingi-hosho-126703",
+  "round_label": 4,
+  "held_on": "2012-06-06",
+  "agenda": [
+    "開会",
+    "議事",
+    "「生活支援戦略」（骨格）について",
+    "委員からのヒアリング",
+    "その他",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002bwwc.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002f4c2.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002cdx6.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002bwwc.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2009-02-04-010",
+  "council_id": "shingi-kousei-127703",
+  "round_label": 10,
+  "held_on": "2009-02-04",
+  "agenda": [
+    "会長選出及び会長代理の指名について",
+    "厚生科学審議会に設置された分科会及び部会の活動状況について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2009/02/s0204-4.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：75KB］",
+      "url": "https://www.mhlw.go.jp/content/shingi___2009___02___txt___s0204-2.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2009/02/s0204-9.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2009/02/s0204-4.html"
+    }
+  ]
+}

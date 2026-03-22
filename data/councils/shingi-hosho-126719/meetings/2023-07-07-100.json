@@ -1,0 +1,31 @@
+{
+  "id": "2023-07-07-100",
+  "council_id": "shingi-hosho-126719",
+  "round_label": 100,
+  "held_on": "2023-07-07",
+  "agenda": [
+    "○ 医療法人の経営情報に関するデータベース（ＭＣＤＢ）の施行（令和５年８月分）について（報告）",
+    "○ 医療ＤＸの推進に関する工程表について（報告）",
+    "○ 医療機関におけるサイバーセキュリティ対策チェックリストと立入検査の実施について（報告）",
+    "○ 経済財政運営と改革の基本方針等の閣議決定について（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_33930.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212218_00055.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000210433_00047.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_33930.html"
+    }
+  ]
+}

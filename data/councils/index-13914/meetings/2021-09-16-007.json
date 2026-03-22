@@ -1,0 +1,32 @@
+{
+  "id": "2021-09-16-007",
+  "council_id": "index-13914",
+  "round_label": 7,
+  "held_on": "2021-09-16",
+  "agenda": [
+    "匿名診療等関連情報（DPCデータ）の個票情報の提供について",
+    "匿名診療等関連情報（DPCデータ）の第三者提供の現状について（報告）",
+    "匿名レセプト情報等の第三者提供の現状について（報告）",
+    "訪問看護ステーションにおけるオンライン請求の実施時期変更について（報告）",
+    "個別審査（非公開）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_20949.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/index_00012.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/index_00010.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_20949.html"
+    }
+  ]
+}

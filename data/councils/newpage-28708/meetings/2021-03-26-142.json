@@ -1,0 +1,29 @@
+{
+  "id": "2021-03-26-142",
+  "council_id": "newpage-28708",
+  "round_label": 142,
+  "held_on": "2021-03-26",
+  "agenda": [
+    "医療保険制度における新型コロナウイルス感染症の影響と対応について",
+    "オンライン資格確認等システムについて"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_17583.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_18824.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_17615.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_17583.html"
+    }
+  ]
+}

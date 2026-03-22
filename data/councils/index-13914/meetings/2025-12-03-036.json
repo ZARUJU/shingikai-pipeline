@@ -1,0 +1,30 @@
+{
+  "id": "2025-12-03-036",
+  "council_id": "index-13914",
+  "round_label": 36,
+  "held_on": "2025-12-03",
+  "agenda": [
+    "40歳未満の事業主健診情報等のNDB収載について",
+    "第11回及び第12回オープンデータの作成方針について",
+    "個別審査（非公開）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_66194.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/index_00129.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/index_00123.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_66194.html"
+    }
+  ]
+}

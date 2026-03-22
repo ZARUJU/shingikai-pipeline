@@ -1,0 +1,31 @@
+{
+  "id": "2022-01-07-091",
+  "council_id": "shingi-hosho-126720",
+  "round_label": 91,
+  "held_on": "2022-01-07",
+  "agenda": [
+    "令和2年度財政状況について－国家公務員共済組合－",
+    "令和2年度財政状況について－地方公務員共済組合－",
+    "令和2年度財政状況について－私立学校教職員共済制度－",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_22848.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000203902_00023.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000198131_00021.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_22848.html"
+    }
+  ]
+}

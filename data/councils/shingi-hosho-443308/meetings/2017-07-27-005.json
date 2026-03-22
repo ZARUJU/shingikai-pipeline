@@ -1,0 +1,30 @@
+{
+  "id": "2017-07-27-005",
+  "council_id": "shingi-hosho-443308",
+  "round_label": 5,
+  "held_on": "2017-07-27",
+  "agenda": [
+    "都道府県、町村、社会福祉法人の役割等について",
+    "生活保護制度に関する国と地方の実務者協議について",
+    "医療扶助の適正化・生活保護受給者の健康管理について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000171415.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000184266.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000172506.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000171415.html"
+    }
+  ]
+}

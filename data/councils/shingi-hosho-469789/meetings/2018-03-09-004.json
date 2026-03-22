@@ -1,0 +1,30 @@
+{
+  "id": "2018-03-09-004",
+  "council_id": "shingi-hosho-469789",
+  "round_label": 4,
+  "held_on": "2018-03-09",
+  "agenda": [
+    "年金積立金管理運用独立行政法人からのヒアリング",
+    "2014（平成26）年財政検証における運用利回りの設定等について",
+    "諸外国の公的年金の財政見通しに用いる経済前提について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000195472.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000197116_00001.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000197101.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000195472.html"
+    }
+  ]
+}

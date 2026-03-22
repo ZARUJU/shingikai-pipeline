@@ -1,0 +1,30 @@
+{
+  "id": "2012-09-27-012",
+  "council_id": "shingi-hosho-126695",
+  "round_label": 12,
+  "held_on": "2012-09-27",
+  "agenda": [
+    "委員長の選出について",
+    "ＩＣＦの普及・活用について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002jyfc.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi/2r9852000002mvfc.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002ksqi.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002jyfc.html"
+    }
+  ]
+}

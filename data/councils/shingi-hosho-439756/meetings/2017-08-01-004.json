@@ -1,0 +1,29 @@
+{
+  "id": "2017-08-01-004",
+  "council_id": "shingi-hosho-439756",
+  "round_label": 4,
+  "held_on": "2017-08-01",
+  "agenda": [
+    "GPIF改革の施行（10月1日）に伴う政省令等事項について",
+    "GPIFの平成28年度業務実績評価について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000171879.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000179154.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000173447.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000171879.html"
+    }
+  ]
+}

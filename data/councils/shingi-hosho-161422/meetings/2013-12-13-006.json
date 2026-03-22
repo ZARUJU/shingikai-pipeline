@@ -1,0 +1,29 @@
+{
+  "id": "2013-12-13-006",
+  "council_id": "shingi-hosho-161422",
+  "round_label": 6,
+  "held_on": "2013-12-13",
+  "agenda": [
+    "報告書案について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000031297.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000034283.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000032024.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000031297.html"
+    }
+  ]
+}

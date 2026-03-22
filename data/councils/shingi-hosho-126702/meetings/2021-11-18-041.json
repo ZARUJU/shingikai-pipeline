@@ -1,0 +1,30 @@
+{
+  "id": "2021-11-18-041",
+  "council_id": "shingi-hosho-126702",
+  "round_label": 41,
+  "held_on": "2021-11-18",
+  "agenda": [
+    "新たな検証手法の開発に関する調査研究事業の報告",
+    "全国家計構造調査のデータの取扱いについて",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_21996.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_23337.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_22187.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_21996.html"
+    }
+  ]
+}

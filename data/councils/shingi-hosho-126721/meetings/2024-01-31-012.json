@@ -1,0 +1,31 @@
+{
+  "id": "2024-01-31-012",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 12,
+  "held_on": "2024-01-31",
+  "agenda": [
+    "年金財政における経済前提の在り方について（報告）",
+    "次期財政検証のオプション試算について",
+    "これまでの年金部会における議論の振り返り",
+    "働き方の多様化を踏まえた被用者保険の適用の在り方に関する懇談会の開催について（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/nenkin_240131.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_20240131.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/nenkin_20240131.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_240131.html"
+    }
+  ]
+}

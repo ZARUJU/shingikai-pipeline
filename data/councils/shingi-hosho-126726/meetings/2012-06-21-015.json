@@ -1,0 +1,30 @@
+{
+  "id": "2012-06-21-015",
+  "council_id": "shingi-hosho-126726",
+  "round_label": 15,
+  "held_on": "2012-06-21",
+  "agenda": [
+    "開会",
+    "議事・日本年金機構の平成23事業年度業務実績報告書（案）について",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002ccgk.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002fofq.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002djy9.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002ccgk.html"
+    }
+  ]
+}

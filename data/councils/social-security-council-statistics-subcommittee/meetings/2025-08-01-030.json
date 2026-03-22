@@ -1,0 +1,31 @@
+{
+  "id": "2025-08-01-030",
+  "council_id": "social-security-council-statistics-subcommittee",
+  "round_label": 30,
+  "held_on": "2025-08-01",
+  "agenda": [
+    "令和8年医療施設調査の調査計画案について",
+    "令和8年患者調査の調査計画案について",
+    "人口動態調査の調査計画案について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_59059.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_63629.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_59304.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_59059.html"
+    }
+  ]
+}

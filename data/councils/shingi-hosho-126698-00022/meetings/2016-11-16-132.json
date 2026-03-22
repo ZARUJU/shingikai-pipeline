@@ -1,0 +1,30 @@
+{
+  "id": "2016-11-16-132",
+  "council_id": "shingi-hosho-126698-00022",
+  "round_label": 132,
+  "held_on": "2016-11-16",
+  "agenda": [
+    "介護人材の処遇改善について",
+    "地域区分について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000141765.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000146303.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000143087.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000141765.html"
+    }
+  ]
+}

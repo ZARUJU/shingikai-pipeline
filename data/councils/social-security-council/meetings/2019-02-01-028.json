@@ -1,0 +1,30 @@
+{
+  "id": "2019-02-01-028",
+  "council_id": "social-security-council",
+  "round_label": 28,
+  "held_on": "2019-02-01",
+  "agenda": [
+    "会長の選出について",
+    "2040年を展望した社会保障改革について",
+    "平成31年度厚生労働省関係予算案について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000071785_00001.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_03786.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000072604_00001.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000071785_00001.html"
+    }
+  ]
+}

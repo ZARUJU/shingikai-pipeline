@@ -1,0 +1,30 @@
+{
+  "id": "2011-10-14-001",
+  "council_id": "shingi-hosho-126723",
+  "round_label": 1,
+  "held_on": "2011-10-14",
+  "agenda": [
+    "委員長の選出及び委員会の公開について",
+    "平成21年財政検証における経済前提の設定等について",
+    "年金積立金の運用の現状について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001qyfl.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001vl2y.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001rmnu.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001qyfl.html"
+    }
+  ]
+}

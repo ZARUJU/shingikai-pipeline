@@ -1,0 +1,30 @@
+{
+  "id": "2025-05-19-120",
+  "council_id": "shingi-hosho-126734",
+  "round_label": 120,
+  "held_on": "2025-05-19",
+  "agenda": [
+    "人口減少・サービス需要の変化に応じたサービス提供体制の構築や支援体制について",
+    "介護人材確保と職場環境改善・生産性向上、経営支援について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_57652.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_59458.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_57936.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_57652.html"
+    }
+  ]
+}

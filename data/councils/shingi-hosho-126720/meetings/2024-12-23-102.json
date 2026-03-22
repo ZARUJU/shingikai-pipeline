@@ -1,0 +1,30 @@
+{
+  "id": "2024-12-23-102",
+  "council_id": "shingi-hosho-126720",
+  "round_label": 102,
+  "held_on": "2024-12-23",
+  "agenda": [
+    "令和5年度財政状況について－厚生年金保険（第1号）－",
+    "令和5年度財政状況について－国民年金・基礎年金制度－",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_45840.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50434.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000198131_00051.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_45840.html"
+    }
+  ]
+}

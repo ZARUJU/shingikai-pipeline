@@ -1,0 +1,28 @@
+{
+  "id": "2019-08-23-007",
+  "council_id": "shingi-hosho-163664-00006",
+  "round_label": 7,
+  "held_on": "2019-08-23",
+  "agenda": [
+    "マッチング拠出、iDeCo等について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_06241.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_06823.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_06331.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_06241.html"
+    }
+  ]
+}

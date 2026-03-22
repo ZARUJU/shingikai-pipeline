@@ -1,0 +1,30 @@
+{
+  "id": "2025-08-28-196",
+  "council_id": "newpage-28708",
+  "round_label": 196,
+  "held_on": "2025-08-28",
+  "agenda": [
+    "診療報酬改定の基本方針について（前回改定の振り返り）",
+    "マイナ保険証の利用促進等について",
+    "電子処方箋・電子カルテの目標設定等について（報告事項）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_62328.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_63366.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_62501.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_62328.html"
+    }
+  ]
+}

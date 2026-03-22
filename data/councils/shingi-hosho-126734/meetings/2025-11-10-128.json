@@ -1,0 +1,31 @@
+{
+  "id": "2025-11-10-128",
+  "council_id": "shingi-hosho-126734",
+  "round_label": 128,
+  "held_on": "2025-11-10",
+  "agenda": [
+    "人口減少・サービス需要の変化に応じたサービス提供体制の構築等",
+    "地域包括ケアシステムの深化（介護予防・日常生活支援総合事業等）",
+    "地域包括ケアシステムの深化（高齢者向け住まい）",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_65238.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_66968.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65728.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65238.html"
+    }
+  ]
+}

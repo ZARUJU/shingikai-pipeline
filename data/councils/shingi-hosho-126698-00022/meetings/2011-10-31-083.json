@@ -1,0 +1,32 @@
+{
+  "id": "2011-10-31-083",
+  "council_id": "shingi-hosho-126698-00022",
+  "round_label": 83,
+  "held_on": "2011-10-31",
+  "agenda": [
+    "通所介護の基準・報酬について",
+    "リハビリテーションについて",
+    "予防給付について",
+    "居宅介護支援・介護予防支援の基準・報酬について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001rk3f.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001xs6v.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001tonu.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001rk3f.html"
+    }
+  ]
+}

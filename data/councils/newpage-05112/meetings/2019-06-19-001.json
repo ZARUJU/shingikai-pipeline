@@ -1,0 +1,32 @@
+{
+  "id": "2019-06-19-001",
+  "council_id": "newpage-05112",
+  "round_label": 1,
+  "held_on": "2019-06-19",
+  "agenda": [
+    "座長の選出",
+    "本ワーキンググループにおける検討事項について",
+    "ＩＣＤ−11第Ｖ章の仮訳（案）について",
+    "国際生活機能分類（ICF）の一部改正（2019）の投票（案）について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_05111.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_05783.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_05248.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_05111.html"
+    }
+  ]
+}

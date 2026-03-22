@@ -1,0 +1,30 @@
+{
+  "id": "2023-12-22-110",
+  "council_id": "shingi-hosho-126734",
+  "round_label": 110,
+  "held_on": "2023-12-22",
+  "agenda": [
+    "給付と負担について（報告）",
+    "介護保険法施行規則の改正等（報告）",
+    "「住宅確保要配慮者に対する居住支援機能のあり方に関する検討会」中間とりまとめ（案）（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_36962.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_37703.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_36963.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_36962.html"
+    }
+  ]
+}

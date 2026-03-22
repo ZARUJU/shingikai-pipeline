@@ -1,0 +1,30 @@
+{
+  "id": "2014-06-06-013",
+  "council_id": "shingi-hosho-126716",
+  "round_label": 13,
+  "held_on": "2014-06-06",
+  "agenda": [
+    "児童福祉法の一部を改正する法律の成立について",
+    "改正後の児童福祉法において、社会保障審議会の意見を聴くこととされている事項について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000047846.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000053341.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000047844.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000047846.html"
+    }
+  ]
+}

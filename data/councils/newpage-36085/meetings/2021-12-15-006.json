@@ -1,0 +1,22 @@
+{
+  "id": "2021-12-15-006",
+  "council_id": "newpage-36085",
+  "round_label": 6,
+  "held_on": "2021-12-15",
+  "agenda": [
+    "匿名診療等関連情報（DPCデータ）の個票情報の提供、NDB・介護DBとの連結について",
+    "医療・介護データ等の解析基盤（HIC）開発の進捗",
+    "介護DBオープンデータについて（案）",
+    "匿名医療情報等の提供に関する専門委員会における審議結果（報告）",
+    "匿名介護情報等の提供に関する専門委員会における審議結果（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000198094_00046.html",
+  "minutes_links": [],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000198094_00046.html"
+    }
+  ],
+  "announcement_links": []
+}

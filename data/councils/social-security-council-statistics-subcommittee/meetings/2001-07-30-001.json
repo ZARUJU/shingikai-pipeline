@@ -1,0 +1,25 @@
+{
+  "id": "2001-07-30-001",
+  "council_id": "social-security-council-statistics-subcommittee",
+  "round_label": 1,
+  "held_on": "2001-07-30",
+  "agenda": [
+    "統計分科会の運営について",
+    "「疾病、傷害及び死因分類」について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000093807.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000093823.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000093807.html"
+    }
+  ],
+  "announcement_links": []
+}

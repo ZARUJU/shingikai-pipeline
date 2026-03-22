@@ -1,0 +1,31 @@
+{
+  "id": "2022-06-30-045",
+  "council_id": "shingi-hosho-126702",
+  "round_label": 45,
+  "held_on": "2022-06-30",
+  "agenda": [
+    "過去の生活保護基準見直しによる影響分析について",
+    "全国家計構造調査のデータの取扱い等について",
+    "生活扶助基準の体系の検証について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_26218.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_27345.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_26475.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_26218.html"
+    }
+  ]
+}

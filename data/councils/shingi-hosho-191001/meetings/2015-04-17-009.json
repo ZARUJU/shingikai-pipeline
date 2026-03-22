@@ -1,0 +1,34 @@
+{
+  "id": "2015-04-17-009",
+  "council_id": "shingi-hosho-191001",
+  "round_label": 9,
+  "held_on": "2015-04-17",
+  "agenda": [
+    "日本年金機構の平成26年度の業務実績に関する評価基準（案）について",
+    "日本年金機構の平成27年度における業務運営に関する計画について（報告）",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000081787.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000084890.html"
+    },
+    {
+      "title": "議事概要",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000084893.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000083019.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000081787.html"
+    }
+  ]
+}

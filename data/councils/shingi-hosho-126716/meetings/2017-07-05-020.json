@@ -1,0 +1,30 @@
+{
+  "id": "2017-07-05-020",
+  "council_id": "shingi-hosho-126716",
+  "round_label": 20,
+  "held_on": "2017-07-05",
+  "agenda": [
+    "小児慢性特定疾病対策の現状（基本方針の取組状況）について",
+    "小児慢性特定疾病（平成30年度実施分）の募集について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000168579.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000175539.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000170307.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000168579.html"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2013-06-27-003",
+  "council_id": "shingi-hosho-126725",
+  "round_label": 3,
+  "held_on": "2013-06-27",
+  "agenda": [
+    "開会",
+    "議事",
+    "各論点について議論",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r98520000034zyn.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000036mvq.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000036752.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000034zyn.html"
+    }
+  ]
+}

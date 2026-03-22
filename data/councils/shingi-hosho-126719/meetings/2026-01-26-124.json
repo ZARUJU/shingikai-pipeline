@@ -1,0 +1,30 @@
+{
+  "id": "2026-01-26-124",
+  "council_id": "shingi-hosho-126719",
+  "round_label": 124,
+  "held_on": "2026-01-26",
+  "agenda": [
+    "〇オンライン診療について",
+    "〇一般社団法人が開設する医療機関の非営利性の徹底について",
+    "〇精神医療に関する地域医療構想の今後の検討体制について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_68878.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212218_00087.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_69350.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_68878.html"
+    }
+  ]
+}

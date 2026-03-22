@@ -1,0 +1,33 @@
+{
+  "id": "2015-03-03-017",
+  "council_id": "shingi-hosho-126694",
+  "round_label": 17,
+  "held_on": "2015-03-03",
+  "agenda": [
+    "委員長の選出について",
+    "世界保健機関勧告によるICD-10の一部改正の日本への適用について",
+    "ICD-11改訂に関する動向について",
+    "WHO-FICネットワーク年次会議（バルセロナ）の報告について",
+    "WHO-FIC分類改正改訂委員会（URC）へのICD-10一部改正提案について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000074484.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000078935.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000076209.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000074484.html"
+    }
+  ]
+}

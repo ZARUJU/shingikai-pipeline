@@ -1,0 +1,29 @@
+{
+  "id": "2019-02-21-009",
+  "council_id": "shingi-hosho-469789",
+  "round_label": 9,
+  "held_on": "2019-02-21",
+  "agenda": [
+    "経済前提の設定に用いる経済モデル等について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_03633.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_05672.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_03685.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_03633.html"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "2010-02-23-020",
+  "council_id": "social-security-council",
+  "round_label": 20,
+  "held_on": "2010-02-23",
+  "agenda": [
+    "平成22年度厚生労働省関係予算案の概要",
+    "通常国会提出（予定）法案の概要",
+    "社会保障を巡る最近の動向",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2010/02/s0223-2.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：55KB］",
+      "url": "https://www.mhlw.go.jp/content/shingi___2010___02___txt___s0223-6.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2010/02/s0223-4.html"
+    },
+    {
+      "title": "委員名簿",
+      "url": "https://www.mhlw.go.jp/shingi/2010/02/s0223-5.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2010/02/s0223-2.html"
+    }
+  ]
+}

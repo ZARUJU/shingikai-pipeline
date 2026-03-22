@@ -1,0 +1,31 @@
+{
+  "id": "2022-01-27-150",
+  "council_id": "newpage-28708",
+  "round_label": 150,
+  "held_on": "2022-01-27",
+  "agenda": [
+    "オンライン資格確認等システムについて",
+    "電子処方箋について",
+    "令和4年度予算案（保険局関係）の主な事項について",
+    "新経済・財政再生計画 改革工程表2021について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_23523.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_24144.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_23573.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_23523.html"
+    }
+  ]
+}

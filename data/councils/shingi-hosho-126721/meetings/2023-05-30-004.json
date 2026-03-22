@@ -1,0 +1,30 @@
+{
+  "id": "2023-05-30-004",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 4,
+  "held_on": "2023-05-30",
+  "agenda": [
+    "年金部会における議論の進め方（案）",
+    "次期制度改正に向けた主な検討事項（案）",
+    "被用者保険の適用拡大"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/nenkin_230530pr.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_0530.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/nenkin_230530.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_230530pr.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2017-01-25-103",
+  "council_id": "newpage-28708",
+  "round_label": 103,
+  "held_on": "2017-01-25",
+  "agenda": [
+    "平成29年度予算案（保険局関係）の主な事項等について",
+    "医療保険部会の主要な事項に関する議論の進め方について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000149025.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000152306.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000149599.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000149025.html"
+    }
+  ]
+}

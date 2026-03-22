@@ -1,0 +1,29 @@
+{
+  "id": "2025-02-28-012",
+  "council_id": "shingi-hosho-164149",
+  "round_label": 12,
+  "held_on": "2025-02-28",
+  "agenda": [
+    "ICD-11 準拠の統計分類案（基本・疾病・死因分類表案）について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_50796.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50798.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50791.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50796.html"
+    }
+  ]
+}

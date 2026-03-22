@@ -1,0 +1,33 @@
+{
+  "id": "2019-09-26-022",
+  "council_id": "shingi-hosho-126694",
+  "round_label": 22,
+  "held_on": "2019-09-26",
+  "agenda": [
+    "委員長の選出について",
+    "ICD-11の世界保健総会における採択について",
+    "ICD-11の日本語訳について",
+    "死因選択検討ワーキンググループの報告について",
+    "ICD-10（2013年版）提要の修正について",
+    "その他"
+  ],
+  "source_url": "https://warp.ndl.go.jp/stf/newpage_06544.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/newpage_07697.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://warp.ndl.go.jp/stf/newpage_06891.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://warp.ndl.go.jp/stf/newpage_06544.html"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2018-08-08-007",
+  "council_id": "shingi-hosho-164149",
+  "round_label": 7,
+  "held_on": "2018-08-08",
+  "agenda": [
+    "部会長の選出",
+    "第6回疾病、傷害及び死因分類部会以降のICD-10の動向について",
+    "国際疾病分類第11回改訂版（ICD-11）の公表について",
+    "ICD-11の日本への適用について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000055639_00002.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000061500_00001.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000041208_00001.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000055639_00002.html"
+    }
+  ]
+}

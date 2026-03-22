@@ -1,0 +1,30 @@
+{
+  "id": "2025-09-19-118",
+  "council_id": "shingi-hosho-126719",
+  "round_label": 118,
+  "held_on": "2025-09-19",
+  "agenda": [
+    "○医療機関等をとりまく状況（経営状況・人材確保等）",
+    "○基幹インフラ制度への医療分野の追加について",
+    "○特定機能病院のあり方に関するとりまとめ"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_63473.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212218_00079.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_63723.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_63473.html"
+    }
+  ]
+}

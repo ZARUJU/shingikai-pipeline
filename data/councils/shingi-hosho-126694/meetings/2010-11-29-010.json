@@ -1,0 +1,30 @@
+{
+  "id": "2010-11-29-010",
+  "council_id": "shingi-hosho-126694",
+  "round_label": 10,
+  "held_on": "2010-11-29",
+  "agenda": [
+    "ICD改訂に関する動向について",
+    "WHO-FIC年次会議（トロント）の報告について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000000w2iu.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi/2r985200000148f0.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001279j.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000000w2iu.html"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2012-01-30-023",
+  "council_id": "social-security-council",
+  "round_label": 23,
+  "held_on": "2012-01-30",
+  "agenda": [
+    "社会保障・税一体改革について",
+    "最近の分科会・部会の動向等について",
+    "通常国会提出（予定）法案について",
+    "平成24年度厚生労働省関係予算案等について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r98520000020lq1.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000026pm6.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000022c32.html"
+    },
+    {
+      "title": "委員名簿",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000022cf8.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000020lq1.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2015-10-20-005",
+  "council_id": "shingi-hosho-281775",
+  "round_label": 5,
+  "held_on": "2015-10-20",
+  "agenda": [
+    "承認基準（省令案）について",
+    "事務の取扱いについて",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000100984.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000104574.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000101757.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000100984.html"
+    }
+  ]
+}

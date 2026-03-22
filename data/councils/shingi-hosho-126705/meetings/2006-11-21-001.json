@@ -1,0 +1,30 @@
+{
+  "id": "2006-11-21-001",
+  "council_id": "shingi-hosho-126705",
+  "round_label": 1,
+  "held_on": "2006-11-21",
+  "agenda": [
+    "部会長、部会長代理の選出について",
+    "少子化が社会経済に与える影響について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2006/11/s1121-4.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：115KB］",
+      "url": "https://www.mhlw.go.jp/content/shingi___2006___11___txt___s1121-1.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2006/11/s1121-6.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2006/11/s1121-4.html"
+    }
+  ]
+}

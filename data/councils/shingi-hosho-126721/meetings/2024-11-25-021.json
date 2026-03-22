@@ -1,0 +1,30 @@
+{
+  "id": "2024-11-25-021",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 21,
+  "held_on": "2024-11-25",
+  "agenda": [
+    "基礎年金のマクロ経済スライドによる給付調整の早期終了（マクロ経済スライドの調整期間の一致）について",
+    "在職老齢年金制度について",
+    "標準報酬月額の上限について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/nenkin_241125.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_20241202.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/nenkin_20241125.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_241125.html"
+    }
+  ]
+}

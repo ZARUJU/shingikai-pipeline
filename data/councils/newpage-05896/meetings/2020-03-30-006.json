@@ -1,0 +1,30 @@
+{
+  "id": "2020-03-30-006",
+  "council_id": "newpage-05896",
+  "round_label": 6,
+  "held_on": "2020-03-30",
+  "agenda": [
+    "令和２年３月３０日（月）",
+    "１６：００～１８：００",
+    "於：ベルサール九段 ホール"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_10325.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_14696.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_10545.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_10325.html"
+    }
+  ]
+}

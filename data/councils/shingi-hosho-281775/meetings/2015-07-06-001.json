@@ -1,0 +1,30 @@
+{
+  "id": "2015-07-06-001",
+  "council_id": "shingi-hosho-281775",
+  "round_label": 1,
+  "held_on": "2015-07-06",
+  "agenda": [
+    "委員会の設置について",
+    "特定事由について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000090202.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000092073.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000090749.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000090202.html"
+    }
+  ]
+}

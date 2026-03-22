@@ -1,0 +1,30 @@
+{
+  "id": "2014-12-26-021",
+  "council_id": "shingi-hosho-126702",
+  "round_label": 21,
+  "held_on": "2014-12-26",
+  "agenda": [
+    "住宅扶助について",
+    "冬季加算について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000069136.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000074312.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000070195.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000069136.html"
+    }
+  ]
+}

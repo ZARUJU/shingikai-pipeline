@@ -1,0 +1,29 @@
+{
+  "id": "2019-10-31-120",
+  "council_id": "newpage-28708",
+  "round_label": 120,
+  "held_on": "2019-10-31",
+  "agenda": [
+    "診療報酬改定の基本方針について",
+    "国民健康保険の保険料（税）の賦課（課税）限度額について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_07428.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_07991.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_07615.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_07428.html"
+    }
+  ]
+}

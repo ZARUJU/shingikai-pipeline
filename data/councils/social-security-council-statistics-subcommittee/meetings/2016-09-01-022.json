@@ -1,0 +1,31 @@
+{
+  "id": "2016-09-01-022",
+  "council_id": "social-security-council-statistics-subcommittee",
+  "round_label": 22,
+  "held_on": "2016-09-01",
+  "agenda": [
+    "平成29年医療施設調査の調査計画案について",
+    "平成29年患者調査の調査計画案について",
+    "疾病、傷害及び死因分類部会について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000134511.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000138151.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000135042.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000134511.html"
+    }
+  ]
+}

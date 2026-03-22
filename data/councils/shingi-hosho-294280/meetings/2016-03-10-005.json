@@ -1,0 +1,29 @@
+{
+  "id": "2016-03-10-005",
+  "council_id": "shingi-hosho-294280",
+  "round_label": 5,
+  "held_on": "2016-03-10",
+  "agenda": [
+    "報告書案について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000107219.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000108668.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000115772.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000107219.html"
+    }
+  ]
+}

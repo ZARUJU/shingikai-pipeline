@@ -1,0 +1,30 @@
+{
+  "id": "2012-03-30-005",
+  "council_id": "shingi-hosho-126723",
+  "round_label": 5,
+  "held_on": "2012-03-30",
+  "agenda": [
+    "最近の経済の動向について",
+    "積立金運用について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r98520000026a2a.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002fxbf.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000026yif.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000026a2a.html"
+    }
+  ]
+}

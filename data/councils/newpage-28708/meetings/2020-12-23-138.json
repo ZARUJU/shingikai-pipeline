@@ -1,0 +1,34 @@
+{
+  "id": "2020-12-23-138",
+  "council_id": "newpage-28708",
+  "round_label": 138,
+  "held_on": "2020-12-23",
+  "agenda": [
+    "医療保険制度改革について",
+    "医療保険制度における新型コロナウイルス感染症の影響について",
+    "データヘルス改革の進捗状況等について",
+    "令和2年度第三次補正予算案（保険局関係）の主な事項について（報告）",
+    "令和3年度予算案（保険局関係）の主な事項について（報告）",
+    "新経済・財政再生計画 改革工程表2020について（報告）",
+    "医療保険制度における押印の見直しについて（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_15620.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_16958.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_15679.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_15620.html"
+    }
+  ]
+}

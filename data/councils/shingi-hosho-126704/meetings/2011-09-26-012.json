@@ -1,0 +1,30 @@
+{
+  "id": "2011-09-26-012",
+  "council_id": "shingi-hosho-126704",
+  "round_label": 12,
+  "held_on": "2011-09-26",
+  "agenda": [
+    "○議事",
+    "報告聴取日本人の平均余命（平成22年簡易生命表）",
+    "将来推計人口の方法と検証"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001ocft.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001thbn.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001rt29.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001ocft.html"
+    }
+  ]
+}

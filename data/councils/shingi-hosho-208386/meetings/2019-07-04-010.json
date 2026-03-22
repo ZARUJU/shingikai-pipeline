@@ -1,0 +1,28 @@
+{
+  "id": "2019-07-04-010",
+  "council_id": "shingi-hosho-208386",
+  "round_label": 10,
+  "held_on": "2019-07-04",
+  "agenda": [
+    "議論の取りまとめ"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000061798_00006.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000066851_00008.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000062918_00008.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000061798_00006.html"
+    }
+  ]
+}

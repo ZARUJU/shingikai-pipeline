@@ -1,0 +1,23 @@
+{
+  "id": "2008-07-31-no-round",
+  "council_id": "shingi-hosho-126720",
+  "round_label": null,
+  "held_on": "2008-07-31",
+  "agenda": [
+    "年金数理部会セミナー2008"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2008/07/s0731-1.html",
+  "minutes_links": [],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2008/07/s0731-13.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2008/07/s0731-1.html"
+    }
+  ]
+}

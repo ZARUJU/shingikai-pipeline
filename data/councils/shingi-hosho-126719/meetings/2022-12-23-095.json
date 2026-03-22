@@ -1,0 +1,30 @@
+{
+  "id": "2022-12-23-095",
+  "council_id": "shingi-hosho-126719",
+  "round_label": 95,
+  "held_on": "2022-12-23",
+  "agenda": [
+    "○医療提供体制の在り方について",
+    "○オンライン診療の適切な実施に関する指針の改訂等について",
+    "○感染症法等の一部を改正する法律の成立について（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_29871.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212218_00048.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000210433_00035.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_29871.html"
+    }
+  ]
+}

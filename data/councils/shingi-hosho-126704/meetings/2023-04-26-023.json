@@ -1,0 +1,28 @@
+{
+  "id": "2023-04-26-023",
+  "council_id": "shingi-hosho-126704",
+  "round_label": 23,
+  "held_on": "2023-04-26",
+  "agenda": [
+    "日本の将来推計人口（令和５年推計）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_32749.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_33416.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_32750.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_32749.html"
+    }
+  ]
+}

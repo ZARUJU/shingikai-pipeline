@@ -1,0 +1,30 @@
+{
+  "id": "2019-09-12-002",
+  "council_id": "newpage-05112",
+  "round_label": 2,
+  "held_on": "2019-09-12",
+  "agenda": [
+    "課題別検討班からの進捗報告",
+    "第8回厚生労働省ICFシンポジウムについて",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_06411.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_07694.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_06689.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_06411.html"
+    }
+  ]
+}

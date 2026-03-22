@@ -1,0 +1,33 @@
+{
+  "id": "2013-11-28-025",
+  "council_id": "shingi-hosho-126726",
+  "round_label": 25,
+  "held_on": "2013-11-28",
+  "agenda": [
+    "開会",
+    "議事",
+    "次期中期目標の骨子（案）について",
+    "平成25年度における日本年金機構の取組状況について",
+    "その他",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000029923.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000032503.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000030967.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000029923.html"
+    }
+  ]
+}

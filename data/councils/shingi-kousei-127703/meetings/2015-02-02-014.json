@@ -1,0 +1,32 @@
+{
+  "id": "2015-02-02-014",
+  "council_id": "shingi-kousei-127703",
+  "round_label": 14,
+  "held_on": "2015-02-02",
+  "agenda": [
+    "会長選出及び会長代理の指名について",
+    "分科会及び部会の活動状況について",
+    "その他",
+    "遺伝子検査ビジネスについて",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000071776.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000075912.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000073448.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000071776.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2015-10-07-066",
+  "council_id": "shingi-hosho-126720",
+  "round_label": 66,
+  "held_on": "2015-10-07",
+  "agenda": [
+    "平成26年財政再計算のヒアリング－国家公務員共済組合－",
+    "平成26年財政再計算のヒアリング－地方公務員共済組合－",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000098855.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000112056.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000101275.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000098855.html"
+    }
+  ]
+}

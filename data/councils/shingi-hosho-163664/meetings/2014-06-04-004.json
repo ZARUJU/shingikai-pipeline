@@ -1,0 +1,30 @@
+{
+  "id": "2014-06-04-004",
+  "council_id": "shingi-hosho-163664",
+  "round_label": 4,
+  "held_on": "2014-06-04",
+  "agenda": [
+    "企業年金制度の現状等について",
+    "次回以降の進め方について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000047238.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000054464.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000047512.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000047238.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2021-12-08-006",
+  "council_id": "newpage-13873",
+  "round_label": 6,
+  "held_on": "2021-12-08",
+  "agenda": [
+    "介護ＤＢオープンデータについて（案）",
+    "医療・介護データ等の解析基盤（ＨＩＣ）開発の進捗",
+    "匿名診療等関連情報（ＤＰＣデータ）の個票情報の提供、ＮＤＢ・介護ＤＢとの連結について",
+    "提供依頼申出の個別審査"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000198094_00045.html",
+  "minutes_links": [
+    {
+      "title": "議事要旨［PDF形式：275KB］",
+      "url": "https://www.mhlw.go.jp/content/12300000/000920137.pdf"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000198094_00045.html"
+    }
+  ],
+  "announcement_links": []
+}

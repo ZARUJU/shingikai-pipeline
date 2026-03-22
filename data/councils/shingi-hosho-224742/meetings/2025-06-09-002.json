@@ -1,0 +1,29 @@
+{
+  "id": "2025-06-09-002",
+  "council_id": "shingi-hosho-224742",
+  "round_label": 2,
+  "held_on": "2025-06-09",
+  "agenda": [
+    "介護人材確保に関するヒアリング",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/newpage_00046.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_60954.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_58608.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/newpage_00046.html"
+    }
+  ]
+}

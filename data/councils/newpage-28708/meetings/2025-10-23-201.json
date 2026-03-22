@@ -1,0 +1,30 @@
+{
+  "id": "2025-10-23-201",
+  "council_id": "newpage-28708",
+  "round_label": 201,
+  "held_on": "2025-10-23",
+  "agenda": [
+    "医療保険制度における出産に対する支援の強化について",
+    "医療保険制度改革について",
+    "令和８年度診療報酬改定の基本方針について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_64891.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65871.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65085.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_64891.html"
+    }
+  ]
+}

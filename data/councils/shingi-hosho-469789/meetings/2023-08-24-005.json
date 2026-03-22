@@ -1,0 +1,30 @@
+{
+  "id": "2023-08-24-005",
+  "council_id": "shingi-hosho-469789",
+  "round_label": 5,
+  "held_on": "2023-08-24",
+  "agenda": [
+    "有識者及び内閣府へのヒアリング",
+    "これまでの主な意見について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_34670.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_35492.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_34792.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_34670.html"
+    }
+  ]
+}

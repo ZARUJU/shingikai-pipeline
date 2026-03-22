@@ -1,0 +1,29 @@
+{
+  "id": "2022-09-29-154",
+  "council_id": "newpage-28708",
+  "round_label": 154,
+  "held_on": "2022-09-29",
+  "agenda": [
+    "医療保険制度改革について",
+    "令和3年度医療費の動向"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_28042.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_28610.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_28170.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_28042.html"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2013-01-31-025",
+  "council_id": "social-security-council",
+  "round_label": 25,
+  "held_on": "2013-01-31",
+  "agenda": [
+    "会長の選出について",
+    "社会保障・税一体改革、社会保障制度改革国民会議について",
+    "平成25年度厚生労働省関係予算案等について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002tdda.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002w8nd.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002udvb.html"
+    },
+    {
+      "title": "委員名簿",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002uf1b.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002tdda.html"
+    }
+  ]
+}

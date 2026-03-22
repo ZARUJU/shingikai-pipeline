@@ -1,0 +1,31 @@
+{
+  "id": "2011-08-10-078",
+  "council_id": "shingi-hosho-126698-00022",
+  "round_label": 78,
+  "held_on": "2011-08-10",
+  "agenda": [
+    "地域区分について",
+    "これまでの議論の整理について",
+    "社会保障・税一体改革について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001kpo8.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001ouhi.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001ls4x.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001kpo8.html"
+    }
+  ]
+}

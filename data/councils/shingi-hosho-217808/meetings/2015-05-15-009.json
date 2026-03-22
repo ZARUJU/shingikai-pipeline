@@ -1,0 +1,30 @@
+{
+  "id": "2015-05-15-009",
+  "council_id": "shingi-hosho-217808",
+  "round_label": 9,
+  "held_on": "2015-05-15",
+  "agenda": [
+    "これまでの議論を踏まえた検討",
+    "意見交換",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000084727.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000096268.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000085276.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000084727.html"
+    }
+  ]
+}

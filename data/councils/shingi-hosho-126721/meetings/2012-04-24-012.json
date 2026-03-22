@@ -1,0 +1,29 @@
+{
+  "id": "2012-04-24-012",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 12,
+  "held_on": "2012-04-24",
+  "agenda": [
+    "第180回通常国会に提出した法律案について",
+    "年金制度における世代間の給付と負担の関係について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r98520000028kjp.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002bayq.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r985200000294x3.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000028kjp.html"
+    }
+  ]
+}

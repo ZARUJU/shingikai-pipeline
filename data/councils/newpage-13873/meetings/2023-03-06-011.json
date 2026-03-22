@@ -1,0 +1,31 @@
+{
+  "id": "2023-03-06-011",
+  "council_id": "newpage-13873",
+  "round_label": 11,
+  "held_on": "2023-03-06",
+  "agenda": [
+    "「新たな提供形式」のデータ提供にむけて（案）",
+    "第2回介護DBオープンデータについて（案）",
+    "提供依頼申出の個別審査",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_31421.html",
+  "minutes_links": [
+    {
+      "title": "議事録［PDF形式：186KB］",
+      "url": "https://www.mhlw.go.jp/content/12300000/001106146.pdf"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000198094_00061.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_31421.html"
+    }
+  ]
+}
