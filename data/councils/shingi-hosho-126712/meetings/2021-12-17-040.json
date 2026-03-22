@@ -1,0 +1,29 @@
+{
+  "id": "2021-12-17-040",
+  "council_id": "shingi-hosho-126712",
+  "round_label": 40,
+  "held_on": "2021-12-17",
+  "agenda": [
+    "報告書（案）について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_22716.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000199546_00019.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_22866.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_22716.html"
+    }
+  ]
+}

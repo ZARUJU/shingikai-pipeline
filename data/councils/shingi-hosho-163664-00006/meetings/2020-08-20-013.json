@@ -1,0 +1,28 @@
+{
+  "id": "2020-08-20-013",
+  "council_id": "shingi-hosho-163664-00006",
+  "round_label": 13,
+  "held_on": "2020-08-20",
+  "agenda": [
+    "関係団体からのヒアリング"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_12950.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_13713.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_13048.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_12950.html"
+    }
+  ]
+}

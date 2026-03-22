@@ -1,0 +1,31 @@
+{
+  "id": "2022-05-25-151",
+  "council_id": "newpage-28708",
+  "round_label": 151,
+  "held_on": "2022-05-25",
+  "agenda": [
+    "オンライン資格確認等システムについて",
+    "全国で医療情報を確認できる仕組みの拡大の進捗について",
+    "医療情報ネットワークの基盤に関するワーキンググループにおける議論について",
+    "医療費の動向（令和3年度4月～1月）について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_25754.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_26304.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_25810.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_25754.html"
+    }
+  ]
+}

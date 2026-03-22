@@ -1,0 +1,30 @@
+{
+  "id": "2007-12-26-009",
+  "council_id": "shingi-kousei-127703",
+  "round_label": 9,
+  "held_on": "2007-12-26",
+  "agenda": [
+    "化学物質制度改正検討部会の設置について",
+    "厚生科学審議会に設置された分科会及び部会の活動状況について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2007/12/s1226-7.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：62KB］",
+      "url": "https://www.mhlw.go.jp/content/shingi___2007___12___txt___s1226-6.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2007/12/s1226-9.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2007/12/s1226-7.html"
+    }
+  ]
+}

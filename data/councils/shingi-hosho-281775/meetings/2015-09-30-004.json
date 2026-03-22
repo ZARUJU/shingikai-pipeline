@@ -1,0 +1,30 @@
+{
+  "id": "2015-09-30-004",
+  "council_id": "shingi-hosho-281775",
+  "round_label": 4,
+  "held_on": "2015-09-30",
+  "agenda": [
+    "特定事由の証明について",
+    "申出に係る事務処理の流れについて",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000097932.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000103083.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000099172.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000097932.html"
+    }
+  ]
+}

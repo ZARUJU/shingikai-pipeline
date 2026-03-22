@@ -1,0 +1,30 @@
+{
+  "id": "2024-03-21-016",
+  "council_id": "newpage-36085",
+  "round_label": 16,
+  "held_on": "2024-03-21",
+  "agenda": [
+    "医療・介護サンプルデータについて",
+    "個別審査（医療・介護連結申出）（非公開）",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_38308.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/index_00069.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000198094_00079.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_38308.html"
+    }
+  ]
+}

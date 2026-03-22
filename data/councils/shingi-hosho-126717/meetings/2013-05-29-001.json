@@ -1,0 +1,31 @@
+{
+  "id": "2013-05-29-001",
+  "council_id": "shingi-hosho-126717",
+  "round_label": 1,
+  "held_on": "2013-05-29",
+  "agenda": [
+    "委員長の選任について",
+    "今後の進め方等について",
+    "ひとり親家庭への支援施策の在り方について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000013812.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000014345.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r985200000336oi.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000013812.html"
+    }
+  ]
+}

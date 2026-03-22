@@ -1,0 +1,30 @@
+{
+  "id": "2015-05-18-014",
+  "council_id": "shingi-hosho-126695",
+  "round_label": 14,
+  "held_on": "2015-05-18",
+  "agenda": [
+    "委員長の選出について",
+    "ICFの普及等について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000084025.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000089036.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000085946.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000084025.html"
+    }
+  ]
+}

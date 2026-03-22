@@ -1,0 +1,31 @@
+{
+  "id": "2007-03-14-018",
+  "council_id": "social-security-council",
+  "round_label": 18,
+  "held_on": "2007-03-14",
+  "agenda": [
+    "会長及び会長代理の選出について",
+    "分科会、部会の活動状況について",
+    "社会保障制度の最近の動向について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2007/03/s0314-4.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：110KB］",
+      "url": "https://www.mhlw.go.jp/content/shingi___2007___03___txt___s0314-2.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2007/03/s0314-18.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2007/03/s0314-4.html"
+    }
+  ]
+}

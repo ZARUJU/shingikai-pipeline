@@ -1,0 +1,30 @@
+{
+  "id": "2017-07-31-001",
+  "council_id": "shingi-hosho-469789",
+  "round_label": 1,
+  "held_on": "2017-07-31",
+  "agenda": [
+    "委員長の選出及び委員会の公開について",
+    "平成26年財政検証における経済前提の設定等について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000172371.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000177957.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000173089.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000172371.html"
+    }
+  ]
+}

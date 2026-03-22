@@ -1,0 +1,30 @@
+{
+  "id": "2020-11-13-007",
+  "council_id": "newpage-05896",
+  "round_label": 7,
+  "held_on": "2020-11-13",
+  "agenda": [
+    "令和２年１１月１３日（金）",
+    "１３：００～１５：００",
+    "Web会議"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_14665.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_16540.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_14822.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_14665.html"
+    }
+  ]
+}

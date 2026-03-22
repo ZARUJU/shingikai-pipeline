@@ -1,0 +1,29 @@
+{
+  "id": "2022-11-22-050",
+  "council_id": "shingi-hosho-126702",
+  "round_label": 50,
+  "held_on": "2022-11-22",
+  "agenda": [
+    "報告書（案）について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_29177.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_29989.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_29291.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_29177.html"
+    }
+  ]
+}

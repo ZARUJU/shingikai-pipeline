@@ -1,0 +1,31 @@
+{
+  "id": "2010-03-03-004",
+  "council_id": "shingi-hosho-126698-00022",
+  "round_label": 4,
+  "held_on": "2010-03-03",
+  "agenda": [
+    "調査実施委員会",
+    "平成21年度介護従事者処遇状況等調査の結果について",
+    "平成22年度実施予定の調査における調査票等について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2010/03/s0303-4.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：110KB］",
+      "url": "https://www.mhlw.go.jp/shingi/2010/03/txt/s0303-14.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2010/03/s0303-9.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2010/03/s0303-4.html"
+    }
+  ]
+}

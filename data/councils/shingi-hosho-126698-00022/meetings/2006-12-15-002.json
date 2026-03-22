@@ -1,0 +1,30 @@
+{
+  "id": "2006-12-15-002",
+  "council_id": "shingi-hosho-126698-00022",
+  "round_label": 2,
+  "held_on": "2006-12-15",
+  "agenda": [
+    "高齢者の住まいの状況について",
+    "諸外国の施設・住まいの状況について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2006/12/s1215-1.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：143KB］",
+      "url": "https://www.mhlw.go.jp/shingi/2006/12/txt/s1215-4.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2006/12/s1215-13.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2006/12/s1215-1.html"
+    }
+  ]
+}

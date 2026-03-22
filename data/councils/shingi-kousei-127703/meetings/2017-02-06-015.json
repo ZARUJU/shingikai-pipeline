@@ -1,0 +1,30 @@
+{
+  "id": "2017-02-06-015",
+  "council_id": "shingi-kousei-127703",
+  "round_label": 15,
+  "held_on": "2017-02-06",
+  "agenda": [
+    "（予定）",
+    "分科会及び部会の活動状況について",
+    "医薬品医療機器制度部会の設置について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000149937.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000154859.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000150745.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000149937.html"
+    }
+  ]
+}

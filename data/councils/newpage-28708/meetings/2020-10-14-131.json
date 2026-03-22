@@ -1,0 +1,31 @@
+{
+  "id": "2020-10-14-131",
+  "council_id": "newpage-28708",
+  "round_label": 131,
+  "held_on": "2020-10-14",
+  "agenda": [
+    "医療保険制度における新型コロナウイルス感染症の影響と対応について",
+    "医療保険制度改革について",
+    "マイナンバーカードの健康保険証利用等について",
+    "令和3年度予算概算要求（保険局関係）（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_14029.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_14850.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_14106.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_14029.html"
+    }
+  ]
+}

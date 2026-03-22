@@ -1,0 +1,31 @@
+{
+  "id": "2012-11-16-013",
+  "council_id": "shingi-hosho-126694",
+  "round_label": 13,
+  "held_on": "2012-11-16",
+  "agenda": [
+    "委員長の選出について",
+    "ICD-11改訂に関する動向について",
+    "ICD-10（2010年版）の国内適用について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002nm9c.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi/2r9852000002r6l8.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002omby.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002nm9c.html"
+    }
+  ]
+}

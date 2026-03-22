@@ -1,0 +1,29 @@
+{
+  "id": "2013-11-27-017",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 17,
+  "held_on": "2013-11-27",
+  "agenda": [
+    "年金と経済について",
+    "先進諸国の年金改革の動向について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000029915.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000040083.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000030641.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000029915.html"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2015-02-16-002",
+  "council_id": "shingi-hosho-238274",
+  "round_label": 2,
+  "held_on": "2015-02-16",
+  "agenda": [
+    "開会",
+    "議事",
+    "年金記録の訂正請求に係る請求書（案）等について",
+    "「国民年金原簿及び厚生年金保険原簿の訂正に関する方針（案）」等について",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000073713.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000078577.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000074263.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000073713.html"
+    }
+  ]
+}

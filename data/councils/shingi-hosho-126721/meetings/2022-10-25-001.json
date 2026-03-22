@@ -1,0 +1,30 @@
+{
+  "id": "2022-10-25-001",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 1,
+  "held_on": "2022-10-25",
+  "agenda": [
+    "社会保障審議会年金部会部会長・部会長代理の選出について",
+    "「年金財政における経済前提に関する専門委員会」（案）の設置について",
+    "年金制度の意義・役割とこれまでの経緯等について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/nenkin_221025pr.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_29160.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/nenkin_221025doc.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_221025pr.html"
+    }
+  ]
+}

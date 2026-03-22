@@ -1,0 +1,31 @@
+{
+  "id": "2013-06-24-021",
+  "council_id": "shingi-hosho-126726",
+  "round_label": 21,
+  "held_on": "2013-06-24",
+  "agenda": [
+    "開会",
+    "議事",
+    "平成24事業年度の業務実績報告書（案）について",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r98520000034qbi.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000036lpk.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000035dxd.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000034qbi.html"
+    }
+  ]
+}

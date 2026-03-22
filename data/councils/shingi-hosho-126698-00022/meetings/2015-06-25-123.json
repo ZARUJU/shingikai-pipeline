@@ -1,0 +1,32 @@
+{
+  "id": "2015-06-25-123",
+  "council_id": "shingi-hosho-126698-00022",
+  "round_label": 123,
+  "held_on": "2015-06-25",
+  "agenda": [
+    "平成27年度介護従事者処遇状況等調査について",
+    "介護事業経営実態調査について",
+    "地域区分について",
+    "介護サービスの質の評価について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000088805.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000096466.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000089683.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000088805.html"
+    }
+  ]
+}

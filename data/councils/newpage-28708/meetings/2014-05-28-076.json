@@ -1,0 +1,30 @@
+{
+  "id": "2014-05-28-076",
+  "council_id": "newpage-28708",
+  "round_label": 76,
+  "held_on": "2014-05-28",
+  "agenda": [
+    "市町村国保について",
+    "被用者保険について",
+    "高齢者医療制度について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000046205.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000048232.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000047034.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000046205.html"
+    }
+  ]
+}

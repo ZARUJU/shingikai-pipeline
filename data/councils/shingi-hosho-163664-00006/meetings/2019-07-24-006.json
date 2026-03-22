@@ -1,0 +1,29 @@
+{
+  "id": "2019-07-24-006",
+  "council_id": "shingi-hosho-163664-00006",
+  "round_label": 6,
+  "held_on": "2019-07-24",
+  "agenda": [
+    "企業年金のガバナンス等について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_05780.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_06297.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_05868.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_05780.html"
+    }
+  ]
+}

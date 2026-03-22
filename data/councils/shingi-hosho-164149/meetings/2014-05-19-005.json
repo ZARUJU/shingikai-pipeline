@@ -1,0 +1,31 @@
+{
+  "id": "2014-05-19-005",
+  "council_id": "shingi-hosho-164149",
+  "round_label": 5,
+  "held_on": "2014-05-19",
+  "agenda": [
+    "世界保健機関勧告によるICD-10の一部改正の日本への適用について",
+    "ICDの我が国における今後の見直しについて",
+    "我が国における今後の傷病の分類等のあり方について",
+    "その他"
+  ],
+  "source_url": "https://warp.ndl.go.jp/stf/shingi/0000044442.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi/0000047612.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://warp.ndl.go.jp/stf/shingi/0000046103.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://warp.ndl.go.jp/stf/shingi/0000044442.html"
+    }
+  ]
+}

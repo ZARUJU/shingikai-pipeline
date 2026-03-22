@@ -1,0 +1,30 @@
+{
+  "id": "2023-08-30-222",
+  "council_id": "shingi-hosho-126698-00022",
+  "round_label": 222,
+  "held_on": "2023-08-30",
+  "agenda": [
+    "１．令和６年度介護報酬改定に向けて",
+    "・地域包括ケアシステムの深化・推進",
+    "・自立支援・重度化防止を重視した質の高い介護サービスの推進"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_34827.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_37124.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_34837.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_34827.html"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2019-02-25-042",
+  "council_id": "shingi-hosho-191001",
+  "round_label": 42,
+  "held_on": "2019-02-25",
+  "agenda": [
+    "日本年金機構の第3期中期目標、第3期中期計画及び平成31年度計画の策定について",
+    "その他"
+  ],
+  "source_url": "https://warp.ndl.go.jp/stf/shingi2/0000213099_00005.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000199362_00010.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000213396_00005.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000213099_00005.html"
+    }
+  ]
+}

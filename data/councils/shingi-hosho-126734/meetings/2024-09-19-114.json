@@ -1,0 +1,29 @@
+{
+  "id": "2024-09-19-114",
+  "council_id": "shingi-hosho-126734",
+  "round_label": 114,
+  "held_on": "2024-09-19",
+  "agenda": [
+    "介護情報基盤について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_41885.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_44249.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_41883.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_41885.html"
+    }
+  ]
+}

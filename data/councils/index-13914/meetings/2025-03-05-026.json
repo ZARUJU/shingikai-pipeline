@@ -1,0 +1,35 @@
+{
+  "id": "2025-03-05-026",
+  "council_id": "index-13914",
+  "round_label": 26,
+  "held_on": "2025-03-05",
+  "agenda": [
+    "通年パネルデータセットの今後の作成方針について（案）",
+    "死亡情報のデータディクショナリーの公開について（報告）",
+    "二次利用ポータルに掲載するNDB基礎資料について（案）",
+    "匿名医療保険等関連情報データベース（NDB）の提供申出に係る会議審査のスケジュールについて",
+    "匿名診療等関連情報データベースの提供申出に係る審査のスケジュールについて",
+    "公表前審査について（非公開）",
+    "不適切利用について（非公開）",
+    "個別審査（非公開）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_51449.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/index_00097.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/index_00091.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_51449.html"
+    }
+  ]
+}

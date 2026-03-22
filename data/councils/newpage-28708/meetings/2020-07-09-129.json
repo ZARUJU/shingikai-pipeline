@@ -1,0 +1,30 @@
+{
+  "id": "2020-07-09-129",
+  "council_id": "newpage-28708",
+  "round_label": 129,
+  "held_on": "2020-07-09",
+  "agenda": [
+    "医療保険制度改革の今後の進め方について",
+    "匿名レセプト情報等の提供に関する専門委員会の設置について",
+    "データヘルスの検討状況について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_12192.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_12925.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_12297.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_12192.html"
+    }
+  ]
+}

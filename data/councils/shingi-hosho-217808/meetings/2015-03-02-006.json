@@ -1,0 +1,30 @@
+{
+  "id": "2015-03-02-006",
+  "council_id": "shingi-hosho-217808",
+  "round_label": 6,
+  "held_on": "2015-03-02",
+  "agenda": [
+    "新任委員の紹介",
+    "専門委員会での検討事項について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000075255.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000083085.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000080877.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000075255.html"
+    }
+  ]
+}

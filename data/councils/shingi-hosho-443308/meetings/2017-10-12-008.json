@@ -1,0 +1,30 @@
+{
+  "id": "2017-10-12-008",
+  "council_id": "shingi-hosho-443308",
+  "round_label": 8,
+  "held_on": "2017-10-12",
+  "agenda": [
+    "子どもの貧困への対応について",
+    "高齢者に対する支援のあり方について",
+    "生活保護受給者の健康管理と医療扶助費の適正化について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000183850.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000187667.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000180334.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000183850.html"
+    }
+  ]
+}

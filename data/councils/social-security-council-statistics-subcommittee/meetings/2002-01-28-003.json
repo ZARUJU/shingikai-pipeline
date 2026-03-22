@@ -1,0 +1,25 @@
+{
+  "id": "2002-01-28-003",
+  "council_id": "social-security-council-statistics-subcommittee",
+  "round_label": 3,
+  "held_on": "2002-01-28",
+  "agenda": [
+    "医療施設静態調査について",
+    "患者調査について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000093852.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000093853.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000093852.html"
+    }
+  ],
+  "announcement_links": []
+}

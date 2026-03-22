@@ -1,0 +1,31 @@
+{
+  "id": "2018-05-18-005",
+  "council_id": "shingi-hosho-469789",
+  "round_label": 5,
+  "held_on": "2018-05-18",
+  "agenda": [
+    "有識者ヒアリング",
+    "中長期の経済財政に関する試算について",
+    "労働力需給推計について",
+    "金融政策と経済の関係について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000205698.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_00153.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000207188.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000205698.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2025-05-09-001",
+  "council_id": "shingi-hosho-224742",
+  "round_label": 1,
+  "held_on": "2025-05-09",
+  "agenda": [
+    "令和７年５月９日（金）",
+    "１０：００～１２：００",
+    "於：TKP新橋カンファレンスセンター ホール14F"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/newpage_57330.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_58916.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_57663.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/newpage_57330.html"
+    }
+  ]
+}

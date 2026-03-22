@@ -1,0 +1,29 @@
+{
+  "id": "2025-10-16-200",
+  "council_id": "newpage-28708",
+  "round_label": 200,
+  "held_on": "2025-10-16",
+  "agenda": [
+    "医療保険制度改革について",
+    "マイナ保険証の利用促進等について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_64533.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65850.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_64752.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_64533.html"
+    }
+  ]
+}

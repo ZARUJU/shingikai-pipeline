@@ -1,0 +1,32 @@
+{
+  "id": "2022-06-08-010",
+  "council_id": "index-13914",
+  "round_label": 10,
+  "held_on": "2022-06-08",
+  "agenda": [
+    "匿名レセプト情報等の第三者提供の現状について（報告）",
+    "ＤＰＣデータ（匿名診療等関連情報）に係る第三者提供の現状について（報告）",
+    "第7回ＮＤＢオープンデータの公表について",
+    "不適切利用に関する注意喚起について",
+    "個別審査（非公開）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_25937.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/index_00021.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/index_00020.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_25937.html"
+    }
+  ]
+}

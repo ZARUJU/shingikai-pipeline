@@ -1,0 +1,30 @@
+{
+  "id": "2019-03-20-005",
+  "council_id": "shingi-hosho-208386",
+  "round_label": 5,
+  "held_on": "2019-03-20",
+  "agenda": [
+    "これまでの経緯、現状",
+    "自治体、関係団体からの状況報告",
+    "意見交換 等"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000061798_00001.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000066851_00001.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000062918_00003.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000061798_00001.html"
+    }
+  ]
+}

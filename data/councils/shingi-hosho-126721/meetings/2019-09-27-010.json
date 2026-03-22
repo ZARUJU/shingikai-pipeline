@@ -1,0 +1,29 @@
+{
+  "id": "2019-09-27-010",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 10,
+  "held_on": "2019-09-27",
+  "agenda": [
+    "今後の年金制度改正について",
+    "被用者保険の適用拡大について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_06809.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000204770_00015.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212815_00012.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_06809.html"
+    }
+  ]
+}

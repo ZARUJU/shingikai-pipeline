@@ -1,0 +1,31 @@
+{
+  "id": "2019-12-23-082",
+  "council_id": "shingi-hosho-126720",
+  "round_label": 82,
+  "held_on": "2019-12-23",
+  "agenda": [
+    "平成30年度財政状況について－厚生年金保険（第1号）－",
+    "平成30年度財政状況について－国民年金・基礎年金制度－",
+    "国民年金・厚生年金の財政検証結果について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_08319.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000203902_00011.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000198131_00009.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_08319.html"
+    }
+  ]
+}

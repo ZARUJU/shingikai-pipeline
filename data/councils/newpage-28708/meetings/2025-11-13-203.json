@@ -1,0 +1,30 @@
+{
+  "id": "2025-11-13-203",
+  "council_id": "newpage-28708",
+  "round_label": 203,
+  "held_on": "2025-11-13",
+  "agenda": [
+    "医療保険制度改革について",
+    "医療機関の業務効率化・職場環境改善の推進に関する論点について",
+    "マイナ保険証の利用促進等について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_65696.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_68298.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65886.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65696.html"
+    }
+  ]
+}

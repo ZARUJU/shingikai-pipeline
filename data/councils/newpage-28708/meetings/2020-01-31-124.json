@@ -1,0 +1,29 @@
+{
+  "id": "2020-01-31-124",
+  "council_id": "newpage-28708",
+  "round_label": 124,
+  "held_on": "2020-01-31",
+  "agenda": [
+    "医療保険制度改革について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_09082.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_10016.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_09186.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_09082.html"
+    }
+  ]
+}

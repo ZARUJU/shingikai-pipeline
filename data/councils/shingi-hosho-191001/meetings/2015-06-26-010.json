@@ -1,0 +1,30 @@
+{
+  "id": "2015-06-26-010",
+  "council_id": "shingi-hosho-191001",
+  "round_label": 10,
+  "held_on": "2015-06-26",
+  "agenda": [
+    "日本年金機構不正アクセス事案について",
+    "平成26年度の国民年金保険料の納付状況と今後の取組等について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000088874.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000092292.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000090121.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000088874.html"
+    }
+  ]
+}

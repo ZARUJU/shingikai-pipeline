@@ -1,0 +1,29 @@
+{
+  "id": "2017-04-10-019",
+  "council_id": "shingi-hosho-126704",
+  "round_label": 19,
+  "held_on": "2017-04-10",
+  "agenda": [
+    "将来人口推計について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000149462.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000167969.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000161342.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000149462.html"
+    }
+  ]
+}

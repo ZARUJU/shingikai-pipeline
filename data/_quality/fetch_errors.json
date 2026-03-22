@@ -1,0 +1,3002 @@
+{
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000w2iu.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:54.245140+00:00",
+    "last_recorded_at": "2026-03-22T14:10:54.245140+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001279j.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:54.746100+00:00",
+    "last_recorded_at": "2026-03-22T14:10:54.746100+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001a5nj.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:55.077639+00:00",
+    "last_recorded_at": "2026-03-22T14:10:55.077639+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001zio1.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:55.433039+00:00",
+    "last_recorded_at": "2026-03-22T14:10:55.433039+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000021i0o.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:55.778063+00:00",
+    "last_recorded_at": "2026-03-22T14:10:55.778063+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002nm9c.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:56.119861+00:00",
+    "last_recorded_at": "2026-03-22T14:10:56.119861+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002omby.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:56.500832+00:00",
+    "last_recorded_at": "2026-03-22T14:10:56.500832+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002wq3o.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:56.850118+00:00",
+    "last_recorded_at": "2026-03-22T14:10:56.850118+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002yipa.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:57.201945+00:00",
+    "last_recorded_at": "2026-03-22T14:10:57.201945+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000028991.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:57.780547+00:00",
+    "last_recorded_at": "2026-03-22T14:10:57.780547+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000030331.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:58.123159+00:00",
+    "last_recorded_at": "2026-03-22T14:10:58.123159+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000037302.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:58.482139+00:00",
+    "last_recorded_at": "2026-03-22T14:10:58.482139+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000038834.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:58.838068+00:00",
+    "last_recorded_at": "2026-03-22T14:10:58.838068+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000074484.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:59.198496+00:00",
+    "last_recorded_at": "2026-03-22T14:10:59.198496+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000076209.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:59.534970+00:00",
+    "last_recorded_at": "2026-03-22T14:10:59.534970+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000109570.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:10:59.890031+00:00",
+    "last_recorded_at": "2026-03-22T14:10:59.890031+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000112555.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:00.244955+00:00",
+    "last_recorded_at": "2026-03-22T14:11:00.244955+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000143561.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:00.605102+00:00",
+    "last_recorded_at": "2026-03-22T14:11:00.605102+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000144768.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:00.956988+00:00",
+    "last_recorded_at": "2026-03-22T14:11:00.956988+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000166019.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:01.307596+00:00",
+    "last_recorded_at": "2026-03-22T14:11:01.307596+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000169220.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:01.651681+00:00",
+    "last_recorded_at": "2026-03-22T14:11:01.651681+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000169220_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:02.663150+00:00",
+    "last_recorded_at": "2026-03-22T14:11:02.663150+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_06544.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:03.367860+00:00",
+    "last_recorded_at": "2026-03-22T14:11:03.367860+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_06891.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:04.195237+00:00",
+    "last_recorded_at": "2026-03-22T14:11:04.195237+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_12165.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:04.825794+00:00",
+    "last_recorded_at": "2026-03-22T14:11:04.825794+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_14678.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:05.495703+00:00",
+    "last_recorded_at": "2026-03-22T14:11:05.495703+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_15191.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:06.256275+00:00",
+    "last_recorded_at": "2026-03-22T14:11:06.256275+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_18936.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:07.019497+00:00",
+    "last_recorded_at": "2026-03-22T14:11:07.019497+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_35351.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:07.789320+00:00",
+    "last_recorded_at": "2026-03-22T14:11:07.789320+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_35403.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:08.766952+00:00",
+    "last_recorded_at": "2026-03-22T14:11:08.766952+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_41340.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:09.393804+00:00",
+    "last_recorded_at": "2026-03-22T14:11:09.393804+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_41360.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:09.944124+00:00",
+    "last_recorded_at": "2026-03-22T14:11:09.944124+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000o74s.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:19.570888+00:00",
+    "last_recorded_at": "2026-03-22T14:11:19.570888+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000s431.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:19.914051+00:00",
+    "last_recorded_at": "2026-03-22T14:11:19.914051+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000011zp6.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:20.257020+00:00",
+    "last_recorded_at": "2026-03-22T14:11:20.257020+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000014cnf.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:20.600146+00:00",
+    "last_recorded_at": "2026-03-22T14:11:20.600146+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001wcnj.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:20.934770+00:00",
+    "last_recorded_at": "2026-03-22T14:11:20.934770+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001ycaq.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:21.341003+00:00",
+    "last_recorded_at": "2026-03-22T14:11:21.341003+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002jyfc.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:21.688227+00:00",
+    "last_recorded_at": "2026-03-22T14:11:21.688227+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002ksqi.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:22.038736+00:00",
+    "last_recorded_at": "2026-03-22T14:11:22.038736+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002uqkp.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:22.371073+00:00",
+    "last_recorded_at": "2026-03-22T14:11:22.371073+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002vsze.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:22.727956+00:00",
+    "last_recorded_at": "2026-03-22T14:11:22.727956+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000084025.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:23.077845+00:00",
+    "last_recorded_at": "2026-03-22T14:11:23.077845+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000085946.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:23.420484+00:00",
+    "last_recorded_at": "2026-03-22T14:11:23.420484+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000091055.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:23.770409+00:00",
+    "last_recorded_at": "2026-03-22T14:11:23.770409+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000093198.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:24.116349+00:00",
+    "last_recorded_at": "2026-03-22T14:11:24.116349+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000125029.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:24.462556+00:00",
+    "last_recorded_at": "2026-03-22T14:11:24.462556+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000127477.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:24.811951+00:00",
+    "last_recorded_at": "2026-03-22T14:11:24.811951+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000194922.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:25.165619+00:00",
+    "last_recorded_at": "2026-03-22T14:11:25.165619+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000199950.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:25.499713+00:00",
+    "last_recorded_at": "2026-03-22T14:11:25.499713+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000194922_00003.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:26.946865+00:00",
+    "last_recorded_at": "2026-03-22T14:11:26.946865+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000199950_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:27.421498+00:00",
+    "last_recorded_at": "2026-03-22T14:11:27.421498+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_10219.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:28.128482+00:00",
+    "last_recorded_at": "2026-03-22T14:11:28.128482+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_10661.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:28.584165+00:00",
+    "last_recorded_at": "2026-03-22T14:11:28.584165+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_16511.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:29.052943+00:00",
+    "last_recorded_at": "2026-03-22T14:11:29.052943+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_17116.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:29.503954+00:00",
+    "last_recorded_at": "2026-03-22T14:11:29.503954+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_20412.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:30.290767+00:00",
+    "last_recorded_at": "2026-03-22T14:11:30.290767+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_20953.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:30.771534+00:00",
+    "last_recorded_at": "2026-03-22T14:11:30.771534+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_37986.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:31.234593+00:00",
+    "last_recorded_at": "2026-03-22T14:11:31.234593+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_38086.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:32.044540+00:00",
+    "last_recorded_at": "2026-03-22T14:11:32.044540+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00015.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:53.365750+00:00",
+    "last_recorded_at": "2026-03-22T14:11:53.365750+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00014.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:53.705236+00:00",
+    "last_recorded_at": "2026-03-22T14:11:53.705236+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00013.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:54.084987+00:00",
+    "last_recorded_at": "2026-03-22T14:11:54.084987+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00012.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:54.482039+00:00",
+    "last_recorded_at": "2026-03-22T14:11:54.482039+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00011.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:54.829184+00:00",
+    "last_recorded_at": "2026-03-22T14:11:54.829184+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00009.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:55.174084+00:00",
+    "last_recorded_at": "2026-03-22T14:11:55.174084+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00008.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:55.532236+00:00",
+    "last_recorded_at": "2026-03-22T14:11:55.532236+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00007.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:55.880688+00:00",
+    "last_recorded_at": "2026-03-22T14:11:55.880688+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00006.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:56.228979+00:00",
+    "last_recorded_at": "2026-03-22T14:11:56.228979+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00004.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:56.650840+00:00",
+    "last_recorded_at": "2026-03-22T14:11:56.650840+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:56.996548+00:00",
+    "last_recorded_at": "2026-03-22T14:11:56.996548+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000200651.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:57.347153+00:00",
+    "last_recorded_at": "2026-03-22T14:11:57.347153+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000193209.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:57.731387+00:00",
+    "last_recorded_at": "2026-03-22T14:11:57.731387+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000176257.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:58.145712+00:00",
+    "last_recorded_at": "2026-03-22T14:11:58.145712+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000155861.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:58.520282+00:00",
+    "last_recorded_at": "2026-03-22T14:11:58.520282+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000148318.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:58.896989+00:00",
+    "last_recorded_at": "2026-03-22T14:11:58.896989+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000135961.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:59.272203+00:00",
+    "last_recorded_at": "2026-03-22T14:11:59.272203+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000120229.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:59.620385+00:00",
+    "last_recorded_at": "2026-03-22T14:11:59.620385+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000105461.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:11:59.990213+00:00",
+    "last_recorded_at": "2026-03-22T14:11:59.990213+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000078746.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:12:00.350842+00:00",
+    "last_recorded_at": "2026-03-22T14:12:00.350842+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000069941.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:12:00.698369+00:00",
+    "last_recorded_at": "2026-03-22T14:12:00.698369+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000059549.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:12:01.285749+00:00",
+    "last_recorded_at": "2026-03-22T14:12:01.285749+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000042175.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:12:01.659599+00:00",
+    "last_recorded_at": "2026-03-22T14:12:01.659599+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000031729.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:12:02.017774+00:00",
+    "last_recorded_at": "2026-03-22T14:12:02.017774+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000015048.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:12:02.418176+00:00",
+    "last_recorded_at": "2026-03-22T14:12:02.418176+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000015025.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:12:02.798864+00:00",
+    "last_recorded_at": "2026-03-22T14:12:02.798864+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000015001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:12:03.250190+00:00",
+    "last_recorded_at": "2026-03-22T14:12:03.250190+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000kfr7.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:12:03.633037+00:00",
+    "last_recorded_at": "2026-03-22T14:12:03.633037+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000137217.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:14:31.331007+00:00",
+    "last_recorded_at": "2026-03-22T14:14:31.331007+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002s9jp.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:18:50.811020+00:00",
+    "last_recorded_at": "2026-03-22T14:18:50.811020+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000191301_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:23.866997+00:00",
+    "last_recorded_at": "2026-03-22T14:20:23.866997+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000180015_00003.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:24.498235+00:00",
+    "last_recorded_at": "2026-03-22T14:20:24.498235+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000191301_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:24.857403+00:00",
+    "last_recorded_at": "2026-03-22T14:20:24.857403+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000180015_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:25.213880+00:00",
+    "last_recorded_at": "2026-03-22T14:20:25.213880+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000191301.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:25.564870+00:00",
+    "last_recorded_at": "2026-03-22T14:20:25.564870+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000180015.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:25.932265+00:00",
+    "last_recorded_at": "2026-03-22T14:20:25.932265+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000179578.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:26.280734+00:00",
+    "last_recorded_at": "2026-03-22T14:20:26.280734+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000148660_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:26.628732+00:00",
+    "last_recorded_at": "2026-03-22T14:20:26.628732+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000147990.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:26.991877+00:00",
+    "last_recorded_at": "2026-03-22T14:20:26.991877+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000148660.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:27.373014+00:00",
+    "last_recorded_at": "2026-03-22T14:20:27.373014+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000116289.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:27.716751+00:00",
+    "last_recorded_at": "2026-03-22T14:20:27.716751+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000116652.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:28.061108+00:00",
+    "last_recorded_at": "2026-03-22T14:20:28.061108+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000096356.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:28.413811+00:00",
+    "last_recorded_at": "2026-03-22T14:20:28.413811+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000097302.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:28.772019+00:00",
+    "last_recorded_at": "2026-03-22T14:20:28.772019+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000054545.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:29.373699+00:00",
+    "last_recorded_at": "2026-03-22T14:20:29.373699+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000090644.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:29.728560+00:00",
+    "last_recorded_at": "2026-03-22T14:20:29.728560+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000032967.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:30.077276+00:00",
+    "last_recorded_at": "2026-03-22T14:20:30.077276+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000035249.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:30.443118+00:00",
+    "last_recorded_at": "2026-03-22T14:20:30.443118+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000031esy.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:30.808713+00:00",
+    "last_recorded_at": "2026-03-22T14:20:30.808713+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000032a6o.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:31.159012+00:00",
+    "last_recorded_at": "2026-03-22T14:20:31.159012+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002k71t.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:31.531869+00:00",
+    "last_recorded_at": "2026-03-22T14:20:31.531869+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002kwbz.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:31.878606+00:00",
+    "last_recorded_at": "2026-03-22T14:20:31.878606+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001sa12.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:32.274600+00:00",
+    "last_recorded_at": "2026-03-22T14:20:32.274600+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001to11.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:32.636327+00:00",
+    "last_recorded_at": "2026-03-22T14:20:32.636327+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001g8uu.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:32.983843+00:00",
+    "last_recorded_at": "2026-03-22T14:20:32.983843+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001hqa7.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:33.341471+00:00",
+    "last_recorded_at": "2026-03-22T14:20:33.341471+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000011vm9.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:33.921766+00:00",
+    "last_recorded_at": "2026-03-22T14:20:33.921766+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000012wth.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:34.275464+00:00",
+    "last_recorded_at": "2026-03-22T14:20:34.275464+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000078219.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:47.068849+00:00",
+    "last_recorded_at": "2026-03-22T14:20:47.068849+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000081862.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:47.437461+00:00",
+    "last_recorded_at": "2026-03-22T14:20:47.437461+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000031226.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:47.798694+00:00",
+    "last_recorded_at": "2026-03-22T14:20:47.798694+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000031897.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:48.167592+00:00",
+    "last_recorded_at": "2026-03-22T14:20:48.167592+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000028199.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:48.537549+00:00",
+    "last_recorded_at": "2026-03-22T14:20:48.537549+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000029006.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:48.902530+00:00",
+    "last_recorded_at": "2026-03-22T14:20:48.902530+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000026207.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:49.259028+00:00",
+    "last_recorded_at": "2026-03-22T14:20:49.259028+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000027129.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:49.615524+00:00",
+    "last_recorded_at": "2026-03-22T14:20:49.615524+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000023288.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:49.979191+00:00",
+    "last_recorded_at": "2026-03-22T14:20:49.979191+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000024557.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:50.331648+00:00",
+    "last_recorded_at": "2026-03-22T14:20:50.331648+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000036nx4.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:50.710234+00:00",
+    "last_recorded_at": "2026-03-22T14:20:50.710234+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000037a9p.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:51.074060+00:00",
+    "last_recorded_at": "2026-03-22T14:20:51.074060+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000013921.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:51.425162+00:00",
+    "last_recorded_at": "2026-03-22T14:20:51.425162+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000013919.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:51.771243+00:00",
+    "last_recorded_at": "2026-03-22T14:20:51.771243+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000031e5x.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:52.141455+00:00",
+    "last_recorded_at": "2026-03-22T14:20:52.141455+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000003349d.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:20:52.507895+00:00",
+    "last_recorded_at": "2026-03-22T14:20:52.507895+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000192340.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:08.883190+00:00",
+    "last_recorded_at": "2026-03-22T14:21:08.883190+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000192981.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:09.234351+00:00",
+    "last_recorded_at": "2026-03-22T14:21:09.234351+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000188798.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:09.584812+00:00",
+    "last_recorded_at": "2026-03-22T14:21:09.584812+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000189296.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:09.928899+00:00",
+    "last_recorded_at": "2026-03-22T14:21:09.928899+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000185204.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:10.275135+00:00",
+    "last_recorded_at": "2026-03-22T14:21:10.275135+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000185868.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:10.684037+00:00",
+    "last_recorded_at": "2026-03-22T14:21:10.684037+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000181502.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:11.051828+00:00",
+    "last_recorded_at": "2026-03-22T14:21:11.051828+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000182478.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:11.407651+00:00",
+    "last_recorded_at": "2026-03-22T14:21:11.407651+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000106890.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:11.788977+00:00",
+    "last_recorded_at": "2026-03-22T14:21:11.788977+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000107156.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:12.137389+00:00",
+    "last_recorded_at": "2026-03-22T14:21:12.137389+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000085939.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:12.486741+00:00",
+    "last_recorded_at": "2026-03-22T14:21:12.486741+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000086805.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:12.840034+00:00",
+    "last_recorded_at": "2026-03-22T14:21:12.840034+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000078342.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:13.208952+00:00",
+    "last_recorded_at": "2026-03-22T14:21:13.208952+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000081214.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:13.562636+00:00",
+    "last_recorded_at": "2026-03-22T14:21:13.562636+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000040335.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:13.906396+00:00",
+    "last_recorded_at": "2026-03-22T14:21:13.906396+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002m63k.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:14.258783+00:00",
+    "last_recorded_at": "2026-03-22T14:21:14.258783+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000025o5n.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:14.613079+00:00",
+    "last_recorded_at": "2026-03-22T14:21:14.613079+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r985200000202we.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:14.962163+00:00",
+    "last_recorded_at": "2026-03-22T14:21:14.962163+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001iafu.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:15.332825+00:00",
+    "last_recorded_at": "2026-03-22T14:21:15.332825+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000018h6g.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:15.689173+00:00",
+    "last_recorded_at": "2026-03-22T14:21:15.689173+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000wuft.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:16.077532+00:00",
+    "last_recorded_at": "2026-03-22T14:21:16.077532+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000ybr9.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:16.423664+00:00",
+    "last_recorded_at": "2026-03-22T14:21:16.423664+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000010328.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:22.447474+00:00",
+    "last_recorded_at": "2026-03-22T14:21:22.447474+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000010ni9.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:22.809292+00:00",
+    "last_recorded_at": "2026-03-22T14:21:22.809292+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000xm5o.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:23.155320+00:00",
+    "last_recorded_at": "2026-03-22T14:21:23.155320+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000y88b.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:23.517089+00:00",
+    "last_recorded_at": "2026-03-22T14:21:23.517089+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000vyki.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:23.863798+00:00",
+    "last_recorded_at": "2026-03-22T14:21:23.863798+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000woef.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:24.210663+00:00",
+    "last_recorded_at": "2026-03-22T14:21:24.210663+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000ubn8.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:24.572621+00:00",
+    "last_recorded_at": "2026-03-22T14:21:24.572621+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000v8uh.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:24.921297+00:00",
+    "last_recorded_at": "2026-03-22T14:21:24.921297+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000dpmv.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:25.490148+00:00",
+    "last_recorded_at": "2026-03-22T14:21:25.490148+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000ut4q.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:25.857100+00:00",
+    "last_recorded_at": "2026-03-22T14:21:25.857100+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000dqx2.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:26.549301+00:00",
+    "last_recorded_at": "2026-03-22T14:21:26.549301+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000210944.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:46.506764+00:00",
+    "last_recorded_at": "2026-03-22T14:21:46.506764+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000212727.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:46.870150+00:00",
+    "last_recorded_at": "2026-03-22T14:21:46.870150+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000202885.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:47.233753+00:00",
+    "last_recorded_at": "2026-03-22T14:21:47.233753+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000204048.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:47.597644+00:00",
+    "last_recorded_at": "2026-03-22T14:21:47.597644+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000194600.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:47.943907+00:00",
+    "last_recorded_at": "2026-03-22T14:21:47.943907+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000196376.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:48.305476+00:00",
+    "last_recorded_at": "2026-03-22T14:21:48.305476+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000192183.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:48.669801+00:00",
+    "last_recorded_at": "2026-03-22T14:21:48.669801+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000193037.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:49.033932+00:00",
+    "last_recorded_at": "2026-03-22T14:21:49.033932+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000189982.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:49.733183+00:00",
+    "last_recorded_at": "2026-03-22T14:21:49.733183+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000184002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:50.488948+00:00",
+    "last_recorded_at": "2026-03-22T14:21:50.488948+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000181127.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:51.223777+00:00",
+    "last_recorded_at": "2026-03-22T14:21:51.223777+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000181123.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:52.004500+00:00",
+    "last_recorded_at": "2026-03-22T14:21:52.004500+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000176311.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:52.358067+00:00",
+    "last_recorded_at": "2026-03-22T14:21:52.358067+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000172446.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:53.181606+00:00",
+    "last_recorded_at": "2026-03-22T14:21:53.181606+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000168579.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:54.016908+00:00",
+    "last_recorded_at": "2026-03-22T14:21:54.016908+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000170307.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:54.380365+00:00",
+    "last_recorded_at": "2026-03-22T14:21:54.380365+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000145494.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:54.741548+00:00",
+    "last_recorded_at": "2026-03-22T14:21:54.741548+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000146626.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:55.103073+00:00",
+    "last_recorded_at": "2026-03-22T14:21:55.103073+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000137509.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:55.453149+00:00",
+    "last_recorded_at": "2026-03-22T14:21:55.453149+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000138133.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:55.830317+00:00",
+    "last_recorded_at": "2026-03-22T14:21:55.830317+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000051348.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:56.188984+00:00",
+    "last_recorded_at": "2026-03-22T14:21:56.188984+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000053025.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:56.539018+00:00",
+    "last_recorded_at": "2026-03-22T14:21:56.539018+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000051337.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:56.906248+00:00",
+    "last_recorded_at": "2026-03-22T14:21:56.906248+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000052239.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:57.385161+00:00",
+    "last_recorded_at": "2026-03-22T14:21:57.385161+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000049619.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:57.767067+00:00",
+    "last_recorded_at": "2026-03-22T14:21:57.767067+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000050702.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:58.119640+00:00",
+    "last_recorded_at": "2026-03-22T14:21:58.119640+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000047846.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:58.491737+00:00",
+    "last_recorded_at": "2026-03-22T14:21:58.491737+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000047844.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:58.871516+00:00",
+    "last_recorded_at": "2026-03-22T14:21:58.871516+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000035195.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:59.253056+00:00",
+    "last_recorded_at": "2026-03-22T14:21:59.253056+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000036374.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:21:59.614011+00:00",
+    "last_recorded_at": "2026-03-22T14:21:59.614011+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000031129.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:00.010694+00:00",
+    "last_recorded_at": "2026-03-22T14:22:00.010694+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000032255.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:00.419714+00:00",
+    "last_recorded_at": "2026-03-22T14:22:00.419714+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000027331.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:00.783060+00:00",
+    "last_recorded_at": "2026-03-22T14:22:00.783060+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000028541.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:01.227505+00:00",
+    "last_recorded_at": "2026-03-22T14:22:01.227505+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000026105.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:01.589583+00:00",
+    "last_recorded_at": "2026-03-22T14:22:01.589583+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000027315.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:02.020350+00:00",
+    "last_recorded_at": "2026-03-22T14:22:02.020350+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000023426.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:02.376724+00:00",
+    "last_recorded_at": "2026-03-22T14:22:02.376724+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000024843.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:02.768477+00:00",
+    "last_recorded_at": "2026-03-22T14:22:02.768477+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000019538.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:03.142773+00:00",
+    "last_recorded_at": "2026-03-22T14:22:03.142773+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000022425.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:03.501745+00:00",
+    "last_recorded_at": "2026-03-22T14:22:03.501745+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002sfx5.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:03.859780+00:00",
+    "last_recorded_at": "2026-03-22T14:22:03.859780+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002ster.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:04.237484+00:00",
+    "last_recorded_at": "2026-03-22T14:22:04.237484+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002qs2f.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:04.655083+00:00",
+    "last_recorded_at": "2026-03-22T14:22:04.655083+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002q6u0.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:05.027269+00:00",
+    "last_recorded_at": "2026-03-22T14:22:05.027269+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002prtq.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:05.415056+00:00",
+    "last_recorded_at": "2026-03-22T14:22:05.415056+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002q757.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:05.801970+00:00",
+    "last_recorded_at": "2026-03-22T14:22:05.801970+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002ovf2.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:06.182244+00:00",
+    "last_recorded_at": "2026-03-22T14:22:06.182244+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002pj49.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:06.545683+00:00",
+    "last_recorded_at": "2026-03-22T14:22:06.545683+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002nwpq.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:06.899866+00:00",
+    "last_recorded_at": "2026-03-22T14:22:06.899866+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002ovkk.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:07.265920+00:00",
+    "last_recorded_at": "2026-03-22T14:22:07.265920+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002lggh.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:07.639963+00:00",
+    "last_recorded_at": "2026-03-22T14:22:07.639963+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002ns34.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:08.048218+00:00",
+    "last_recorded_at": "2026-03-22T14:22:08.048218+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002jvu8.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:08.435732+00:00",
+    "last_recorded_at": "2026-03-22T14:22:08.435732+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002khbi.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:08.777640+00:00",
+    "last_recorded_at": "2026-03-22T14:22:08.777640+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000189891_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:23.042734+00:00",
+    "last_recorded_at": "2026-03-22T14:22:23.042734+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000190471_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:23.405678+00:00",
+    "last_recorded_at": "2026-03-22T14:22:23.405678+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000189891.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:23.763788+00:00",
+    "last_recorded_at": "2026-03-22T14:22:23.763788+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000190471.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:24.119141+00:00",
+    "last_recorded_at": "2026-03-22T14:22:24.119141+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000091884.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:24.481567+00:00",
+    "last_recorded_at": "2026-03-22T14:22:24.481567+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000093328.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:24.904982+00:00",
+    "last_recorded_at": "2026-03-22T14:22:24.904982+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000072071.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:25.268289+00:00",
+    "last_recorded_at": "2026-03-22T14:22:25.268289+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000072882.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:25.625206+00:00",
+    "last_recorded_at": "2026-03-22T14:22:25.625206+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000070776.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:26.246094+00:00",
+    "last_recorded_at": "2026-03-22T14:22:26.246094+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000072878.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:26.625117+00:00",
+    "last_recorded_at": "2026-03-22T14:22:26.625117+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000034415.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:26.986696+00:00",
+    "last_recorded_at": "2026-03-22T14:22:26.986696+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000035105.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:27.343969+00:00",
+    "last_recorded_at": "2026-03-22T14:22:27.343969+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000013791.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:27.699076+00:00",
+    "last_recorded_at": "2026-03-22T14:22:27.699076+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000014666.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:28.088170+00:00",
+    "last_recorded_at": "2026-03-22T14:22:28.088170+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000036kzd.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:28.663727+00:00",
+    "last_recorded_at": "2026-03-22T14:22:28.663727+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000014235.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:29.023650+00:00",
+    "last_recorded_at": "2026-03-22T14:22:29.023650+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000035my0.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:29.407672+00:00",
+    "last_recorded_at": "2026-03-22T14:22:29.407672+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r985200000375c5.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:29.766657+00:00",
+    "last_recorded_at": "2026-03-22T14:22:29.766657+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000014386.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:30.123399+00:00",
+    "last_recorded_at": "2026-03-22T14:22:30.123399+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000014393.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:30.506865+00:00",
+    "last_recorded_at": "2026-03-22T14:22:30.506865+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000014358.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:30.858270+00:00",
+    "last_recorded_at": "2026-03-22T14:22:30.858270+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000014368.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:31.351256+00:00",
+    "last_recorded_at": "2026-03-22T14:22:31.351256+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000013812.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:31.716164+00:00",
+    "last_recorded_at": "2026-03-22T14:22:31.716164+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r985200000336oi.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:32.113602+00:00",
+    "last_recorded_at": "2026-03-22T14:22:32.113602+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000034089.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:32.863029+00:00",
+    "last_recorded_at": "2026-03-22T14:22:32.863029+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000036009.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:33.230865+00:00",
+    "last_recorded_at": "2026-03-22T14:22:33.230865+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000028656.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:33.627088+00:00",
+    "last_recorded_at": "2026-03-22T14:22:33.627088+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000034446.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:33.983788+00:00",
+    "last_recorded_at": "2026-03-22T14:22:33.983788+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000023293.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:34.371642+00:00",
+    "last_recorded_at": "2026-03-22T14:22:34.371642+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000033214.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:34.752062+00:00",
+    "last_recorded_at": "2026-03-22T14:22:34.752062+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000036ah1.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:35.962172+00:00",
+    "last_recorded_at": "2026-03-22T14:22:35.962172+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000015894.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:36.300780+00:00",
+    "last_recorded_at": "2026-03-22T14:22:36.300780+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000034e64.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:36.659620+00:00",
+    "last_recorded_at": "2026-03-22T14:22:36.659620+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000035715.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:22:37.061033+00:00",
+    "last_recorded_at": "2026-03-22T14:22:37.061033+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi/0000027381.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:30:30.180794+00:00",
+    "last_recorded_at": "2026-03-22T14:30:30.180794+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi/0000028920.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:30:30.683580+00:00",
+    "last_recorded_at": "2026-03-22T14:30:30.683580+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi/0000039591.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:30:31.176979+00:00",
+    "last_recorded_at": "2026-03-22T14:30:31.176979+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi/0000041208.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:30:31.642866+00:00",
+    "last_recorded_at": "2026-03-22T14:30:31.642866+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi/0000044442.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:30:32.155770+00:00",
+    "last_recorded_at": "2026-03-22T14:30:32.155770+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi/0000046103.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:30:32.931211+00:00",
+    "last_recorded_at": "2026-03-22T14:30:32.931211+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi/0000055639.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:30:33.405657+00:00",
+    "last_recorded_at": "2026-03-22T14:30:33.405657+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000058036.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:30:33.907153+00:00",
+    "last_recorded_at": "2026-03-22T14:30:33.907153+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000131581.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:30:34.392721+00:00",
+    "last_recorded_at": "2026-03-22T14:30:34.392721+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000213099_00004.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:15.594592+00:00",
+    "last_recorded_at": "2026-03-22T14:31:15.594592+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000213396_00004.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:16.065691+00:00",
+    "last_recorded_at": "2026-03-22T14:31:16.065691+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000213099_00005.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:16.539484+00:00",
+    "last_recorded_at": "2026-03-22T14:31:16.539484+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000213396_00005.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:17.286721+00:00",
+    "last_recorded_at": "2026-03-22T14:31:17.286721+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000213099_00006.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:17.764206+00:00",
+    "last_recorded_at": "2026-03-22T14:31:17.764206+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/shingi2/0000213396_00007.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:18.223259+00:00",
+    "last_recorded_at": "2026-03-22T14:31:18.223259+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_05337.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:19.088005+00:00",
+    "last_recorded_at": "2026-03-22T14:31:19.088005+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_05476.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:19.851964+00:00",
+    "last_recorded_at": "2026-03-22T14:31:19.851964+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_06551.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:20.344128+00:00",
+    "last_recorded_at": "2026-03-22T14:31:20.344128+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_06686.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:20.797756+00:00",
+    "last_recorded_at": "2026-03-22T14:31:20.797756+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-46.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:21.299184+00:00",
+    "last_recorded_at": "2026-03-22T14:31:21.299184+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-siryo46.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:22.744239+00:00",
+    "last_recorded_at": "2026-03-22T14:31:22.744239+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-47_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:23.282830+00:00",
+    "last_recorded_at": "2026-03-22T14:31:23.282830+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-siryo47_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:23.739301+00:00",
+    "last_recorded_at": "2026-03-22T14:31:23.739301+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-48_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:24.198591+00:00",
+    "last_recorded_at": "2026-03-22T14:31:24.198591+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-siryo48_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:24.694764+00:00",
+    "last_recorded_at": "2026-03-22T14:31:24.694764+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-49_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:25.168251+00:00",
+    "last_recorded_at": "2026-03-22T14:31:25.168251+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-siryo49_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:25.642298+00:00",
+    "last_recorded_at": "2026-03-22T14:31:25.642298+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-50_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:26.112555+00:00",
+    "last_recorded_at": "2026-03-22T14:31:26.112555+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-siryo50_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:26.567183+00:00",
+    "last_recorded_at": "2026-03-22T14:31:26.567183+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-51_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:27.108769+00:00",
+    "last_recorded_at": "2026-03-22T14:31:27.108769+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-siryo51_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:27.571651+00:00",
+    "last_recorded_at": "2026-03-22T14:31:27.571651+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-52_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:28.047703+00:00",
+    "last_recorded_at": "2026-03-22T14:31:28.047703+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/kanribukai-siryo52_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:28.523329+00:00",
+    "last_recorded_at": "2026-03-22T14:31:28.523329+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00011.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:57.205872+00:00",
+    "last_recorded_at": "2026-03-22T14:31:57.205872+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00013.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:57.563208+00:00",
+    "last_recorded_at": "2026-03-22T14:31:57.563208+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00010.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:57.928468+00:00",
+    "last_recorded_at": "2026-03-22T14:31:57.928468+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00012.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:58.335093+00:00",
+    "last_recorded_at": "2026-03-22T14:31:58.335093+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00009.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:58.687780+00:00",
+    "last_recorded_at": "2026-03-22T14:31:58.687780+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00011.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:59.058361+00:00",
+    "last_recorded_at": "2026-03-22T14:31:59.058361+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00008.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:59.429282+00:00",
+    "last_recorded_at": "2026-03-22T14:31:59.429282+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00010.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:31:59.786688+00:00",
+    "last_recorded_at": "2026-03-22T14:31:59.786688+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00007.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:00.137739+00:00",
+    "last_recorded_at": "2026-03-22T14:32:00.137739+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00009.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:00.504118+00:00",
+    "last_recorded_at": "2026-03-22T14:32:00.504118+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00006.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:00.863939+00:00",
+    "last_recorded_at": "2026-03-22T14:32:00.863939+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00008.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:01.231616+00:00",
+    "last_recorded_at": "2026-03-22T14:32:01.231616+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00005.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:01.595816+00:00",
+    "last_recorded_at": "2026-03-22T14:32:01.595816+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00007.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:01.955768+00:00",
+    "last_recorded_at": "2026-03-22T14:32:01.955768+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00004.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:02.318381+00:00",
+    "last_recorded_at": "2026-03-22T14:32:02.318381+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00006.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:02.703576+00:00",
+    "last_recorded_at": "2026-03-22T14:32:02.703576+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00003.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:03.059442+00:00",
+    "last_recorded_at": "2026-03-22T14:32:03.059442+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00005.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:03.413970+00:00",
+    "last_recorded_at": "2026-03-22T14:32:03.413970+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:03.771703+00:00",
+    "last_recorded_at": "2026-03-22T14:32:03.771703+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00004.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:04.128066+00:00",
+    "last_recorded_at": "2026-03-22T14:32:04.128066+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:04.492493+00:00",
+    "last_recorded_at": "2026-03-22T14:32:04.492493+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918_00003.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:04.852677+00:00",
+    "last_recorded_at": "2026-03-22T14:32:04.852677+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000061798.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:05.217193+00:00",
+    "last_recorded_at": "2026-03-22T14:32:05.217193+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062918.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:05.570059+00:00",
+    "last_recorded_at": "2026-03-22T14:32:05.570059+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000058823.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:05.920115+00:00",
+    "last_recorded_at": "2026-03-22T14:32:05.920115+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000059514.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:06.265383+00:00",
+    "last_recorded_at": "2026-03-22T14:32:06.265383+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000054804.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:06.673041+00:00",
+    "last_recorded_at": "2026-03-22T14:32:06.673041+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000055488.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:07.032748+00:00",
+    "last_recorded_at": "2026-03-22T14:32:07.032748+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000052505.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:07.376362+00:00",
+    "last_recorded_at": "2026-03-22T14:32:07.376362+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000053293.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:07.725963+00:00",
+    "last_recorded_at": "2026-03-22T14:32:07.725963+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000110561.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:08.486271+00:00",
+    "last_recorded_at": "2026-03-22T14:32:08.486271+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000110556.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:08.832798+00:00",
+    "last_recorded_at": "2026-03-22T14:32:08.832798+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000110248.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:09.199927+00:00",
+    "last_recorded_at": "2026-03-22T14:32:09.199927+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000078349.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:09.562116+00:00",
+    "last_recorded_at": "2026-03-22T14:32:09.562116+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000068125.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:09.923729+00:00",
+    "last_recorded_at": "2026-03-22T14:32:09.923729+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000054458.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:10.284351+00:00",
+    "last_recorded_at": "2026-03-22T14:32:10.284351+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/0000173365_00013.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:11.338970+00:00",
+    "last_recorded_at": "2026-03-22T14:32:11.338970+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/0000173365_00011.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:12.156399+00:00",
+    "last_recorded_at": "2026-03-22T14:32:12.156399+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/0000173365_00010.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:12.937270+00:00",
+    "last_recorded_at": "2026-03-22T14:32:12.937270+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/0000173365_00009.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:13.726907+00:00",
+    "last_recorded_at": "2026-03-22T14:32:13.726907+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/0000173365_00008.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:14.553566+00:00",
+    "last_recorded_at": "2026-03-22T14:32:14.553566+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/0000173365_00006.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:15.376043+00:00",
+    "last_recorded_at": "2026-03-22T14:32:15.376043+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/houdou/0000173365_00005.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:16.159826+00:00",
+    "last_recorded_at": "2026-03-22T14:32:16.159826+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000092979.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:16.968541+00:00",
+    "last_recorded_at": "2026-03-22T14:32:16.968541+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000093677.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:17.320591+00:00",
+    "last_recorded_at": "2026-03-22T14:32:17.320591+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000092305.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:17.675870+00:00",
+    "last_recorded_at": "2026-03-22T14:32:17.675870+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000092988.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:18.029134+00:00",
+    "last_recorded_at": "2026-03-22T14:32:18.029134+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000086948.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:18.375281+00:00",
+    "last_recorded_at": "2026-03-22T14:32:18.375281+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000087292.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:18.727564+00:00",
+    "last_recorded_at": "2026-03-22T14:32:18.727564+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000084727.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:19.083976+00:00",
+    "last_recorded_at": "2026-03-22T14:32:19.083976+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000085276.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:19.447042+00:00",
+    "last_recorded_at": "2026-03-22T14:32:19.447042+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000081978.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:19.803563+00:00",
+    "last_recorded_at": "2026-03-22T14:32:19.803563+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000083040.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:20.153715+00:00",
+    "last_recorded_at": "2026-03-22T14:32:20.153715+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000080838.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:20.516262+00:00",
+    "last_recorded_at": "2026-03-22T14:32:20.516262+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000081475.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:21.107145+00:00",
+    "last_recorded_at": "2026-03-22T14:32:21.107145+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000075255.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:21.465856+00:00",
+    "last_recorded_at": "2026-03-22T14:32:21.465856+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000080877.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:21.826886+00:00",
+    "last_recorded_at": "2026-03-22T14:32:21.826886+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000065665.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:22.179272+00:00",
+    "last_recorded_at": "2026-03-22T14:32:22.179272+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000066948.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:22.673042+00:00",
+    "last_recorded_at": "2026-03-22T14:32:22.673042+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000060088.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:23.032701+00:00",
+    "last_recorded_at": "2026-03-22T14:32:23.032701+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000065292.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:23.380138+00:00",
+    "last_recorded_at": "2026-03-22T14:32:23.380138+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000062766.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:23.735197+00:00",
+    "last_recorded_at": "2026-03-22T14:32:23.735197+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000063802.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:24.099266+00:00",
+    "last_recorded_at": "2026-03-22T14:32:24.099266+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000064462.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:24.456901+00:00",
+    "last_recorded_at": "2026-03-22T14:32:24.456901+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000060849.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:24.807651+00:00",
+    "last_recorded_at": "2026-03-22T14:32:24.807651+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000058038.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:25.165393+00:00",
+    "last_recorded_at": "2026-03-22T14:32:25.165393+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000058626.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:32:25.521324+00:00",
+    "last_recorded_at": "2026-03-22T14:32:25.521324+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000199422_00005.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:01.096471+00:00",
+    "last_recorded_at": "2026-03-22T14:33:01.096471+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000199422_00004.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:01.853904+00:00",
+    "last_recorded_at": "2026-03-22T14:33:01.853904+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000199422_00003.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:02.592459+00:00",
+    "last_recorded_at": "2026-03-22T14:33:02.592459+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000212049_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:02.989877+00:00",
+    "last_recorded_at": "2026-03-22T14:33:02.989877+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000199422_00002.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:03.338219+00:00",
+    "last_recorded_at": "2026-03-22T14:33:03.338219+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000212049.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:03.692004+00:00",
+    "last_recorded_at": "2026-03-22T14:33:03.692004+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000199422_00001.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:04.050258+00:00",
+    "last_recorded_at": "2026-03-22T14:33:04.050258+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000197523.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:04.433914+00:00",
+    "last_recorded_at": "2026-03-22T14:33:04.433914+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000199422.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:04.814335+00:00",
+    "last_recorded_at": "2026-03-22T14:33:04.814335+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000190059.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:05.183527+00:00",
+    "last_recorded_at": "2026-03-22T14:33:05.183527+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000191238.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:05.539277+00:00",
+    "last_recorded_at": "2026-03-22T14:33:05.539277+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000174605.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:05.896414+00:00",
+    "last_recorded_at": "2026-03-22T14:33:05.896414+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000175990.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:06.269056+00:00",
+    "last_recorded_at": "2026-03-22T14:33:06.269056+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000150320.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:06.636936+00:00",
+    "last_recorded_at": "2026-03-22T14:33:06.636936+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000151959.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:06.995637+00:00",
+    "last_recorded_at": "2026-03-22T14:33:06.995637+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000139185.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:07.355304+00:00",
+    "last_recorded_at": "2026-03-22T14:33:07.355304+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000145401.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:07.707138+00:00",
+    "last_recorded_at": "2026-03-22T14:33:07.707138+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000130374.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:08.054642+00:00",
+    "last_recorded_at": "2026-03-22T14:33:08.054642+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000145391.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:08.409830+00:00",
+    "last_recorded_at": "2026-03-22T14:33:08.409830+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000124447.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:08.764509+00:00",
+    "last_recorded_at": "2026-03-22T14:33:08.764509+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000145382.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:09.112889+00:00",
+    "last_recorded_at": "2026-03-22T14:33:09.112889+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000116266.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:09.477486+00:00",
+    "last_recorded_at": "2026-03-22T14:33:09.477486+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000118686.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:09.836652+00:00",
+    "last_recorded_at": "2026-03-22T14:33:09.836652+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000109945.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:10.201551+00:00",
+    "last_recorded_at": "2026-03-22T14:33:10.201551+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000111333.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:10.546668+00:00",
+    "last_recorded_at": "2026-03-22T14:33:10.546668+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000104616.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:10.937361+00:00",
+    "last_recorded_at": "2026-03-22T14:33:10.937361+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000105732.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:11.289517+00:00",
+    "last_recorded_at": "2026-03-22T14:33:11.289517+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000098230.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:11.635544+00:00",
+    "last_recorded_at": "2026-03-22T14:33:11.635544+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000099991.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:12.004903+00:00",
+    "last_recorded_at": "2026-03-22T14:33:12.004903+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000087287.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:12.354366+00:00",
+    "last_recorded_at": "2026-03-22T14:33:12.354366+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000088342.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:12.703751+00:00",
+    "last_recorded_at": "2026-03-22T14:33:12.703751+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000107219.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:17.703834+00:00",
+    "last_recorded_at": "2026-03-22T14:33:17.703834+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000115772.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:18.060617+00:00",
+    "last_recorded_at": "2026-03-22T14:33:18.060617+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000104111.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:18.406968+00:00",
+    "last_recorded_at": "2026-03-22T14:33:18.406968+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000106652.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:18.762712+00:00",
+    "last_recorded_at": "2026-03-22T14:33:18.762712+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000104109.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:19.113226+00:00",
+    "last_recorded_at": "2026-03-22T14:33:19.113226+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000105477.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:19.468073+00:00",
+    "last_recorded_at": "2026-03-22T14:33:19.468073+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000104103.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:19.826525+00:00",
+    "last_recorded_at": "2026-03-22T14:33:19.826525+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000104554.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:20.187646+00:00",
+    "last_recorded_at": "2026-03-22T14:33:20.187646+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000096177.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:20.541010+00:00",
+    "last_recorded_at": "2026-03-22T14:33:20.541010+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000096672.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:20.894774+00:00",
+    "last_recorded_at": "2026-03-22T14:33:20.894774+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000103243.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:21.676549+00:00",
+    "last_recorded_at": "2026-03-22T14:33:21.676549+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000104095.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:22.052569+00:00",
+    "last_recorded_at": "2026-03-22T14:33:22.052569+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000102187.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:22.407380+00:00",
+    "last_recorded_at": "2026-03-22T14:33:22.407380+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000103006.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:22.781295+00:00",
+    "last_recorded_at": "2026-03-22T14:33:22.781295+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000101308.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:23.775363+00:00",
+    "last_recorded_at": "2026-03-22T14:33:23.775363+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000102441.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:24.132573+00:00",
+    "last_recorded_at": "2026-03-22T14:33:24.132573+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000097923.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:24.492876+00:00",
+    "last_recorded_at": "2026-03-22T14:33:24.492876+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000099498.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:24.875130+00:00",
+    "last_recorded_at": "2026-03-22T14:33:24.875130+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000103240.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:25.699127+00:00",
+    "last_recorded_at": "2026-03-22T14:33:25.699127+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000104087.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:26.063404+00:00",
+    "last_recorded_at": "2026-03-22T14:33:26.063404+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000102190.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:26.426024+00:00",
+    "last_recorded_at": "2026-03-22T14:33:26.426024+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000103017.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:26.780299+00:00",
+    "last_recorded_at": "2026-03-22T14:33:26.780299+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000101311.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:27.144002+00:00",
+    "last_recorded_at": "2026-03-22T14:33:27.144002+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000102423.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:27.487649+00:00",
+    "last_recorded_at": "2026-03-22T14:33:27.487649+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000097919.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:27.854079+00:00",
+    "last_recorded_at": "2026-03-22T14:33:27.854079+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000099512.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:28.211739+00:00",
+    "last_recorded_at": "2026-03-22T14:33:28.211739+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000145836.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:28.977720+00:00",
+    "last_recorded_at": "2026-03-22T14:33:28.977720+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000146736.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:29.330647+00:00",
+    "last_recorded_at": "2026-03-22T14:33:29.330647+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000143097.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:29.687616+00:00",
+    "last_recorded_at": "2026-03-22T14:33:29.687616+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000144169.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:30.033678+00:00",
+    "last_recorded_at": "2026-03-22T14:33:30.033678+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000131042.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:30.394887+00:00",
+    "last_recorded_at": "2026-03-22T14:33:30.394887+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000132433.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:30.747894+00:00",
+    "last_recorded_at": "2026-03-22T14:33:30.747894+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000125132.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:31.105843+00:00",
+    "last_recorded_at": "2026-03-22T14:33:31.105843+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000126404.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:31.458192+00:00",
+    "last_recorded_at": "2026-03-22T14:33:31.458192+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000123160.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:31.818830+00:00",
+    "last_recorded_at": "2026-03-22T14:33:31.818830+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000124820.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:32.172707+00:00",
+    "last_recorded_at": "2026-03-22T14:33:32.172707+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000122157.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:32.533452+00:00",
+    "last_recorded_at": "2026-03-22T14:33:32.533452+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000123537.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:32.885244+00:00",
+    "last_recorded_at": "2026-03-22T14:33:32.885244+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000116680.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:33.246792+00:00",
+    "last_recorded_at": "2026-03-22T14:33:33.246792+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000121134.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:33.637464+00:00",
+    "last_recorded_at": "2026-03-22T14:33:33.637464+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000111824.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:33.996266+00:00",
+    "last_recorded_at": "2026-03-22T14:33:33.996266+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000124049.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:34.364980+00:00",
+    "last_recorded_at": "2026-03-22T14:33:34.364980+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000107283.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:34.732485+00:00",
+    "last_recorded_at": "2026-03-22T14:33:34.732485+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000110009.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:35.094587+00:00",
+    "last_recorded_at": "2026-03-22T14:33:35.094587+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000105490.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:35.437675+00:00",
+    "last_recorded_at": "2026-03-22T14:33:35.437675+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000106924.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:33:35.791733+00:00",
+    "last_recorded_at": "2026-03-22T14:33:35.791733+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000190445.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:07.138100+00:00",
+    "last_recorded_at": "2026-03-22T14:35:07.138100+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000169072.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:07.502285+00:00",
+    "last_recorded_at": "2026-03-22T14:35:07.502285+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000170189.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:07.848645+00:00",
+    "last_recorded_at": "2026-03-22T14:35:07.848645+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000196521.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:24.787528+00:00",
+    "last_recorded_at": "2026-03-22T14:35:24.787528+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000197809.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:25.156351+00:00",
+    "last_recorded_at": "2026-03-22T14:35:25.156351+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000178003.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:25.861193+00:00",
+    "last_recorded_at": "2026-03-22T14:35:25.861193+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_30475.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:26.633548+00:00",
+    "last_recorded_at": "2026-03-22T14:35:26.633548+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_30880.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:27.001972+00:00",
+    "last_recorded_at": "2026-03-22T14:35:27.001972+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_29614.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:27.369226+00:00",
+    "last_recorded_at": "2026-03-22T14:35:27.369226+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_29851.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:27.934689+00:00",
+    "last_recorded_at": "2026-03-22T14:35:27.934689+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_28038.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:28.295158+00:00",
+    "last_recorded_at": "2026-03-22T14:35:28.295158+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_28204.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:28.646036+00:00",
+    "last_recorded_at": "2026-03-22T14:35:28.646036+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_26686.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:29.012530+00:00",
+    "last_recorded_at": "2026-03-22T14:35:29.012530+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_26873.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:29.368384+00:00",
+    "last_recorded_at": "2026-03-22T14:35:29.368384+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_26391.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:29.713189+00:00",
+    "last_recorded_at": "2026-03-22T14:35:29.713189+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/newpage_26496.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:30.101471+00:00",
+    "last_recorded_at": "2026-03-22T14:35:30.101471+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000208812.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:30.462953+00:00",
+    "last_recorded_at": "2026-03-22T14:35:30.462953+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000210103.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:30.859779+00:00",
+    "last_recorded_at": "2026-03-22T14:35:30.859779+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000205434.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:31.242512+00:00",
+    "last_recorded_at": "2026-03-22T14:35:31.242512+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000204398.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:31.600661+00:00",
+    "last_recorded_at": "2026-03-22T14:35:31.600661+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000203024.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:31.958281+00:00",
+    "last_recorded_at": "2026-03-22T14:35:31.958281+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000208845.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:32.320532+00:00",
+    "last_recorded_at": "2026-03-22T14:35:32.320532+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000197531.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:32.674244+00:00",
+    "last_recorded_at": "2026-03-22T14:35:32.674244+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000198470.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:33.040809+00:00",
+    "last_recorded_at": "2026-03-22T14:35:33.040809+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000194457.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:33.393726+00:00",
+    "last_recorded_at": "2026-03-22T14:35:33.393726+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000196535.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:33.771496+00:00",
+    "last_recorded_at": "2026-03-22T14:35:33.771496+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000192892.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:34.116745+00:00",
+    "last_recorded_at": "2026-03-22T14:35:34.116745+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000193935.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:34.528633+00:00",
+    "last_recorded_at": "2026-03-22T14:35:34.528633+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000191674.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:34.875544+00:00",
+    "last_recorded_at": "2026-03-22T14:35:34.875544+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000192619.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:35.242800+00:00",
+    "last_recorded_at": "2026-03-22T14:35:35.242800+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000186493.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:35.583976+00:00",
+    "last_recorded_at": "2026-03-22T14:35:35.583976+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000187069.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:35.946527+00:00",
+    "last_recorded_at": "2026-03-22T14:35:35.946527+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000184722.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:36.292959+00:00",
+    "last_recorded_at": "2026-03-22T14:35:36.292959+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000185576.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:36.656737+00:00",
+    "last_recorded_at": "2026-03-22T14:35:36.656737+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000183360.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:35:37.007944+00:00",
+    "last_recorded_at": "2026-03-22T14:35:37.007944+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000093807.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:16.810693+00:00",
+    "last_recorded_at": "2026-03-22T14:36:16.810693+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000093824.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:17.824504+00:00",
+    "last_recorded_at": "2026-03-22T14:36:17.824504+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000093852.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:18.192254+00:00",
+    "last_recorded_at": "2026-03-22T14:36:18.192254+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000093865.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:18.557404+00:00",
+    "last_recorded_at": "2026-03-22T14:36:18.557404+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000093920.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:18.918299+00:00",
+    "last_recorded_at": "2026-03-22T14:36:18.918299+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000093933.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:19.285110+00:00",
+    "last_recorded_at": "2026-03-22T14:36:19.285110+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000q3uo.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:23.739279+00:00",
+    "last_recorded_at": "2026-03-22T14:36:23.739279+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000000r76e.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:24.127631+00:00",
+    "last_recorded_at": "2026-03-22T14:36:24.127631+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001ppjj.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:24.492147+00:00",
+    "last_recorded_at": "2026-03-22T14:36:24.492147+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000001ru9f.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:24.851553+00:00",
+    "last_recorded_at": "2026-03-22T14:36:24.851553+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000020h9i.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:25.282865+00:00",
+    "last_recorded_at": "2026-03-22T14:36:25.282865+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r98520000021l0s.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:25.663597+00:00",
+    "last_recorded_at": "2026-03-22T14:36:25.663597+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002c9dl.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:26.036829+00:00",
+    "last_recorded_at": "2026-03-22T14:36:26.036829+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/2r9852000002dsc0.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:26.385787+00:00",
+    "last_recorded_at": "2026-03-22T14:36:26.385787+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000014418.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:26.786128+00:00",
+    "last_recorded_at": "2026-03-22T14:36:26.786128+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi/0000014441.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:27.146075+00:00",
+    "last_recorded_at": "2026-03-22T14:36:27.146075+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000086813.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:27.542515+00:00",
+    "last_recorded_at": "2026-03-22T14:36:27.542515+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000089300.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:27.898078+00:00",
+    "last_recorded_at": "2026-03-22T14:36:27.898078+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000134511.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:28.285035+00:00",
+    "last_recorded_at": "2026-03-22T14:36:28.285035+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000135042.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:28.644536+00:00",
+    "last_recorded_at": "2026-03-22T14:36:28.644536+00:00"
+  },
+  "https://www.mhlw.go.jp/stf/shingi2/0000210741.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:29.032293+00:00",
+    "last_recorded_at": "2026-03-22T14:36:29.032293+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_06197.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:30.153343+00:00",
+    "last_recorded_at": "2026-03-22T14:36:30.153343+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_06243.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:30.664827+00:00",
+    "last_recorded_at": "2026-03-22T14:36:30.664827+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_13657.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:31.206645+00:00",
+    "last_recorded_at": "2026-03-22T14:36:31.206645+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_13718.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:31.923732+00:00",
+    "last_recorded_at": "2026-03-22T14:36:31.923732+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_16927.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:32.435188+00:00",
+    "last_recorded_at": "2026-03-22T14:36:32.435188+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_17177.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:32.907733+00:00",
+    "last_recorded_at": "2026-03-22T14:36:32.907733+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_20537.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:33.373969+00:00",
+    "last_recorded_at": "2026-03-22T14:36:33.373969+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_20434.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:33.849969+00:00",
+    "last_recorded_at": "2026-03-22T14:36:33.849969+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_27726.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:34.399526+00:00",
+    "last_recorded_at": "2026-03-22T14:36:34.399526+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_27729.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:34.902752+00:00",
+    "last_recorded_at": "2026-03-22T14:36:34.902752+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_39998.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:35.369324+00:00",
+    "last_recorded_at": "2026-03-22T14:36:35.369324+00:00"
+  },
+  "https://warp.ndl.go.jp/stf/newpage_40020.html": {
+    "status_code": 404,
+    "reason": "Not Found",
+    "first_recorded_at": "2026-03-22T14:36:35.924783+00:00",
+    "last_recorded_at": "2026-03-22T14:36:35.924783+00:00"
+  }
+}

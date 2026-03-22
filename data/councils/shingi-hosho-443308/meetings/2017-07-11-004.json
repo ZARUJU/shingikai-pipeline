@@ -1,0 +1,30 @@
+{
+  "id": "2017-07-11-004",
+  "council_id": "shingi-hosho-443308",
+  "round_label": 4,
+  "held_on": "2017-07-11",
+  "agenda": [
+    "・子どもの貧困への対応について",
+    "・高齢者に対する支援のあり方について",
+    "・家計相談支援・生活福祉資金のあり方について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000169616.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000184250.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000170734.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000169616.html"
+    }
+  ]
+}

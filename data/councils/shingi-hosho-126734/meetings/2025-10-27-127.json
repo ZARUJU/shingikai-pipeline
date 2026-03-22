@@ -1,0 +1,31 @@
+{
+  "id": "2025-10-27-127",
+  "council_id": "shingi-hosho-126734",
+  "round_label": 127,
+  "held_on": "2025-10-27",
+  "agenda": [
+    "介護人材確保と職場環境改善・生産性向上、経営改善支援等",
+    "地域包括ケアシステムの深化（相談支援の在り方）",
+    "持続可能性の確保",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_64528.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65953.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65232.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_64528.html"
+    }
+  ]
+}

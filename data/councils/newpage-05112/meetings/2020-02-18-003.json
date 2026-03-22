@@ -1,0 +1,31 @@
+{
+  "id": "2020-02-18-003",
+  "council_id": "newpage-05112",
+  "round_label": 3,
+  "held_on": "2020-02-18",
+  "agenda": [
+    "WHO-FIC ネットワーク年次会議（",
+    "年バンフ）におけるICF 一部改正の投票結果について",
+    "ICF 専門委員会への活動状況報告について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_09249.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_10216.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_09557.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_09249.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2010-03-26-009",
+  "council_id": "shingi-hosho-126694",
+  "round_label": 9,
+  "held_on": "2010-03-26",
+  "agenda": [
+    "ICD改訂に関する動向について",
+    "ICD-10の一部改正に対する意見提出について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2010/03/s0326-3.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：71KB］",
+      "url": "https://warp.ndl.go.jp/content/shingi___2010___03___txt___s0326-13.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2010/03/s0326-10.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2010/03/s0326-3.html"
+    }
+  ]
+}

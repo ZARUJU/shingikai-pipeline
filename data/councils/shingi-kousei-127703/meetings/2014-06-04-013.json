@@ -1,0 +1,32 @@
+{
+  "id": "2014-06-04-013",
+  "council_id": "shingi-kousei-127703",
+  "round_label": 13,
+  "held_on": "2014-06-04",
+  "agenda": [
+    "分科会及び部会の活動状況について",
+    "再生医療等評価部会の設置について",
+    "がん登録部会の設置について",
+    "医薬品等制度改正検討部会の廃止について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000046484.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000049505.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000047723.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000046484.html"
+    }
+  ]
+}

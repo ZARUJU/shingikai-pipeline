@@ -1,0 +1,30 @@
+{
+  "id": "2014-10-07-005",
+  "council_id": "shingi-hosho-191001",
+  "round_label": 5,
+  "held_on": "2014-10-07",
+  "agenda": [
+    "年金記録の訂正手続の創設に向けた準備状況について",
+    "平成27年度予算概算要求について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000059643.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000064125.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000060967.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000059643.html"
+    }
+  ]
+}

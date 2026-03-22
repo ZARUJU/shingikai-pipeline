@@ -1,0 +1,30 @@
+{
+  "id": "2014-02-13-015",
+  "council_id": "shingi-hosho-126723",
+  "round_label": 15,
+  "held_on": "2014-02-13",
+  "agenda": [
+    "経済前提の設定に用いる経済モデル等について",
+    "積立金運用のあり方について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000036022.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000042222.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000037101.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000036022.html"
+    }
+  ]
+}

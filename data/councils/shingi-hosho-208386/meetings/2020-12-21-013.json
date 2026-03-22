@@ -1,0 +1,31 @@
+{
+  "id": "2020-12-21-013",
+  "council_id": "shingi-hosho-208386",
+  "round_label": 13,
+  "held_on": "2020-12-21",
+  "agenda": [
+    "関係事業者からのヒアリング",
+    "自社研修等基準について",
+    "マッチングサイトガイドラインの改正について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000061798_00009.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000066851_00012.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000062918_00011.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000061798_00009.html"
+    }
+  ]
+}

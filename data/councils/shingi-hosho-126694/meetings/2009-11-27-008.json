@@ -1,0 +1,30 @@
+{
+  "id": "2009-11-27-008",
+  "council_id": "shingi-hosho-126694",
+  "round_label": 8,
+  "held_on": "2009-11-27",
+  "agenda": [
+    "WHO-FICソウル会議報告について",
+    "ICD-11改訂の動向についてi-camp報告について各TAGからの報告について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2009/11/s1127-1.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：96KB］",
+      "url": "https://warp.ndl.go.jp/content/shingi___2009___11___txt___s1127-14.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2009/11/s1127-11.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2009/11/s1127-1.html"
+    }
+  ]
+}

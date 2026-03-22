@@ -1,0 +1,32 @@
+{
+  "id": "2018-01-29-004",
+  "council_id": "shingi-hosho-491253",
+  "round_label": 4,
+  "held_on": "2018-01-29",
+  "agenda": [
+    "これまでの議論を踏まえた論点整理と検討の方向性について",
+    "分権関係報告",
+    "最近の主な動き",
+    "関係者からのヒアリング（1）",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000191674.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000196568.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000192619.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000191674.html"
+    }
+  ]
+}

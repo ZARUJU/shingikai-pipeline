@@ -1,0 +1,30 @@
+{
+  "id": "2022-10-28-156",
+  "council_id": "newpage-28708",
+  "round_label": 156,
+  "held_on": "2022-10-28",
+  "agenda": [
+    "医療保険制度改革について",
+    "国民健康保険の保険料（税）の賦課（課税）限度額について",
+    "オンライン資格確認等システムについて"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_28683.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_29199.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_28799.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_28683.html"
+    }
+  ]
+}

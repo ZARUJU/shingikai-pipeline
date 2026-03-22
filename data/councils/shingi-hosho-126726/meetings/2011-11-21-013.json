@@ -1,0 +1,32 @@
+{
+  "id": "2011-11-21-013",
+  "council_id": "shingi-hosho-126726",
+  "round_label": 13,
+  "held_on": "2011-11-21",
+  "agenda": [
+    "開会",
+    "議事",
+    "平成23年度における日本年金機構の取組状況について",
+    "その他・日本年金機構アニュアルレポート2010について",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001t2nj.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001xtus.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001vlhr.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001t2nj.html"
+    }
+  ]
+}

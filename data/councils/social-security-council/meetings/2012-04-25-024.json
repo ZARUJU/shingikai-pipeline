@@ -1,0 +1,35 @@
+{
+  "id": "2012-04-25-024",
+  "council_id": "social-security-council",
+  "round_label": 24,
+  "held_on": "2012-04-25",
+  "agenda": [
+    "社会保障・税一体改革について",
+    "社会保障改革の進捗状況について（関連法案の概要等）",
+    "検討課題に対する法案提出後の対応の方向性について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r98520000028co5.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002b28y.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r985200000297nt.html"
+    },
+    {
+      "title": "委員名簿",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000029avd.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000028co5.html"
+    }
+  ]
+}

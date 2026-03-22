@@ -1,0 +1,31 @@
+{
+  "id": "2011-12-15-011",
+  "council_id": "shingi-hosho-126695",
+  "round_label": 11,
+  "held_on": "2011-12-15",
+  "agenda": [
+    "WHO-FICネットワーク年次会議（ケープタウン）報告",
+    "ICFの一部改正について",
+    "ICFの普及について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001wcnj.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi/2r985200000209du.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001ycaq.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001wcnj.html"
+    }
+  ]
+}

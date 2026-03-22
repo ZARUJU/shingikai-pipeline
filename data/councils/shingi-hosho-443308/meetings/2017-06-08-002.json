@@ -1,0 +1,29 @@
+{
+  "id": "2017-06-08-002",
+  "council_id": "shingi-hosho-443308",
+  "round_label": 2,
+  "held_on": "2017-06-08",
+  "agenda": [
+    "自立相談支援のあり方について",
+    "就労支援のあり方について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000166257.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000181068.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000167340.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000166257.html"
+    }
+  ]
+}

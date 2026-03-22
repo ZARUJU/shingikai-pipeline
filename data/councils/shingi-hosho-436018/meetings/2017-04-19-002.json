@@ -1,0 +1,29 @@
+{
+  "id": "2017-04-19-002",
+  "council_id": "shingi-hosho-436018",
+  "round_label": 2,
+  "held_on": "2017-04-19",
+  "agenda": [
+    "リハビリテーションについて",
+    "関係者・関係機関の調整・連携について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000161288.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000164786.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000162533.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000161288.html"
+    }
+  ]
+}

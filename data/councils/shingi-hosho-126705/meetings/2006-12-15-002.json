@@ -1,0 +1,31 @@
+{
+  "id": "2006-12-15-002",
+  "council_id": "shingi-hosho-126705",
+  "round_label": 2,
+  "held_on": "2006-12-15",
+  "agenda": [
+    "人口構造の変化を巡る論点",
+    "人口構造の変化と社会保障",
+    "ＳＫ試算のイメージ",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2006/12/s1215-4.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：97KB］",
+      "url": "https://www.mhlw.go.jp/content/shingi___2006___12___txt___s1215-7.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2006/12/s1215-12.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2006/12/s1215-4.html"
+    }
+  ]
+}

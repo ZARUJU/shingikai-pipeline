@@ -1,0 +1,31 @@
+{
+  "id": "2021-06-09-005",
+  "council_id": "index-13914",
+  "round_label": 5,
+  "held_on": "2021-06-09",
+  "agenda": [
+    "第三者提供の現状について（報告）",
+    "第6回NDBオープンデータについて",
+    "第7回NDBオープンデータの作成方針について",
+    "個別審査（非公開）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_19010.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/index_00007.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/index_00006.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_19010.html"
+    }
+  ]
+}

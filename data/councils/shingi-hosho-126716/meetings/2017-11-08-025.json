@@ -1,0 +1,31 @@
+{
+  "id": "2017-11-08-025",
+  "council_id": "shingi-hosho-126716",
+  "round_label": 25,
+  "held_on": "2017-11-08",
+  "agenda": [
+    "平成30年度に追加等を検討する疾病について",
+    "疾患群の追加の検討について",
+    "告示記載事項の修正の検討について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000182520.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000198747.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000184002.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000182520.html"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2015-01-08-001",
+  "council_id": "shingi-hosho-238274",
+  "round_label": 1,
+  "held_on": "2015-01-08",
+  "agenda": [
+    "開会",
+    "議事",
+    "年金記録訂正分科会長の選任について",
+    "年金記録の訂正に関する方針について",
+    "その他",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000069113.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000074253.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000070647.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000069113.html"
+    }
+  ]
+}

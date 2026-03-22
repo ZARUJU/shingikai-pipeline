@@ -1,0 +1,29 @@
+{
+  "id": "2014-03-04-016",
+  "council_id": "shingi-hosho-126702",
+  "round_label": 16,
+  "held_on": "2014-03-04",
+  "agenda": [
+    "住宅扶助について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000037557.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000042546.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000038824.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000037557.html"
+    }
+  ]
+}

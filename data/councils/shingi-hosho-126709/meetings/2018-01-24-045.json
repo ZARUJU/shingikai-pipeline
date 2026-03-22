@@ -1,0 +1,30 @@
+{
+  "id": "2018-01-24-045",
+  "council_id": "shingi-hosho-126709",
+  "round_label": 45,
+  "held_on": "2018-01-24",
+  "agenda": [
+    "平成30年度に新たに追加する小児慢性特定疾病について",
+    "最近の子ども家庭行政の動向について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000191301.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000151433_00004.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000180015.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000191301.html"
+    }
+  ]
+}

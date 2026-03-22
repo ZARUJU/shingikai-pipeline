@@ -1,0 +1,33 @@
+{
+  "id": "2012-05-30-003",
+  "council_id": "shingi-hosho-126703",
+  "round_label": 3,
+  "held_on": "2012-05-30",
+  "agenda": [
+    "開会",
+    "議事",
+    "生活困窮者対策と生活保護制度の見直しの方向性について",
+    "委員からのヒアリング",
+    "その他",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002az17.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002f48j.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002bsud.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002az17.html"
+    }
+  ]
+}

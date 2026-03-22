@@ -1,0 +1,31 @@
+{
+  "id": "2022-12-07-013",
+  "council_id": "index-13914",
+  "round_label": 13,
+  "held_on": "2022-12-07",
+  "agenda": [
+    "NDBの個人識別情報の補正作業について（報告）",
+    "NDBと死亡情報の連結について",
+    "トライアルデータセット（仮称）の仕様について",
+    "個別審査（非公開）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_29428.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/index_00033.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/index_00031.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_29428.html"
+    }
+  ]
+}

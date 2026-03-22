@@ -1,0 +1,31 @@
+{
+  "id": "2014-08-27-001",
+  "council_id": "shingi-hosho-126700",
+  "round_label": 1,
+  "held_on": "2014-08-27",
+  "agenda": [
+    "部会長・部会長代理の選出について",
+    "社会福祉法人制度の見直しについて",
+    "福祉人材確保対策について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/0000054935.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000060229.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000055731.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/0000054935.html"
+    }
+  ]
+}

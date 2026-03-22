@@ -1,0 +1,29 @@
+{
+  "id": "2023-07-28-006",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 6,
+  "held_on": "2023-07-28",
+  "agenda": [
+    "遺族年金制度について",
+    "加給年金制度について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/nenkin_230728pr.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_0728.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/nenkin_230728.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_230728pr.html"
+    }
+  ]
+}

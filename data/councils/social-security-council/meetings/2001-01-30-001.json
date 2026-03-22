@@ -1,0 +1,21 @@
+{
+  "id": "2001-01-30-001",
+  "council_id": "social-security-council",
+  "round_label": 1,
+  "held_on": "2001-01-30",
+  "agenda": [],
+  "source_url": "https://www.mhlw.go.jp/shingi/0101/s0130-2.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：64KB］",
+      "url": "https://www.mhlw.go.jp/content/shingi___0101___txt___s0130-1.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/0101/s0130-2.html"
+    }
+  ],
+  "announcement_links": []
+}

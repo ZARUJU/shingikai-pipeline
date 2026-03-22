@@ -1,0 +1,29 @@
+{
+  "id": "2020-02-21-090",
+  "council_id": "shingi-hosho-126734",
+  "round_label": 90,
+  "held_on": "2020-02-21",
+  "agenda": [
+    "基本指針について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_09449.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_10214.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_09641.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_09449.html"
+    }
+  ]
+}

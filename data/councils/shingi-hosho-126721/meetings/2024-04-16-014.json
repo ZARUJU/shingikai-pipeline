@@ -1,0 +1,30 @@
+{
+  "id": "2024-04-16-014",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 14,
+  "held_on": "2024-04-16",
+  "agenda": [
+    "令和6年財政検証について",
+    "財政検証の経済前提について（報告）",
+    "社会保障審議会年金数理部会の公的年金財政状況報告について（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/nenkin_240416.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_20240131_00003.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/nenkin_20240416.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_240416.html"
+    }
+  ]
+}

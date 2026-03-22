@@ -1,0 +1,29 @@
+{
+  "id": "2021-01-27-053",
+  "council_id": "shingi-hosho-191001",
+  "round_label": 53,
+  "held_on": "2021-01-27",
+  "agenda": [
+    "日本年金機構の令和3年度計画の策定について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/kanribukai-53_00001.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/kanribukaigiji53_00001.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/kanribukai-siryo53_00001.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/kanribukai-53_00001.html"
+    }
+  ]
+}

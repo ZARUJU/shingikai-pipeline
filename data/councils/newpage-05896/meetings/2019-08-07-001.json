@@ -1,0 +1,31 @@
+{
+  "id": "2019-08-07-001",
+  "council_id": "newpage-05896",
+  "round_label": 1,
+  "held_on": "2019-08-07",
+  "agenda": [
+    "・委員の紹介及び委員長の選出",
+    "・経緯及びこれまでの見直し状況",
+    "・今後の検討の進め方",
+    "・その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_05891.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_06997.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_06123.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_05891.html"
+    }
+  ]
+}

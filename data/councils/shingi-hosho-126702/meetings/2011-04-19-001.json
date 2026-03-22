@@ -1,0 +1,30 @@
+{
+  "id": "2011-04-19-001",
+  "council_id": "shingi-hosho-126702",
+  "round_label": 1,
+  "held_on": "2011-04-19",
+  "agenda": [
+    "部会長選出及び部会長代理指名について",
+    "生活保護制度の概要と過去の検証について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r98520000018e2w.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001by9v.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000019mog.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r98520000018e2w.html"
+    }
+  ]
+}

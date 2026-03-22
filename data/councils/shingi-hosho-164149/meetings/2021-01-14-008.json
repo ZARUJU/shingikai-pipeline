@@ -1,0 +1,31 @@
+{
+  "id": "2021-01-14-008",
+  "council_id": "shingi-hosho-164149",
+  "round_label": 8,
+  "held_on": "2021-01-14",
+  "agenda": [
+    "部会長選出",
+    "「社会保障審議会統計分科会疾病、傷害及び死因分類部会運営要綱」の改正について",
+    "ICD-10（2013年版）の告示改正について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_15596.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_16518.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_15659.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_15596.html"
+    }
+  ]
+}

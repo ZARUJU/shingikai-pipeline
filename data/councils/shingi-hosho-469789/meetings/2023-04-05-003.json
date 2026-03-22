@@ -1,0 +1,30 @@
+{
+  "id": "2023-04-05-003",
+  "council_id": "shingi-hosho-469789",
+  "round_label": 3,
+  "held_on": "2023-04-05",
+  "agenda": [
+    "有識者及び委員からのヒアリング",
+    "総投資率と利潤率の関係について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_32220.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_33035.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_32362.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_32220.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2023-11-29-104",
+  "council_id": "shingi-hosho-126719",
+  "round_label": 104,
+  "held_on": "2023-11-29",
+  "agenda": [
+    "○遠隔医療の更なる活用について",
+    "○令和６年度診療報酬改定の基本方針について",
+    "○令和５年度補正予算案について（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_36542.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212218_00060.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000210433_00051.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_36542.html"
+    }
+  ]
+}

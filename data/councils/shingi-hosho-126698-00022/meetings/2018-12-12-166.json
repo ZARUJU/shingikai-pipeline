@@ -1,0 +1,30 @@
+{
+  "id": "2018-12-12-166",
+  "council_id": "shingi-hosho-126698-00022",
+  "round_label": 166,
+  "held_on": "2018-12-12",
+  "agenda": [
+    "介護人材の処遇改善について",
+    "介護保険サービス等に関する消費税の取扱いについて",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000213176_00012.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000203994_00010.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000202420_00011.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000213176_00012.html"
+    }
+  ]
+}

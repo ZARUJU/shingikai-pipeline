@@ -1,0 +1,30 @@
+{
+  "id": "2011-10-31-005",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 5,
+  "held_on": "2011-10-31",
+  "agenda": [
+    "産休期間中の保険料負担免除について",
+    "標準報酬上限の引き上げについて",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001sqeu.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001vsa2.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001tgrr.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001sqeu.html"
+    }
+  ]
+}

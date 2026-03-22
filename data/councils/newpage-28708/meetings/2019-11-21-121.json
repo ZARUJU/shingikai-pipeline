@@ -1,0 +1,31 @@
+{
+  "id": "2019-11-21-121",
+  "council_id": "newpage-28708",
+  "round_label": 121,
+  "held_on": "2019-11-21",
+  "agenda": [
+    "診療報酬改定の基本方針について",
+    "後期高齢者医療の保険料の賦課限度額について",
+    "被用者保険の適用拡大について",
+    "任意継続被保険者制度について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_07784.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_08249.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_07976.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_07784.html"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2025-02-03-033",
+  "council_id": "social-security-council",
+  "round_label": 33,
+  "held_on": "2025-02-03",
+  "agenda": [
+    "会長の選出について",
+    "「全世代型社会保障構築目指す改革の道筋（改革工程）」の進捗について",
+    "令和7年度予算案について",
+    "社会保障審議会運営規則第4条に規定する「会長の同意」の運用解釈について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_50481.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_56633.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50483.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50481.html"
+    }
+  ]
+}

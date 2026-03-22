@@ -1,0 +1,42 @@
+{
+  "id": "2016-07-14-096",
+  "council_id": "newpage-28708",
+  "round_label": 96,
+  "held_on": "2016-07-14",
+  "agenda": [
+    "骨太",
+    "2",
+    "0",
+    "1",
+    "規制改革実施計画等の報告について",
+    "骨太",
+    "2",
+    "0",
+    "1",
+    "経済・財政再生計画改革工程表の指摘事項について",
+    "高額療養費について",
+    "後期高齢者の窓口負担について",
+    "被用者保険をめぐる諸課題について",
+    "データヘルス時代の質の高い医療の実現に向けた有識者検討会の検討状況について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000129704.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000132421.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000130222.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000129704.html"
+    }
+  ]
+}

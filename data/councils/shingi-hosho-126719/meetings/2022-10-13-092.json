@@ -1,0 +1,30 @@
+{
+  "id": "2022-10-13-092",
+  "council_id": "shingi-hosho-126719",
+  "round_label": 92,
+  "held_on": "2022-10-13",
+  "agenda": [
+    "○感染症法等の一部を改正する法律案について",
+    "○第８次医療計画等に関する検討会における検討状況について（経過報告）",
+    "○医療ＤＸ推進本部について（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_28437.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212218_00045.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000210433_00031.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_28437.html"
+    }
+  ]
+}

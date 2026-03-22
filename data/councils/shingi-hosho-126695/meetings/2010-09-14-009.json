@@ -1,0 +1,31 @@
+{
+  "id": "2010-09-14-009",
+  "council_id": "shingi-hosho-126695",
+  "round_label": 9,
+  "held_on": "2010-09-14",
+  "agenda": [
+    "委員長の選出について",
+    "第2回ＩＣＦシンポジウム開催について",
+    "ＷＨＯ－ＤＡＳ2.0について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000000o74s.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi/2r9852000000w5dm.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000000s431.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000000o74s.html"
+    }
+  ]
+}

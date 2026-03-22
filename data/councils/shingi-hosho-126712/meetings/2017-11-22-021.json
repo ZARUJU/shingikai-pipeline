@@ -1,0 +1,30 @@
+{
+  "id": "2017-11-22-021",
+  "council_id": "shingi-hosho-126712",
+  "round_label": 21,
+  "held_on": "2017-11-22",
+  "agenda": [
+    "都道府県計画の見直しに関する基本的な考え方とスケジュールについて",
+    "都道府県計画の見直しに関する論点について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000185204.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000194004.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000185868.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000185204.html"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2017-05-12-002",
+  "council_id": "shingi-hosho-439756",
+  "round_label": 2,
+  "held_on": "2017-05-12",
+  "agenda": [
+    "役員の任命基準について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000163744.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000176606.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000164640.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000163744.html"
+    }
+  ]
+}

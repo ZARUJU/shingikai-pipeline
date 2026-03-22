@@ -1,0 +1,31 @@
+{
+  "id": "2022-01-31-085",
+  "council_id": "shingi-hosho-126719",
+  "round_label": 85,
+  "held_on": "2022-01-31",
+  "agenda": [
+    "○ 電子処方箋について",
+    "○ 外来機能報告及び「紹介受診重点医療機関」の広告について",
+    "○ 新型コロナウイルス感染症に係る臨時の医療施設への看護師等の労働者派遣について",
+    "○ 令和４年度予算案・税制改正について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_23454.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212218_00030.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000210433_00023.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_23454.html"
+    }
+  ]
+}

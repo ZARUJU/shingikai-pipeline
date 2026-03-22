@@ -1,0 +1,30 @@
+{
+  "id": "2022-07-21-010",
+  "council_id": "newpage-05896",
+  "round_label": 10,
+  "held_on": "2022-07-21",
+  "agenda": [
+    "令和４年７月２１日（木）",
+    "１０：００～１２：００",
+    "Web会議"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_26756.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_27749.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_26921.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_26756.html"
+    }
+  ]
+}

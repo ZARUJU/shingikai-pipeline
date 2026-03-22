@@ -1,0 +1,30 @@
+{
+  "id": "2009-12-04-007",
+  "council_id": "shingi-hosho-126695",
+  "round_label": 7,
+  "held_on": "2009-12-04",
+  "agenda": [
+    "WHO-FICソウル会議報告",
+    "シンポジウム「生活機能分類の活用に向けて－共通言語としてのICFの教育・普及を目指して－」の開催について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2009/12/s1204-1.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：68KB］",
+      "url": "https://warp.ndl.go.jp/content/shingi___2009___12___txt___s1204-18.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2009/12/s1204-13.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2009/12/s1204-1.html"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2021-06-24-006",
+  "council_id": "index-13914",
+  "round_label": 6,
+  "held_on": "2021-06-24",
+  "agenda": [
+    "NDB収載・提供情報の拡大について",
+    "履歴照会・回答システムの活用に伴うNDBの第三者提供に係る手数料の改定について（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_19293.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/index_00009.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/index_00008.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_19293.html"
+    }
+  ]
+}

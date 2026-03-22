@@ -1,0 +1,33 @@
+{
+  "id": "2017-01-18-135",
+  "council_id": "shingi-hosho-126698-00022",
+  "round_label": 135,
+  "held_on": "2017-01-18",
+  "agenda": [
+    "平成29年度介護報酬改定に係る諮問について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000147968.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000155668.html"
+    },
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000160724.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000148990.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000147968.html"
+    }
+  ]
+}

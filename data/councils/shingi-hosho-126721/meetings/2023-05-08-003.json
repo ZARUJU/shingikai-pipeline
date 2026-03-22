@@ -1,0 +1,29 @@
+{
+  "id": "2023-05-08-003",
+  "council_id": "shingi-hosho-126721",
+  "round_label": 3,
+  "held_on": "2023-05-08",
+  "agenda": [
+    "第1回及び第2回年金部会における主なご意見について",
+    "令和2年年金制度改正法等において指摘された課題について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/nenkin_230508pr.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_0508_00001.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/nenkin_230508.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/nenkin_230508pr.html"
+    }
+  ]
+}

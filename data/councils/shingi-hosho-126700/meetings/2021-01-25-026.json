@@ -1,0 +1,30 @@
+{
+  "id": "2021-01-25-026",
+  "council_id": "shingi-hosho-126700",
+  "round_label": 26,
+  "held_on": "2021-01-25",
+  "agenda": [
+    "令和３年１月２５日（月）",
+    "１５：００～１６：３０",
+    "於：TKP新橋カンファレンスセンター ホール15E"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_15755.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_16862.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_16178.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_15755.html"
+    }
+  ]
+}

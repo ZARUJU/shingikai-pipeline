@@ -1,0 +1,30 @@
+{
+  "id": "2020-09-16-130",
+  "council_id": "newpage-28708",
+  "round_label": 130,
+  "held_on": "2020-09-16",
+  "agenda": [
+    "医療保険制度改革に向けたこれまでの議論等について",
+    "オンライン資格確認の普及について",
+    "令和元年度の医療費・調剤医療費の動向（報告）"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_13500.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_14505.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_13559.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_13500.html"
+    }
+  ]
+}

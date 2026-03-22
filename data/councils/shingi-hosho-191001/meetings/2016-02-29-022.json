@@ -1,0 +1,30 @@
+{
+  "id": "2016-02-29-022",
+  "council_id": "shingi-hosho-191001",
+  "round_label": 22,
+  "held_on": "2016-02-29",
+  "agenda": [
+    "日本年金機構の中期計画の変更及び平成28年度計画の策定について",
+    "障害年金制度の運用に関する対応状況",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000113123.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://warp.ndl.go.jp/stf/shingi2/0000120827.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000114338.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000113123.html"
+    }
+  ]
+}

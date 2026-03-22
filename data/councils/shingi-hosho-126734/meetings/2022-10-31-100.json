@@ -1,0 +1,28 @@
+{
+  "id": "2022-10-31-100",
+  "council_id": "shingi-hosho-126734",
+  "round_label": 100,
+  "held_on": "2022-10-31",
+  "agenda": [
+    "給付と負担について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_28739.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_29617.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_28740.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_28739.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2021-12-09-084",
+  "council_id": "shingi-hosho-126719",
+  "round_label": 84,
+  "held_on": "2021-12-09",
+  "agenda": [
+    "○令和４年度診療報酬改定の基本方針について",
+    "○医療情報ネットワークの基盤に関するワーキンググループにおける議論について",
+    "○ワクチン接種会場への看護師派遣について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_22493.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212218_00029.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000210433_00022.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_22493.html"
+    }
+  ]
+}

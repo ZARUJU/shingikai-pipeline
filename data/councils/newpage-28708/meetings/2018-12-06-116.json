@@ -1,0 +1,31 @@
+{
+  "id": "2018-12-06-116",
+  "council_id": "newpage-28708",
+  "round_label": 116,
+  "held_on": "2018-12-06",
+  "agenda": [
+    "医療・介護データ等の解析基盤に関する有識者会議における検討状況",
+    "高齢者の保健事業と介護予防の一体的な実施に関する有識者会における検討状況",
+    "オンライン資格確認等システムの検討状況",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000207499_00004.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_03421.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000208525_00007.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000207499_00004.html"
+    }
+  ]
+}

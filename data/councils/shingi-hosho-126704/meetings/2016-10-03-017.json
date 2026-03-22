@@ -1,0 +1,29 @@
+{
+  "id": "2016-10-03-017",
+  "council_id": "shingi-hosho-126704",
+  "round_label": 17,
+  "held_on": "2016-10-03",
+  "agenda": [
+    "報告聴取日本人の平均余命（平成27年簡易生命表）第15回出生動向基本調査",
+    "将来人口推計の方法と検証"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000137712.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000141365.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000138829.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000137712.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2022-06-03-088",
+  "council_id": "shingi-hosho-126719",
+  "round_label": 88,
+  "held_on": "2022-06-03",
+  "agenda": [
+    "○ 医師の働き方改革の施行に向けた準備状況調査の結果について",
+    "○ 全国で医療情報を確認できる仕組みの拡大の進捗について",
+    "○ 医療情報ネットワークの基盤に関するワーキンググループにおける議論について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_25883.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000212218_00033.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000210433_00026.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_25883.html"
+    }
+  ]
+}

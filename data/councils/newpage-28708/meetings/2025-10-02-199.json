@@ -1,0 +1,31 @@
+{
+  "id": "2025-10-02-199",
+  "council_id": "newpage-28708",
+  "round_label": 199,
+  "held_on": "2025-10-02",
+  "agenda": [
+    "医療保険制度改革について",
+    "病床転換助成事業について",
+    "特定健康診査に相当する健康診査に係る結果送付の電子化",
+    "個人の予防・健康づくりに向けたインセンティブについて"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/newpage_64021.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_65849.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料等",
+      "url": "https://www.mhlw.go.jp/stf/newpage_64202.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_64021.html"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2009-12-09-001",
+  "council_id": "shingi-hosho-126726",
+  "round_label": 1,
+  "held_on": "2009-12-09",
+  "agenda": [
+    "部会長、部会長代理の選出",
+    "日本年金機構評価部会について",
+    "日本年金機構について",
+    "日本年金機構中期目標について"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2009/12/s1209-5.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：100KB］",
+      "url": "https://www.mhlw.go.jp/content/shingi___2009___12___txt___s1209-22.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2009/12/s1209-12.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2009/12/s1209-5.html"
+    }
+  ]
+}

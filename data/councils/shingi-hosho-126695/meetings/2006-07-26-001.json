@@ -1,0 +1,31 @@
+{
+  "id": "2006-07-26-001",
+  "council_id": "shingi-hosho-126695",
+  "round_label": 1,
+  "held_on": "2006-07-26",
+  "agenda": [
+    "委員長の選出",
+    "生活機能分類（ＩＣＦ）の動向について",
+    "今後の検討の進め方について",
+    "その他"
+  ],
+  "source_url": "https://www.mhlw.go.jp/shingi/2006/07/s0726-1.html",
+  "minutes_links": [
+    {
+      "title": "議事録［TXT形式：101KB］",
+      "url": "https://warp.ndl.go.jp/content/shingi___2006___07___txt___s0726-1.txt"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/shingi/2006/07/s0726-7.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/shingi/2006/07/s0726-1.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2016-12-22-004",
+  "council_id": "shingi-hosho-238274",
+  "round_label": 4,
+  "held_on": "2016-12-22",
+  "agenda": [
+    "開会",
+    "議事年金記録の訂正に関する事業状況（平成27年度）",
+    "閉会"
+  ],
+  "source_url": "https://www.mhlw.go.jp/stf/shingi2/0000144876.html",
+  "minutes_links": [
+    {
+      "title": "議事録",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000149896.html"
+    }
+  ],
+  "materials_links": [
+    {
+      "title": "資料",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000147078.html"
+    }
+  ],
+  "announcement_links": [
+    {
+      "title": "開催案内",
+      "url": "https://www.mhlw.go.jp/stf/shingi2/0000144876.html"
+    }
+  ]
+}
