@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T16:49:42.845454+00:00",
+  "generated_at": "2026-03-22T17:07:39.875348+00:00",
   "count": 24,
   "issues": [
     {
@@ -38,9 +38,9 @@
       "council_id": "mofa-jinji-council",
       "council_title": "外務人事審議会",
       "min_round": 434,
-      "max_round": 655,
-      "total_meeting_count": 223,
-      "existing_round_count": 222,
+      "max_round": 667,
+      "total_meeting_count": 235,
+      "existing_round_count": 234,
       "missing_rounds": [
         1,
         2,
