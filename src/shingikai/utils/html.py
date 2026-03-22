@@ -150,6 +150,7 @@ def _looks_like_agenda_label(text: str) -> bool:
     if not first_line:
         return False
     first_line = re.sub(r"^[0-9０-９一二三四五六七八九十\(\)（）\.．、]+", "", first_line)
+    first_line = first_line.rstrip(":：")
     return bool(AGENDA_LABEL_PATTERN.fullmatch(first_line))
 
 
@@ -167,5 +168,6 @@ def _strip_agenda_heading(text: str) -> str:
 
     first = re.sub(r"^[0-9０-９一二三四五六七八九十]+[\.．、]?\s*", "", lines[0]).strip()
     first = re.sub(r"^(?:議\s*題(?:（案）)?|議\s*事\s*次\s*第|会\s*議\s*次\s*第|案\s*件)\s*", "", first).strip()
+    first = first.lstrip(":：").strip()
     lines[0] = first
     return "\n".join(line for line in lines if line.strip()).strip()

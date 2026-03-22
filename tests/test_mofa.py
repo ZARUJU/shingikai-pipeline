@@ -5,6 +5,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from contextlib import contextmanager
 from pathlib import Path
 from unittest.mock import patch
 from urllib.error import HTTPError
@@ -16,16 +17,168 @@ from shingikai.councils.mofa import (
     MOFA_COUNCIL_ID,
     MOFA_INDEX_SOURCE_URL,
     MOFA_JINJI_COUNCIL_ID,
+    MOFA_JINJI_WARP_ARCHIVE_URL,
     MOFA_JINJI_MEETINGS_URL,
     fixture_html_path,
     parse_hierarchy_page,
     parse_meeting_page,
     fetch_mofa_html,
 )
+from shingikai.utils.html import extract_agenda_from_detail_page
 from shingikai.utils.io import load_council
 
 
 class MofaTest(unittest.TestCase):
+    CURRENT_MEETINGS_HTML = """
+    <html>
+      <body>
+        <h1>外務人事審議会の会合の概要</h1>
+        <h2>令和2年</h2>
+        <ul>
+          <li><a href="/mofaj/ms/prs/page26_000026.html">臨時会議（11月16日）</a></li>
+          <li><a href="/mofaj/ms/prs/page26_000027.html">第608回（11月18日）</a></li>
+        </ul>
+        <h2>令和7年</h2>
+        <ul>
+          <li><a href="/mofaj/ms/prs/page25_001234.html">第667回（12月23日）</a></li>
+        </ul>
+      </body>
+    </html>
+    """
+    WARP_ARCHIVE_HTML = """
+    <html>
+      <body>
+        <h1>外務人事審議会の会合の概要</h1>
+        <h2>平成31年（令和元年）</h2>
+        <ul>
+          <li><a href="/mofaj/ms/prs/page23_003216.html">第598回（12月20日）</a></li>
+        </ul>
+        <h2>平成30年</h2>
+        <ul>
+          <li><a href="/mofaj/ms/prs/page25_001508.html">第579回（4月25日）</a></li>
+        </ul>
+      </body>
+    </html>
+    """
+    OLD_DETAIL_HTML = """
+    <html>
+      <body>
+        <h2>第485回外務人事審議会議事要旨</h2>
+        <h3>4.議題：</h3>
+        <div id="noem">
+          <ul>
+            <li>「気候変動問題について」</li>
+            <li>在勤手当検討事務局の設置について</li>
+            <li>名誉総領事について</li>
+            <li>前回会合の議事要旨及び議事録の承認</li>
+            <li>次回開催日の決定</li>
+          </ul>
+        </div>
+      </body>
+    </html>
+    """
+    CURRENT_SPECIAL_DETAIL_URL = "https://www.mofa.go.jp/mofaj/ms/prs/page26_000026.html"
+    CURRENT_608_DETAIL_URL = "https://www.mofa.go.jp/mofaj/ms/prs/page26_000027.html"
+    WARP_598_DETAIL_URL = (
+        "https://warp.ndl.go.jp/20250207/20250202091155/"
+        "https://www.mofa.go.jp/mofaj/ms/prs/page23_003216.html"
+    )
+    WARP_579_DETAIL_URL = (
+        "https://warp.ndl.go.jp/20250207/20250202091155/"
+        "https://www.mofa.go.jp/mofaj/ms/prs/page25_001508.html"
+    )
+    CURRENT_SPECIAL_DETAIL_HTML = """
+    <html>
+      <body>
+        <h1>外務人事審議会</h1>
+        <h2>臨時会議議事要旨</h2>
+        <h2>4 議題</h2>
+        <ul>
+          <li>行政措置要求について</li>
+          <li>次回開催日の決定</li>
+        </ul>
+      </body>
+    </html>
+    """
+    CURRENT_608_DETAIL_HTML = """
+    <html>
+      <body>
+        <h1>外務人事審議会</h1>
+        <h2>第608回議事要旨</h2>
+        <h2>4 議題</h2>
+        <ul>
+          <li>在勤基本手当の改定について</li>
+          <li>次回開催日の決定</li>
+        </ul>
+      </body>
+    </html>
+    """
+    WARP_598_DETAIL_HTML = """
+    <html>
+      <body>
+        <h1>外務人事審議会</h1>
+        <h2>第598回議事要旨</h2>
+        <h2>4 議題</h2>
+        <ul>
+          <li>在勤手当改定について</li>
+          <li>次回開催日の決定</li>
+        </ul>
+      </body>
+    </html>
+    """
+    WARP_579_DETAIL_HTML = """
+    <html>
+      <body>
+        <h1>外務人事審議会</h1>
+        <h2>第579回議事要旨</h2>
+        <h2>4 議題</h2>
+        <ul>
+          <li>在外公館の体制強化について</li>
+          <li>その他</li>
+        </ul>
+      </body>
+    </html>
+    """
+
+    @contextmanager
+    def override_mofa_fixtures(self):
+        replacements = {
+            MOFA_JINJI_MEETINGS_URL: self.CURRENT_MEETINGS_HTML,
+            MOFA_JINJI_WARP_ARCHIVE_URL: self.WARP_ARCHIVE_HTML,
+            self.CURRENT_SPECIAL_DETAIL_URL: self.CURRENT_SPECIAL_DETAIL_HTML,
+            self.CURRENT_608_DETAIL_URL: self.CURRENT_608_DETAIL_HTML,
+            self.WARP_598_DETAIL_URL: self.WARP_598_DETAIL_HTML,
+            self.WARP_579_DETAIL_URL: self.WARP_579_DETAIL_HTML,
+        }
+        originals: dict[Path, str | None] = {}
+        try:
+            for url, html in replacements.items():
+                path = fixture_html_path(url)
+                originals[path] = path.read_text(encoding="utf-8") if path.exists() else None
+                path.write_text(html, encoding="utf-8")
+            yield
+        finally:
+            for path, original in originals.items():
+                if original is None:
+                    if path.exists():
+                        path.unlink()
+                    continue
+                path.write_text(original, encoding="utf-8")
+
+    def test_extract_agenda_from_old_mofa_detail_page(self) -> None:
+        agenda = extract_agenda_from_detail_page(self.OLD_DETAIL_HTML)
+
+        self.assertEqual(
+            agenda,
+            [
+                "「気候変動問題について」",
+                "在勤手当検討事務局の設置について",
+                "名誉総領事について",
+                "前回会合の議事要旨及び議事録の承認",
+                "次回開催日の決定",
+            ],
+        )
+
     def test_fetch_mofa_html_falls_back_to_curl_on_403(self) -> None:
         with patch(
             "shingikai.councils.mofa.fetch_html",
@@ -70,12 +223,10 @@ class MofaTest(unittest.TestCase):
         self.assertEqual(councils[1].parent, MOFA_COUNCIL_ID)
 
     def test_parse_fixture_meetings(self) -> None:
-        council = load_council(MOFA_JINJI_COUNCIL_ID)
-        html = fixture_html_path(MOFA_JINJI_MEETINGS_URL).read_text(encoding="utf-8")
         result = parse_meeting_page(
-            html,
+            self.CURRENT_MEETINGS_HTML,
             council_id=MOFA_JINJI_COUNCIL_ID,
-            source_url=council.source_urls.meetings,
+            source_url=MOFA_JINJI_MEETINGS_URL,
         )
 
         self.assertEqual(len(result.meetings), 3)
@@ -104,7 +255,7 @@ class MofaTest(unittest.TestCase):
         self.assertEqual([item["id"] for item in payload], [MOFA_COUNCIL_ID, MOFA_JINJI_COUNCIL_ID])
 
     def test_export_council_meetings_cli_writes_mofa_jinji(self) -> None:
-        with tempfile.TemporaryDirectory() as tmpdir:
+        with self.override_mofa_fixtures(), tempfile.TemporaryDirectory() as tmpdir:
             result = subprocess.run(
                 [
                     str(ROOT / ".venv" / "bin" / "python"),
