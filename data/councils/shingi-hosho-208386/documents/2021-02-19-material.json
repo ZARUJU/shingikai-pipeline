@@ -1,0 +1,23 @@
+{
+  "id": "2021-02-19-material",
+  "council_id": "shingi-hosho-208386",
+  "title": "議論のとりまとめ",
+  "published_on": "2021-02-19",
+  "document_type": "資料",
+  "source_url": "https://www.mhlw.go.jp/content/000742037.pdf",
+  "links": [
+    {
+      "title": "議論のとりまとめ［PDF形式：812KB］",
+      "url": "https://www.mhlw.go.jp/content/000742037.pdf"
+    },
+    {
+      "title": "マッチングサイトガイドライン［PDF形式：269KB］",
+      "url": "https://www.mhlw.go.jp/content/000761982.pdf"
+    }
+  ],
+  "body": {
+    "status": "not_built",
+    "markdown_url": null,
+    "markdown": null
+  }
+}

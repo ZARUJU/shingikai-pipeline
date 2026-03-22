@@ -1,0 +1,10 @@
+{
+  "id": "social-security-council-statistics-subcommittee",
+  "title": "統計分科会",
+  "parent": "social-security-council",
+  "source_urls": {
+    "portal": "https://www.mhlw.go.jp/stf/shingi/shingi-hosho_126693.html",
+    "meetings": "https://www.mhlw.go.jp/stf/shingi/shingi-hosho_126693.html",
+    "meetings_archives": []
+  }
+}

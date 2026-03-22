@@ -1,0 +1,27 @@
+{
+  "id": "2019-07-10-material",
+  "council_id": "shingi-hosho-208386",
+  "title": "議論の取りまとめ",
+  "published_on": "2019-07-10",
+  "document_type": "資料",
+  "source_url": "https://www.mhlw.go.jp/content/000527320.pdf",
+  "links": [
+    {
+      "title": "議論の取りまとめ［PDF形式：616KB］",
+      "url": "https://www.mhlw.go.jp/content/000527320.pdf"
+    },
+    {
+      "title": "第10回専門委員会の意見を踏まえた修正点［PDF形式：346KB］",
+      "url": "https://www.mhlw.go.jp/content/000527321.pdf"
+    },
+    {
+      "title": "第5回から第10回の専門委員会での各委員からの主なご意見［PDF形式：1022KB］",
+      "url": "https://www.mhlw.go.jp/content/000533082.pdf"
+    }
+  ],
+  "body": {
+    "status": "not_built",
+    "markdown_url": null,
+    "markdown": null
+  }
+}

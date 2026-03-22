@@ -1,0 +1,10 @@
+{
+  "id": "social-security-council",
+  "title": "社会保障審議会",
+  "parent": "厚生労働省",
+  "source_urls": {
+    "portal": "https://www.mhlw.go.jp/stf/shingi/shingi-hosho_126692.html",
+    "meetings": "https://www.mhlw.go.jp/stf/shingi/shingi-hosho_126692.html",
+    "meetings_archives": []
+  }
+}
