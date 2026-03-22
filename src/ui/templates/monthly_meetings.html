@@ -38,8 +38,8 @@
             <th class="whitespace-nowrap px-4 py-3 font-medium">日付</th>
             <th class="whitespace-nowrap px-4 py-3 font-medium">会議体</th>
             <th class="whitespace-nowrap px-4 py-3 font-medium">回次</th>
-            <th class="whitespace-nowrap px-4 py-3 font-medium">議題</th>
             <th class="whitespace-nowrap px-4 py-3 font-medium">リンク</th>
+            <th class="whitespace-nowrap px-4 py-3 font-medium">議題</th>
           </tr>
         </thead>
         <tbody class="divide-y divide-stone-100">
@@ -50,17 +50,6 @@
               <a href="{{ page_url('council_detail', council_id=meeting.council_id) }}" class="underline">{{ meeting.council_title }}</a>
             </td>
             <td class="whitespace-nowrap px-4 py-4">{{ meeting.round_label or "-" }}</td>
-            <td class="whitespace-nowrap px-4 py-4 text-stone-700">
-              {% if meeting.agenda %}
-              <ul class="list-disc ml-4">
-                {% for item in meeting.agenda %}
-                <li class="whitespace-nowrap leading-6">{{ item }}</li>
-                {% endfor %}
-              </ul>
-              {% else %}
-              -
-              {% endif %}
-            </td>
             <td class="whitespace-nowrap px-4 py-4">
               <div class="flex min-w-44 flex-col gap-2">
                 <a class="underline" href="{{ meeting.source_url }}" target="_blank" rel="noreferrer">代表リンク</a>
@@ -74,6 +63,17 @@
                 <a class="underline" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.title }}</a>
                 {% endfor %}
               </div>
+            </td>
+            <td class="whitespace-nowrap px-4 py-4 text-stone-700">
+              {% if meeting.agenda %}
+              <ul class="list-disc ml-4">
+                {% for item in meeting.agenda %}
+                <li class="whitespace-nowrap leading-6">{{ item }}</li>
+                {% endfor %}
+              </ul>
+              {% else %}
+              -
+              {% endif %}
             </td>
           </tr>
           {% endfor %}

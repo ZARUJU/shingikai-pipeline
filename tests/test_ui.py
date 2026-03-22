@@ -145,6 +145,9 @@ class UiTest(unittest.TestCase):
         self.assertIn('/meetings/2026/03/', html)
         self.assertIn("日付", html)
         self.assertIn("会議体", html)
+        self.assertIn("回次", html)
+        self.assertIn("<th class=\"whitespace-nowrap px-4 py-3 font-medium\">リンク</th>", html)
+        self.assertIn("代表リンク", html)
 
     def test_council_treemap_page(self) -> None:
         response = self.client.get("/councils/treemap")
