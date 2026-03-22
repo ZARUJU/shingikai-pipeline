@@ -152,9 +152,26 @@ class UiTest(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         html = response.get_data(as_text=True)
         self.assertIn("会議体系統", html)
+        self.assertIn("/councils/treemap/mhlw", html)
+        self.assertIn("/councils/treemap/mofa", html)
+        self.assertNotIn("社会保障審議会", html)
+
+    def test_council_treemap_mhlw_page(self) -> None:
+        response = self.client.get("/councils/treemap/mhlw")
+
+        self.assertEqual(response.status_code, 200)
+        html = response.get_data(as_text=True)
         self.assertIn("厚生労働省", html)
         self.assertIn("社会保障審議会", html)
         self.assertIn("統計分科会", html)
+
+    def test_council_treemap_mofa_page(self) -> None:
+        response = self.client.get("/councils/treemap/mofa")
+
+        self.assertEqual(response.status_code, 200)
+        html = response.get_data(as_text=True)
+        self.assertIn("外務省", html)
+        self.assertIn("外務人事審議会", html)
 
     def test_meeting_gaps_page(self) -> None:
         response = self.client.get("/quality/meeting-gaps")
@@ -214,7 +231,7 @@ class UiTest(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         html = response.get_data(as_text=True)
         self.assertIn('href="/shingikai-pipeline/"', html)
-        self.assertIn('href="/shingikai-pipeline/councils/treemap.html"', html)
+        self.assertIn('href="/shingikai-pipeline/councils/treemap/"', html)
         self.assertIn('href="/shingikai-pipeline/quality/meeting-gaps.html"', html)
         self.assertIn('href="/shingikai-pipeline/meetings/monthly.html"', html)
 
@@ -228,6 +245,9 @@ class UiTest(unittest.TestCase):
         )
 
         self.assertTrue((output_dir / "index.html").exists())
+        self.assertTrue((output_dir / "councils" / "treemap" / "index.html").exists())
+        self.assertTrue((output_dir / "councils" / "treemap" / "mhlw" / "index.html").exists())
+        self.assertTrue((output_dir / "councils" / "treemap" / "mofa" / "index.html").exists())
         self.assertTrue((output_dir / "councils" / "social-security-council.html").exists())
         self.assertTrue((output_dir / "meetings" / "monthly.html").exists())
         self.assertTrue((output_dir / "quality" / "meeting-gaps.html").exists())

@@ -20,6 +20,10 @@ DATA_ROOT = ROOT / "data" / "councils"
 REVIEW_ROOT = ROOT / "data" / "_reviews"
 MEETING_GAP_REVIEW_PATH = ROOT / QUALITY_REVIEW_PATH
 logger = logging.getLogger(__name__)
+TREEMAP_ROOTS = {
+    "mhlw": {"council_id": "mhlw", "label": "厚生労働省"},
+    "mofa": {"council_id": "mofa", "label": "外務省"},
+}
 
 
 @dataclass(slots=True)
@@ -75,16 +79,34 @@ def create_app(
         return render_template("index.html", **build_index_context())
 
     @app.get("/councils/treemap")
+    @app.get("/councils/treemap/")
     def councils_treemap() -> str:
         return render_template(
             "council_treemap.html",
             **build_council_treemap_context(
+                treemap_root=None,
                 council_href_builder=lambda council_id: build_page_url(
                     "council_detail",
                     council_id=council_id,
                     base_path=normalized_base_path,
                     static_mode=static_mode,
                 )
+            ),
+        )
+
+    @app.get("/councils/treemap/<treemap_root>")
+    @app.get("/councils/treemap/<treemap_root>/")
+    def councils_treemap_root(treemap_root: str) -> str:
+        return render_template(
+            "council_treemap.html",
+            **build_council_treemap_context(
+                treemap_root=treemap_root,
+                council_href_builder=lambda council_id: build_page_url(
+                    "council_detail",
+                    council_id=council_id,
+                    base_path=normalized_base_path,
+                    static_mode=static_mode,
+                ),
             ),
         )
 
@@ -182,9 +204,28 @@ def build_index_context() -> dict[str, object]:
 
 def build_council_treemap_context(
     *,
+    treemap_root: str | None = None,
     council_href_builder: Callable[[str], str] | None = None,
 ) -> dict[str, object]:
-    return {"roots": build_council_tree(council_href_builder=council_href_builder)}
+    sections = [
+        {
+            "slug": slug,
+            "label": str(item["label"]),
+        }
+        for slug, item in TREEMAP_ROOTS.items()
+    ]
+    selected_item = TREEMAP_ROOTS.get(treemap_root) if treemap_root is not None else None
+    if treemap_root is not None and selected_item is None:
+        abort(404)
+    selected_label = str(selected_item["label"]) if selected_item is not None else None
+    selected_council_id = str(selected_item["council_id"]) if selected_item is not None else None
+    roots = build_council_tree(root_council_id=selected_council_id, council_href_builder=council_href_builder)
+    return {
+        "roots": roots,
+        "treemap_sections": sections,
+        "selected_treemap_root": treemap_root,
+        "selected_treemap_label": selected_label,
+    }
 
 
 def build_monthly_meetings_index_context() -> dict[str, object]:
@@ -269,37 +310,52 @@ def resolve_parent(
     parent = str(council["parent"])
     parent_council = council_lookup.get(parent)
     if parent_council is None:
+        for item in TREEMAP_ROOTS.values():
+            if parent != str(item["label"]):
+                continue
+            mapped_parent = council_lookup.get(str(item["council_id"]))
+            if mapped_parent is None:
+                continue
+            return {"id": str(item["council_id"]), "label": mapped_parent["title"], "is_council": True}
+    if parent_council is None:
         return {"id": None, "label": parent, "is_council": False}
     return {"id": parent, "label": parent_council["title"], "is_council": True}
 
 
 def build_council_tree(
     *,
+    root_council_id: str | None = None,
     council_href_builder: Callable[[str], str] | None = None,
 ) -> list[TreeNode]:
     council_lookup = load_council_lookup()
     children_by_parent: dict[str, list[dict[str, object]]] = {}
-    root_labels: set[str] = set()
 
     for council in council_lookup.values():
         parent = str(council["parent"])
-        if parent in council_lookup:
-            children_by_parent.setdefault(parent, []).append(council)
-        else:
-            root_labels.add(parent)
-            children_by_parent.setdefault(parent, []).append(council)
+        children_by_parent.setdefault(parent, []).append(council)
 
     roots: list[TreeNode] = []
-    for label in sorted(root_labels):
+    for item in TREEMAP_ROOTS.values():
+        council_id = str(item["council_id"])
+        council = council_lookup.get(council_id)
+        if council is None:
+            continue
+        if root_council_id is not None and council_id != root_council_id:
+            continue
         roots.append(
             TreeNode(
-                key=label,
-                label=label,
-                kind="group",
-                href=None,
+                key=council_id,
+                label=str(council["title"]),
+                kind="council",
+                href=(
+                    council_href_builder(council_id)
+                    if council_href_builder is not None
+                    else build_page_url("council_detail", council_id=council_id)
+                ),
                 children=_build_child_nodes(
-                    label,
+                    council_id,
                     children_by_parent,
+                    extra_parent_keys=[str(council["title"])],
                     council_href_builder=council_href_builder,
                 ),
             )
@@ -311,12 +367,17 @@ def _build_child_nodes(
     parent_key: str,
     children_by_parent: dict[str, list[dict[str, object]]],
     *,
+    extra_parent_keys: list[str] | None = None,
     council_href_builder: Callable[[str], str] | None = None,
 ) -> list[TreeNode]:
     children: list[TreeNode] = []
-    for council in sorted(
-        children_by_parent.get(parent_key, []), key=lambda item: str(item["title"])
-    ):
+    candidates = list(children_by_parent.get(parent_key, []))
+    for extra_parent_key in extra_parent_keys or []:
+        candidates.extend(children_by_parent.get(extra_parent_key, []))
+    deduped_candidates: dict[str, dict[str, object]] = {}
+    for council in candidates:
+        deduped_candidates[str(council["id"])] = council
+    for council in sorted(deduped_candidates.values(), key=lambda item: str(item["title"])):
         council_id = str(council["id"])
         children.append(
             TreeNode(
@@ -331,6 +392,7 @@ def _build_child_nodes(
                 children=_build_child_nodes(
                     council_id,
                     children_by_parent,
+                    extra_parent_keys=None,
                     council_href_builder=council_href_builder,
                 ),
             )
@@ -348,6 +410,7 @@ def build_page_url(
     page_name: str,
     *,
     council_id: str | None = None,
+    treemap_root: str | None = None,
     year: int | None = None,
     month: int | None = None,
     base_path: str = "",
@@ -357,7 +420,8 @@ def build_page_url(
     if static_mode:
         paths = {
             "index": "/",
-            "councils_treemap": "/councils/treemap.html",
+            "councils_treemap": "/councils/treemap/",
+            "councils_treemap_root": f"/councils/treemap/{treemap_root}/",
             "monthly_meetings_index": "/meetings/monthly.html",
             "meeting_gaps_active": "/quality/meeting-gaps.html",
             "meeting_gaps_ignored": "/quality/meeting-gaps-ignored.html",
@@ -372,6 +436,7 @@ def build_page_url(
         paths = {
             "index": "/",
             "councils_treemap": "/councils/treemap",
+            "councils_treemap_root": f"/councils/treemap/{treemap_root}",
             "monthly_meetings_index": "/meetings/monthly",
             "meeting_gaps_active": "/quality/meeting-gaps",
             "meeting_gaps_ignored": "/quality/meeting-gaps/ignored",

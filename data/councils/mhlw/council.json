@@ -1,0 +1,10 @@
+{
+  "id": "mhlw",
+  "title": "厚生労働省",
+  "parent": "省庁",
+  "source_urls": {
+    "portal": "https://www.mhlw.go.jp/stf/shingi/indexshingi.html",
+    "meetings": "https://www.mhlw.go.jp/stf/shingi/indexshingi.html",
+    "meetings_archives": []
+  }
+}

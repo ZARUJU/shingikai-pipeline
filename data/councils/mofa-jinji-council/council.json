@@ -1,0 +1,12 @@
+{
+  "id": "mofa-jinji-council",
+  "title": "外務人事審議会",
+  "parent": "mofa",
+  "source_urls": {
+    "portal": "https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/index.html",
+    "meetings": "https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/index.html",
+    "meetings_archives": [
+      "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/index.html"
+    ]
+  }
+}

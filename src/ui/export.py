@@ -7,6 +7,7 @@ from flask import render_template
 
 from ui.app import (
     MEETING_GAP_REVIEW_PATH,
+    TREEMAP_ROOTS,
     build_council_detail_context,
     build_council_treemap_context,
     build_index_context,
@@ -43,10 +44,11 @@ def export_static_site(
         )
         written_paths.append(
             _write_page(
-                resolved_output_dir / "councils" / "treemap.html",
+                resolved_output_dir / "councils" / "treemap" / "index.html",
                 render_template(
                     "council_treemap.html",
                     **build_council_treemap_context(
+                        treemap_root=None,
                         council_href_builder=lambda council_id: app.jinja_env.globals["page_url"](
                             "council_detail",
                             council_id=council_id,
@@ -55,6 +57,22 @@ def export_static_site(
                 ),
             )
         )
+        for treemap_root in TREEMAP_ROOTS:
+            written_paths.append(
+                _write_page(
+                    resolved_output_dir / "councils" / "treemap" / treemap_root / "index.html",
+                    render_template(
+                        "council_treemap.html",
+                        **build_council_treemap_context(
+                            treemap_root=treemap_root,
+                            council_href_builder=lambda council_id: app.jinja_env.globals["page_url"](
+                                "council_detail",
+                                council_id=council_id,
+                            ),
+                        ),
+                    ),
+                )
+            )
         written_paths.append(
             _write_page(
                 resolved_output_dir / "meetings" / "monthly.html",

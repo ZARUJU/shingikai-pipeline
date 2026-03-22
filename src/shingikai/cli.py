@@ -15,6 +15,14 @@ from shingikai.councils.mhlw import (
     load_mhlw_council,
     parse_mhlw_hierarchy,
 )
+from shingikai.councils.mofa import (
+    MOFA_COUNCIL_ID,
+    MOFA_JINJI_COUNCIL_ID,
+    MOFA_SUPPORTED_HIERARCHY_ROOT_IDS,
+    build_mofa_export_plan,
+    load_mofa_council,
+    parse_mofa_hierarchy,
+)
 from shingikai.fetch_errors import clear_fetch_error, has_recorded_404, record_fetch_error
 from shingikai.models.council import Council
 from shingikai.quality import DEFAULT_ISSUES_PATH, DEFAULT_REVIEW_PATH, export_meeting_gap_issues
@@ -30,6 +38,8 @@ from ui.export import export_static_site
 
 ALL_KEYWORD = "all"
 logger = logging.getLogger(__name__)
+KNOWN_MOFA_COUNCIL_IDS = {MOFA_COUNCIL_ID, MOFA_JINJI_COUNCIL_ID}
+ROOT_COUNCIL_IDS = {"mhlw", MOFA_COUNCIL_ID}
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -385,7 +395,10 @@ def _handle_hierarchy_export(args: argparse.Namespace) -> None:
     written_count = 0
 
     for root_id in root_ids:
-        councils = parse_mhlw_hierarchy(council_id=root_id, use_fixture=args.use_fixture, force=args.force)
+        if root_id in KNOWN_MOFA_COUNCIL_IDS:
+            councils = parse_mofa_hierarchy(council_id=root_id, use_fixture=args.use_fixture, force=args.force)
+        else:
+            councils = parse_mhlw_hierarchy(council_id=root_id, use_fixture=args.use_fixture, force=args.force)
         if args.stdout:
             payload[root_id] = [council.to_dict() for council in councils]
             continue
@@ -508,6 +521,8 @@ def _add_shared_export_args(
 
 
 def _build_known_council(council_id: str) -> Council:
+    if council_id in KNOWN_MOFA_COUNCIL_IDS:
+        return load_mofa_council(council_id)
     return load_mhlw_council(council_id)
 
 
@@ -520,13 +535,13 @@ def _resolve_target_council_ids(council_id: str) -> list[str]:
 def _resolve_family_root_ids(council_id: str) -> list[str]:
     if council_id != ALL_KEYWORD:
         return [council_id]
-    return MHLW_SUPPORTED_HIERARCHY_ROOT_IDS
+    return [*MHLW_SUPPORTED_HIERARCHY_ROOT_IDS, *MOFA_SUPPORTED_HIERARCHY_ROOT_IDS]
 
 
 def _resolve_hierarchy_root_ids(council_id: str) -> list[str]:
     if council_id != ALL_KEYWORD:
         return [council_id]
-    return MHLW_SUPPORTED_HIERARCHY_ROOT_IDS
+    return [*MHLW_SUPPORTED_HIERARCHY_ROOT_IDS, *MOFA_SUPPORTED_HIERARCHY_ROOT_IDS]
 
 
 def _list_all_council_ids() -> list[str]:
@@ -552,14 +567,38 @@ def _export_council_meetings(
     reuse_existing_outputs: bool = False,
 ):
     council = load_council(council_id)
-    plan = build_mhlw_export_plan(
-        council=council,
-        use_fixture=use_fixture,
-        force=force,
-        output_dir=output_dir,
-        max_cache_age_hours=max_cache_age_hours,
-        reuse_existing_outputs=reuse_existing_outputs,
-    )
+    if council.council_id in ROOT_COUNCIL_IDS:
+        result = CouncilPageParseResult(meetings=[], documents=[], rosters=[])
+        if stdout:
+            payload = {
+                "meetings": [],
+                "documents": [],
+                "rosters": [],
+            }
+            print(json.dumps(payload, ensure_ascii=False, indent=2))
+            return result
+        write_council(council, base_dir=output_dir)
+        if print_result:
+            print("0 meeting files written, 0 document files written, 0 roster files written")
+        return result
+    if council.council_id in KNOWN_MOFA_COUNCIL_IDS:
+        plan = build_mofa_export_plan(
+            council=council,
+            use_fixture=use_fixture,
+            force=force,
+            output_dir=output_dir,
+            max_cache_age_hours=max_cache_age_hours,
+            reuse_existing_outputs=reuse_existing_outputs,
+        )
+    else:
+        plan = build_mhlw_export_plan(
+            council=council,
+            use_fixture=use_fixture,
+            force=force,
+            output_dir=output_dir,
+            max_cache_age_hours=max_cache_age_hours,
+            reuse_existing_outputs=reuse_existing_outputs,
+        )
     result = plan.result
     related_councils = plan.related_councils
     related_results = plan.related_results
@@ -627,7 +666,7 @@ def _list_council_family(root_council_id: str) -> list[Council]:
             councils.append(council)
             continue
         parent = council.parent
-        while parent != "厚生労働省":
+        while True:
             try:
                 parent_council = load_council(parent)
             except FileNotFoundError:

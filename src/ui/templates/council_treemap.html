@@ -45,9 +45,26 @@
 <section class="space-y-6">
   <div>
     <h1 class="text-2xl font-semibold">会議体系統</h1>
-    <p class="mt-1 text-sm text-stone-600">`parent` が会議体 ID なら子会議体、そうでなければ所管グループとして表示します。</p>
+    {% if selected_treemap_label %}
+    <p class="mt-1 text-sm text-stone-600">{{ selected_treemap_label }} 配下の会議体を表示します。</p>
+    {% else %}
+    <p class="mt-1 text-sm text-stone-600">省庁ごとの系統ページへ移動できます。</p>
+    {% endif %}
   </div>
 
+  <div class="grid gap-4 sm:grid-cols-2">
+    {% for section in treemap_sections %}
+    <a
+      href="{{ page_url('councils_treemap_root', treemap_root=section.slug) }}"
+      class="rounded-2xl border px-5 py-4 {% if selected_treemap_root == section.slug %}border-stone-900 bg-stone-900 text-white{% else %}border-stone-300 bg-white text-stone-900 hover:bg-stone-50{% endif %}"
+    >
+      <div class="text-xs uppercase tracking-[0.18em] {% if selected_treemap_root == section.slug %}text-stone-300{% else %}text-stone-500{% endif %}">Treemap</div>
+      <div class="mt-2 text-lg font-semibold">{{ section.label }}</div>
+    </a>
+    {% endfor %}
+  </div>
+
+  {% if selected_treemap_label %}
   <div class="overflow-x-auto border border-stone-200 bg-white">
     <div class="min-w-[72rem] space-y-6 p-4">
       {% for root in roots %}
@@ -55,5 +72,10 @@
       {% endfor %}
     </div>
   </div>
+  {% else %}
+  <div class="rounded-2xl border border-dashed border-stone-300 bg-white px-6 py-8 text-sm text-stone-600">
+    厚生労働省または外務省を選ぶと、それぞれの会議体系統を表示します。
+  </div>
+  {% endif %}
 </section>
 {% endblock %}
