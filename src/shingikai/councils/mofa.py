@@ -42,6 +42,7 @@ _MOFA_HELD_ON_PATTERN = re.compile(r"（([0-9０-９]+)月([0-9０-９]+)日）"
 _MOFA_WARP_REPLAY_PATTERN = re.compile(
     r"^(https://warp\.ndl\.go\.jp/(?P<collection>\d+)/(?P<timestamp>\d{14})(?P<modifier>[a-z_]*)/)(?P<target>.+)$"
 )
+_MOFA_ACCESS_DENIED_PATTERN = re.compile(r"<title>\s*Access Denied\s*</title>", re.IGNORECASE)
 
 
 class CouncilPageParseResult(BaseModel):
@@ -64,12 +65,16 @@ def fixture_html_path(url: str) -> Path:
 
 def fetch_mofa_html(url: str, timeout: int = 30) -> str:
     try:
-        return fetch_html(url, timeout=timeout)
+        html = fetch_html(url, timeout=timeout)
+        _raise_if_access_denied_html(url=url, html=html)
+        return html
     except HTTPError as exc:
         if exc.code != 403:
             raise
         logger.info("urllib fetch got 403; retry with curl: %s", url)
-        return _fetch_mofa_html_via_curl(url, timeout=timeout)
+        html = _fetch_mofa_html_via_curl(url, timeout=timeout)
+        _raise_if_access_denied_html(url=url, html=html)
+        return html
 
 
 def load_mofa_council(council_id: str) -> Council:
@@ -282,14 +287,23 @@ def _load_mofa_html(
     path = fixture_html_path(url)
     if use_fixture:
         if path.exists():
-            return path.read_text(encoding="utf-8")
+            html = path.read_text(encoding="utf-8")
+            if not _is_access_denied_html(html):
+                return html
+            if required:
+                raise ValueError(f"fixture html is access denied: {path}")
+            return None
         if required:
             raise ValueError(f"fixture html not found: {path}")
         return None
     if not force and path.exists() and max_cache_age_hours is None:
-        return path.read_text(encoding="utf-8")
+        html = path.read_text(encoding="utf-8")
+        if not _is_access_denied_html(html):
+            return html
     if not force and path.exists() and max_cache_age_hours is not None and is_cache_fresh(path, max_age_hours=max_cache_age_hours):
-        return path.read_text(encoding="utf-8")
+        html = path.read_text(encoding="utf-8")
+        if not _is_access_denied_html(html):
+            return html
     if not force and has_recorded_404(url):
         if required:
             raise ValueError(f"recorded 404 for url: {url}")
@@ -334,6 +348,19 @@ def _fetch_mofa_html_via_curl(url: str, *, timeout: int) -> str:
     cache_path.write_text(html, encoding="utf-8")
     logger.info("fetch done via curl: %s -> %s", url, cache_path)
     return html
+
+
+def _is_access_denied_html(html: str) -> bool:
+    return _MOFA_ACCESS_DENIED_PATTERN.search(html) is not None and "You don't have permission to access" in html
+
+
+def _raise_if_access_denied_html(*, url: str, html: str) -> None:
+    if not _is_access_denied_html(html):
+        return
+    cache_path = cached_html_path(url)
+    if cache_path.exists():
+        cache_path.unlink()
+    raise HTTPError(url=url, code=403, msg="Access Denied", hdrs=None, fp=None)
 
 
 def _parse_japanese_era_year_heading(text: str) -> int | None:

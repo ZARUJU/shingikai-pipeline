@@ -19,6 +19,7 @@ from shingikai.councils.mofa import (
     MOFA_JINJI_COUNCIL_ID,
     MOFA_JINJI_WARP_ARCHIVE_URL,
     MOFA_JINJI_MEETINGS_URL,
+    _load_mofa_html,
     fixture_html_path,
     parse_hierarchy_page,
     parse_meeting_page,
@@ -201,6 +202,29 @@ class MofaTest(unittest.TestCase):
 
         self.assertEqual(html, "<html>ok</html>")
         self.assertEqual(mock_run.call_args.args[0][:4], ["curl", "-L", "--max-time", "30"])
+
+    def test_load_mofa_html_refetches_when_cached_html_is_access_denied(self) -> None:
+        access_denied_html = """
+        <html>
+          <head><title>Access Denied</title></head>
+          <body>You don't have permission to access</body>
+        </html>
+        """
+        with tempfile.TemporaryDirectory() as tmpdir:
+            cache_path = Path(tmpdir) / "mofa-current.html"
+            cache_path.write_text(access_denied_html, encoding="utf-8")
+
+            with patch("shingikai.councils.mofa.fixture_html_path", return_value=cache_path), patch(
+                "shingikai.councils.mofa.fetch_mofa_html", return_value=self.CURRENT_MEETINGS_HTML
+            ) as mock_fetch:
+                html = _load_mofa_html(
+                    url=MOFA_JINJI_MEETINGS_URL,
+                    use_fixture=False,
+                    force=False,
+                )
+
+        self.assertEqual(html, self.CURRENT_MEETINGS_HTML)
+        mock_fetch.assert_called_once_with(MOFA_JINJI_MEETINGS_URL)
 
     def test_show_council_cli_prints_json(self) -> None:
         result = subprocess.run(
