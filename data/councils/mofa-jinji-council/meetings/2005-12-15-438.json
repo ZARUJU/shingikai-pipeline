@@ -3,7 +3,12 @@
   "council_id": "mofa-jinji-council",
   "round_label": 438,
   "held_on": "2005-12-15",
-  "agenda": [],
+  "agenda": [
+    "外部からの人材起用について",
+    "休暇帰国省令の改正について",
+    "外部大使適正検査",
+    "名誉総領事の任命について"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/438_gy.html",
   "minutes_links": [
     {

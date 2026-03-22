@@ -3,7 +3,12 @@
   "council_id": "mofa-jinji-council",
   "round_label": 456,
   "held_on": "2007-07-20",
-  "agenda": [],
+  "agenda": [
+    "ロシア情勢について",
+    "在勤手当について",
+    "名誉総領事の任免について",
+    "外部大使適正審査"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/456_gy.html",
   "minutes_links": [
     {

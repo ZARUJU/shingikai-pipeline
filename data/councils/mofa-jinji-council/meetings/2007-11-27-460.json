@@ -3,7 +3,12 @@
   "council_id": "mofa-jinji-council",
   "round_label": 460,
   "held_on": "2007-11-27",
-  "agenda": [],
+  "agenda": [
+    "「韓国在勤から帰国して」",
+    "自民党外交料強化に関する特命委員会の提言とフォローアップ状況について",
+    "名誉総領事の解任について",
+    "一部職員に係る人事異動の方針について"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/460_gy.html",
   "minutes_links": [
     {

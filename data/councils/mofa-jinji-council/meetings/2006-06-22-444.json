@@ -3,7 +3,10 @@
   "council_id": "mofa-jinji-council",
   "round_label": 444,
   "held_on": "2006-06-22",
-  "agenda": [],
+  "agenda": [
+    "日本の対中央アジア外交について",
+    "名誉総領事の任免について"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/444_gy.html",
   "minutes_links": [
     {

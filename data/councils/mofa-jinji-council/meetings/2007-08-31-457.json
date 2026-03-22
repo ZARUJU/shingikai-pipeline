@@ -3,7 +3,11 @@
   "council_id": "mofa-jinji-council",
   "round_label": 457,
   "held_on": "2007-08-31",
-  "agenda": [],
+  "agenda": [
+    "我が国の対中南米外交について",
+    "在勤手当について",
+    "外部大使適正審査"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/457_gy.html",
   "minutes_links": [
     {

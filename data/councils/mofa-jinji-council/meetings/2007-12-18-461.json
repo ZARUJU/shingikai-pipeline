@@ -3,7 +3,12 @@
   "council_id": "mofa-jinji-council",
   "round_label": 461,
   "held_on": "2007-12-18",
-  "agenda": [],
+  "agenda": [
+    "気候変動に関するバリ会議と今後の見通し",
+    "日中ハイレベル経済対話を踏まえての今後の日中関係",
+    "名誉総領事について",
+    "休暇帰国省令の改正について"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/461_gy.html",
   "minutes_links": [
     {

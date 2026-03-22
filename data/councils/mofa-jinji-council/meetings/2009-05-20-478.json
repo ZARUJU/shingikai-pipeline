@@ -3,7 +3,13 @@
   "council_id": "mofa-jinji-council",
   "round_label": 478,
   "held_on": "2009-05-20",
-  "agenda": [],
+  "agenda": [
+    "ODAの現状と課題について",
+    "名誉総領事について",
+    "大使適格性審査案件について",
+    "前回会合の議事要旨及び議事録の承認",
+    "次回開催日の決定"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/478_gy.html",
   "minutes_links": [
     {

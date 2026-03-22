@@ -3,7 +3,12 @@
   "council_id": "mofa-jinji-council",
   "round_label": 445,
   "held_on": "2006-07-25",
-  "agenda": [],
+  "agenda": [
+    "北朝鮮を巡る国連安保理決議について",
+    "外部大使適性審査",
+    "名誉総領事の任免について",
+    "平成19年度定員及び機構要求について"
+  ],
   "source_url": "https://warp.ndl.go.jp/20250207/20250202091155/https://www.mofa.go.jp/mofaj/annai/shingikai/jinji/kaigogaiyo/445_gy.html",
   "minutes_links": [
     {
