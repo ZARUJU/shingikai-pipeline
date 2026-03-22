@@ -64,6 +64,10 @@ def _iter_agenda_candidates(node: Tag) -> list[str]:
             if sibling_text:
                 candidates.append(sibling_text)
 
+    inline_sibling_text = _collect_inline_sibling_text(node)
+    if inline_sibling_text:
+        candidates.append(inline_sibling_text)
+
     sibling = node.next_sibling
     while sibling is not None and len(candidates) < 4:
         if isinstance(sibling, NavigableString):
@@ -89,6 +93,33 @@ def _iter_agenda_candidates(node: Tag) -> list[str]:
         seen.add(normalized)
         deduped.append(normalized)
     return deduped
+
+
+def _collect_inline_sibling_text(node: Tag) -> str:
+    fragments: list[str] = []
+    sibling = node.next_sibling
+    while sibling is not None:
+        if isinstance(sibling, NavigableString):
+            text = str(sibling).replace("\xa0", " ").strip()
+            if text:
+                fragments.append(text)
+            sibling = sibling.next_sibling
+            continue
+
+        if not isinstance(sibling, Tag):
+            sibling = sibling.next_sibling
+            continue
+
+        if sibling.name == "br":
+            sibling = sibling.next_sibling
+            continue
+
+        sibling_text = cell_text(sibling)
+        if _looks_like_stop_label(sibling_text):
+            break
+        break
+
+    return "\n".join(fragments).strip()
 
 
 def _parse_agenda_candidate(text: str) -> list[str]:
