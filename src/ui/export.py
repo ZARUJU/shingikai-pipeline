@@ -11,9 +11,11 @@ from ui.app import (
     build_council_treemap_context,
     build_index_context,
     build_meeting_gaps_context,
+    build_monthly_meetings_index_context,
     build_monthly_meetings_context,
     create_app,
     load_council_lookup,
+    list_monthly_meetings,
 )
 
 
@@ -56,9 +58,20 @@ def export_static_site(
         written_paths.append(
             _write_page(
                 resolved_output_dir / "meetings" / "monthly.html",
-                render_template("monthly_meetings.html", **build_monthly_meetings_context()),
+                render_template("monthly_meetings_index.html", **build_monthly_meetings_index_context()),
             )
         )
+        for group in list_monthly_meetings():
+            year, month = group.month.split("-", 1)
+            written_paths.append(
+                _write_page(
+                    resolved_output_dir / "meetings" / year / month / "index.html",
+                    render_template(
+                        "monthly_meetings.html",
+                        **build_monthly_meetings_context(year=int(year), month=int(month)),
+                    ),
+                )
+            )
         written_paths.append(
             _write_page(
                 resolved_output_dir / "quality" / "meeting-gaps.html",

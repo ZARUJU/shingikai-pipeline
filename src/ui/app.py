@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from datetime import date
 import json
 import logging
 from pathlib import Path
@@ -88,8 +89,12 @@ def create_app(
         )
 
     @app.get("/meetings/monthly")
-    def monthly_meetings() -> str:
-        return render_template("monthly_meetings.html", **build_monthly_meetings_context())
+    def monthly_meetings_index() -> str:
+        return render_template("monthly_meetings_index.html", **build_monthly_meetings_index_context())
+
+    @app.get("/meetings/<int:year>/<int:month>/")
+    def monthly_meetings(year: int, month: int) -> str:
+        return render_template("monthly_meetings.html", **build_monthly_meetings_context(year=year, month=month))
 
     @app.get("/quality/meeting-gaps")
     def meeting_gaps() -> str:
@@ -182,8 +187,26 @@ def build_council_treemap_context(
     return {"roots": build_council_tree(council_href_builder=council_href_builder)}
 
 
-def build_monthly_meetings_context() -> dict[str, object]:
+def build_monthly_meetings_index_context() -> dict[str, object]:
     return {"groups": list_monthly_meetings()}
+
+
+def build_monthly_meetings_context(*, year: int, month: int) -> dict[str, object]:
+    month_key = f"{year:04d}-{month:02d}"
+    groups = list_monthly_meetings()
+    group_index = next((index for index, item in enumerate(groups) if item.month == month_key), None)
+    group = groups[group_index] if group_index is not None else None
+    if group is None:
+        abort(404)
+    current_month_key = date.today().strftime("%Y-%m")
+    current_group = next((item for item in groups if item.month == current_month_key), None)
+    return {
+        "group": group,
+        "previous_group": groups[group_index + 1] if group_index + 1 < len(groups) else None,
+        "next_group": groups[group_index - 1] if group_index > 0 else None,
+        "current_group": current_group,
+        "is_current_group": group.month == current_month_key,
+    }
 
 
 def build_meeting_gaps_context(
@@ -325,6 +348,8 @@ def build_page_url(
     page_name: str,
     *,
     council_id: str | None = None,
+    year: int | None = None,
+    month: int | None = None,
     base_path: str = "",
     static_mode: bool = False,
 ) -> str:
@@ -333,23 +358,30 @@ def build_page_url(
         paths = {
             "index": "/",
             "councils_treemap": "/councils/treemap.html",
-            "monthly_meetings": "/meetings/monthly.html",
+            "monthly_meetings_index": "/meetings/monthly.html",
             "meeting_gaps_active": "/quality/meeting-gaps.html",
             "meeting_gaps_ignored": "/quality/meeting-gaps-ignored.html",
             "meeting_gap_review": f"/quality/meeting-gaps/{council_id}",
             "council_detail": f"/councils/{council_id}.html",
         }
+        if page_name == "monthly_meetings":
+            path = f"/meetings/{year:04d}/{month:02d}/index.html"
+        else:
+            path = paths[page_name]
     else:
         paths = {
             "index": "/",
             "councils_treemap": "/councils/treemap",
-            "monthly_meetings": "/meetings/monthly",
+            "monthly_meetings_index": "/meetings/monthly",
             "meeting_gaps_active": "/quality/meeting-gaps",
             "meeting_gaps_ignored": "/quality/meeting-gaps/ignored",
             "meeting_gap_review": f"/quality/meeting-gaps/{council_id}",
             "council_detail": f"/councils/{council_id}",
         }
-    path = paths[page_name]
+        if page_name == "monthly_meetings":
+            path = f"/meetings/{year:04d}/{month:02d}/"
+        else:
+            path = paths[page_name]
     if path == "/":
         return f"{normalized_base_path}/" if normalized_base_path else "/"
     return f"{normalized_base_path}{path}"

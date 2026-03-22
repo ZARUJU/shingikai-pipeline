@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Monthly Meetings{% endblock %}
+
+{% block content %}
+<section class="space-y-8">
+  <div class="space-y-2">
+    <a href="{{ page_url('index') }}" class="text-sm text-stone-500 underline">一覧へ戻る</a>
+    <h1 class="text-2xl font-semibold">月ごとの開催一覧</h1>
+    <p class="text-sm text-stone-600">開催記録を月ごとのページに分けて確認できます。</p>
+  </div>
+
+  <div class="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
+    <div class="overflow-x-auto">
+      <table class="min-w-full divide-y divide-stone-200 text-sm">
+        <thead class="bg-stone-50 text-left text-stone-600">
+          <tr>
+            <th class="px-4 py-3 font-medium">年月</th>
+            <th class="px-4 py-3 font-medium">開催件数</th>
+            <th class="px-4 py-3 font-medium">リンク</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-stone-100">
+          {% for group in groups %}
+          <tr class="align-top">
+            <td class="whitespace-nowrap px-4 py-4 font-medium text-stone-900">{{ group.label }}</td>
+            <td class="whitespace-nowrap px-4 py-4 text-stone-700">{{ group.meetings|length }}</td>
+            <td class="px-4 py-4">
+              <a href="{{ page_url('monthly_meetings', year=group.month[:4]|int, month=group.month[5:7]|int) }}" class="underline">この月を見る</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+{% endblock %}

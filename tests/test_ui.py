@@ -1,9 +1,12 @@
 from __future__ import annotations
 
+from datetime import date as real_date
 import sys
 import tempfile
 import unittest
+import json
 from pathlib import Path
+from unittest.mock import patch
 
 from werkzeug.datastructures import MultiDict
 
@@ -53,7 +56,93 @@ class UiTest(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         html = response.get_data(as_text=True)
         self.assertIn("月ごとの開催一覧", html)
-        self.assertIn("開催記録を月単位でまとめて確認できます。", html)
+        self.assertIn("開催記録を月ごとのページに分けて確認できます。", html)
+        self.assertIn("年月", html)
+        self.assertIn("開催件数", html)
+
+    def test_monthly_meetings_detail_page(self) -> None:
+        monthly_data_root = Path(self.tempdir.name) / "monthly_data"
+        council_dir = monthly_data_root / "sample-council"
+        meetings_dir = council_dir / "meetings"
+        meetings_dir.mkdir(parents=True)
+        (council_dir / "documents").mkdir()
+        (council_dir / "rosters").mkdir()
+        (council_dir / "council.json").write_text(
+            json.dumps(
+                {
+                    "id": "sample-council",
+                    "title": "サンプル会議体",
+                    "parent": "テスト省",
+                    "source_urls": {
+                        "portal": "https://example.com",
+                        "meetings": "https://example.com/meetings",
+                    },
+                },
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        (meetings_dir / "2026-02-10.json").write_text(
+            json.dumps(
+                {
+                    "held_on": "2026-02-10",
+                    "round_label": "1",
+                    "agenda": ["議題A"],
+                    "source_url": "https://example.com/meeting/1",
+                    "announcement_links": [],
+                    "materials_links": [],
+                    "minutes_links": [],
+                },
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        (meetings_dir / "2026-01-15.json").write_text(
+            json.dumps(
+                {
+                    "held_on": "2026-01-15",
+                    "round_label": "2",
+                    "agenda": ["議題B"],
+                    "source_url": "https://example.com/meeting/2",
+                    "announcement_links": [],
+                    "materials_links": [],
+                    "minutes_links": [],
+                },
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        (meetings_dir / "2026-03-20.json").write_text(
+            json.dumps(
+                {
+                    "held_on": "2026-03-20",
+                    "round_label": "3",
+                    "agenda": ["議題C"],
+                    "source_url": "https://example.com/meeting/3",
+                    "announcement_links": [],
+                    "materials_links": [],
+                    "minutes_links": [],
+                },
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+
+        with patch("ui.app.DATA_ROOT", monthly_data_root), patch("ui.app.date") as mock_date:
+            mock_date.today.return_value = real_date(2026, 3, 23)
+            mock_date.side_effect = lambda *args, **kwargs: real_date(*args, **kwargs)
+            app = create_app(review_path=self.review_path)
+            client = app.test_client()
+            response = client.get("/meetings/2026/02/")
+
+        self.assertEqual(response.status_code, 200)
+        html = response.get_data(as_text=True)
+        self.assertIn("2026-02 の開催一覧", html)
+        self.assertIn("月一覧へ戻る", html)
+        self.assertIn("前月", html)
+        self.assertIn("今月", html)
+        self.assertIn("翌月", html)
+        self.assertIn('/meetings/2026/03/', html)
         self.assertIn("日付", html)
         self.assertIn("会議体", html)
 
@@ -127,6 +216,7 @@ class UiTest(unittest.TestCase):
         self.assertIn('href="/shingikai-pipeline/"', html)
         self.assertIn('href="/shingikai-pipeline/councils/treemap.html"', html)
         self.assertIn('href="/shingikai-pipeline/quality/meeting-gaps.html"', html)
+        self.assertIn('href="/shingikai-pipeline/meetings/monthly.html"', html)
 
     def test_static_site_export_writes_pages(self) -> None:
         output_dir = Path(self.tempdir.name) / "site"
@@ -139,6 +229,7 @@ class UiTest(unittest.TestCase):
 
         self.assertTrue((output_dir / "index.html").exists())
         self.assertTrue((output_dir / "councils" / "social-security-council.html").exists())
+        self.assertTrue((output_dir / "meetings" / "monthly.html").exists())
         self.assertTrue((output_dir / "quality" / "meeting-gaps.html").exists())
         self.assertTrue((output_dir / "quality" / "meeting-gaps-ignored.html").exists())
         self.assertTrue((output_dir / ".nojekyll").exists())
@@ -148,6 +239,52 @@ class UiTest(unittest.TestCase):
         self.assertIn("/shingikai-pipeline/councils/newpage-28708.html", html)
         self.assertNotIn("<form method=\"post\"", html)
         self.assertIn("要確認", html)
+
+    def test_static_site_export_writes_monthly_detail_pages_when_meetings_exist(self) -> None:
+        monthly_data_root = Path(self.tempdir.name) / "monthly_export_data"
+        council_dir = monthly_data_root / "sample-council"
+        meetings_dir = council_dir / "meetings"
+        meetings_dir.mkdir(parents=True)
+        (council_dir / "documents").mkdir()
+        (council_dir / "rosters").mkdir()
+        (council_dir / "council.json").write_text(
+            json.dumps(
+                {
+                    "id": "sample-council",
+                    "title": "サンプル会議体",
+                    "parent": "テスト省",
+                    "source_urls": {
+                        "portal": "https://example.com",
+                        "meetings": "https://example.com/meetings",
+                    },
+                },
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        (meetings_dir / "2026-02-10.json").write_text(
+            json.dumps(
+                {
+                    "held_on": "2026-02-10",
+                    "round_label": "1",
+                    "agenda": ["議題A"],
+                    "source_url": "https://example.com/meeting/1",
+                    "announcement_links": [],
+                    "materials_links": [],
+                    "minutes_links": [],
+                },
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+
+        output_dir = Path(self.tempdir.name) / "monthly_site"
+        with patch("ui.app.DATA_ROOT", monthly_data_root):
+            written_paths = export_static_site(output_dir, review_path=self.review_path)
+
+        self.assertTrue((output_dir / "meetings" / "monthly.html").exists())
+        self.assertTrue((output_dir / "meetings" / "2026" / "02" / "index.html").exists())
+        self.assertGreater(len(written_paths), 2)
 
 
 if __name__ == "__main__":
