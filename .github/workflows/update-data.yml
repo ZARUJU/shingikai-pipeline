@@ -1,52 +1,52 @@
-name: Update Shingikai Data
+# name: Update Shingikai Data
 
-on:
-  workflow_dispatch:
-    inputs:
-      council_id:
-        description: "更新対象の会議体ID。通常は all"
-        required: false
-        default: "all"
-  schedule:
-    - cron: "0 21 * * *"
+# on:
+#   workflow_dispatch:
+#     inputs:
+#       council_id:
+#         description: "更新対象の会議体ID。通常は all"
+#         required: false
+#         default: "all"
+#   schedule:
+#     - cron: "0 21 * * *"
 
-permissions:
-  contents: write
-  pull-requests: write
+# permissions:
+#   contents: write
+#   pull-requests: write
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
+# jobs:
+#   update:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v6
 
-      - name: Setup uv
-        uses: astral-sh/setup-uv@v7
+#       - name: Setup uv
+#         uses: astral-sh/setup-uv@v7
 
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.11"
+#       - name: Setup Python
+#         uses: actions/setup-python@v6
+#         with:
+#           python-version: "3.11"
 
-      - name: Install dependencies
-        run: uv sync --frozen
+#       - name: Install dependencies
+#         run: uv sync --frozen
 
-      - name: Update data
-        run: uv run python cli.py ops update "${{ github.event.inputs.council_id || 'all' }}"
+#       - name: Update data
+#         run: uv run python cli.py ops update "${{ github.event.inputs.council_id || 'all' }}"
 
-      - name: Run tests
-        run: uv run python -m unittest tests.test_quality tests.test_fetch -v
+#       - name: Run tests
+#         run: uv run python -m unittest tests.test_quality tests.test_fetch -v
 
-      - name: Create pull request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          commit-message: "chore(data): 審議会データを更新"
-          title: "chore(data): 審議会データを更新"
-          body: |
-            GitHub Actions による定期更新です。
+#       - name: Create pull request
+#         uses: peter-evans/create-pull-request@v7
+#         with:
+#           commit-message: "chore(data): 審議会データを更新"
+#           title: "chore(data): 審議会データを更新"
+#           body: |
+#             GitHub Actions による定期更新です。
 
-            - `ops update` を実行
-            - `data/_quality/meeting_gap_issues.json` を再生成
-          branch: chore/update-shingikai-data
-          delete-branch: true
+#             - `ops update` を実行
+#             - `data/_quality/meeting_gap_issues.json` を再生成
+#           branch: chore/update-shingikai-data
+#           delete-branch: true
